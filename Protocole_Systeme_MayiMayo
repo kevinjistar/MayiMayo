@@ -1,0 +1,715 @@
+---
+Document: Protocole_Systeme_MayiMayo
+Version: 1.1.0
+Date: 2026-04-07
+
+Maintainers:
+  - Captain (authority)
+  - Chief_Structuration_Agent
+  - Documentation_Canonical_State_Agent
+
+Document Role: System Protocol
+Update Policy: Human-authorized agent modification only
+Document Status: Active Reference
+Scope: Core System Governance
+Supersedes: None
+Dependencies: None
+---
+
+# Protocole du système MayiMayo
+
+## 1. Préambule
+
+Ce document définit les règles de fonctionnement du système documentaire et agentique de MayiMayo.
+
+Il ne décrit pas le projet lui-même.  
+Il décrit le cadre qui permet au projet d’être pensé, structuré, mis à jour et arbitré sans dérive.
+
+Le système repose sur un principe simple :
+
+**les documents constituent la mémoire structurée du système, les agents exécutent dans leur domaine, Captain orchestre et arbitre.**
+
+Ce document gouverne :
+- les rôles documentaires fondamentaux ;
+- les règles de versionnage ;
+- les règles de modification ;
+- la hiérarchie entre documents ;
+- les règles minimales de cohérence inter-documentaire ;
+- la distinction entre état validé, hypothèse, décision et travail exploratoire.
+
+---
+
+## 2. Finalité du protocole
+
+Le protocole existe pour empêcher cinq dérives :
+
+1. la dérive sémantique ;
+2. la coexistence de plusieurs vérités implicites ;
+3. la modification opportuniste des documents sans traçabilité ;
+4. la confusion entre exploration et validation ;
+5. la dépendance à la mémoire locale d’un agent.
+
+Le protocole n’est pas un supplément administratif.  
+Il est une couche de stabilisation du système.
+
+---
+
+## 3. Principe directeur
+
+### 3.1 Règle centrale
+
+Un élément n’existe pas dans le système parce qu’il a été mentionné.  
+Il existe dans le système parce qu’il a été :
+- formulé proprement ;
+- placé dans le bon document ;
+- qualifié selon son statut réel ;
+- et maintenu de façon cohérente avec le reste.
+
+### 3.2 Distinction impérative des niveaux
+
+Le système distingue strictement :
+
+- ce qui est **canonique** ;
+- ce qui est **structurel** ;
+- ce qui est **exploratoire** ;
+- ce qui est **décidé** ;
+- ce qui est **rejeté**.
+
+Toute confusion entre ces niveaux constitue une erreur méthodologique.
+
+---
+
+## 4. Architecture documentaire du système
+
+Le système MayiMayo repose sur trois documents noyaux et peut s’appuyer sur des documents opérationnels complémentaires.
+
+### 4.1 Protocole_Systeme_MayiMayo
+
+Rôle :
+- gouverner le système lui-même ;
+- fixer les règles de production, modification et hiérarchie des documents ;
+- définir les contraintes de cohérence.
+
+Nature :
+- document normatif de gouvernance.
+
+### 4.2 Etat_canonique_MayiMayo
+
+Rôle :
+- centraliser l’état actuel valide du projet ;
+- servir de référence pour ce qui est considéré comme vrai, décidé, en validation, suspendu ou rejeté ;
+- empêcher la divergence entre agents.
+
+Nature :
+- document canonique d’état.
+
+### 4.3 Project_Overview_MayiMayo
+
+Rôle :
+- présenter le projet dans sa forme structurée ;
+- décrire son périmètre, sa logique, ses axes majeurs et ses objets principaux ;
+- donner une vue d’ensemble stable, sans absorber tout le détail de l’état courant.
+
+Nature :
+- document de cadrage et de représentation globale.
+
+### 4.4 Registre_Central_De_Suivi_Des_Contacts
+
+Rôle :
+- centraliser les continuités de contact, les réponses partenaires, les comparaisons actives, les priorités et les prochaines actions opérationnelles ;
+- servir de référence vivante sur les dossiers par interlocuteur.
+
+Nature :
+- document opérationnel de suivi contact.
+
+### 4.5 Guide_d_Usage_Registre_Central_De_Suivi_Des_Contacts
+
+Rôle :
+- définir les règles d’usage, de mise à jour, de traçabilité et de versioning du registre central ;
+- empêcher que les règles de fonctionnement du registre soient mélangées à ses données vivantes.
+
+Nature :
+- document normatif local d’usage.
+
+### 4.6 Registre_d_avancement_operationnel_MayiMayo
+
+Rôle :
+- conserver une mémoire de travail transversale des avancées concrètes par domaine ;
+- accueillir les éléments encore trop partiels, locaux ou mouvants pour être canonisés ;
+- servir d’appui d’historique de travail.
+
+Nature :
+- document opérationnel transversal, non canonique.
+
+### 4.7 Règle de coexistence
+
+Les documents opérationnels complémentaires n’altèrent pas la hiérarchie des documents noyaux.
+
+Ils existent pour :
+- porter le mouvement ;
+- absorber le détail vivant ;
+- et éviter que les documents noyaux ne deviennent des mémoires de travail confuses.
+
+Ils ne doivent pas créer une deuxième couche canonique implicite.
+
+---
+
+## 5. Hiérarchie documentaire
+
+La hiérarchie s’applique par domaine d’autorité, pas comme un classement absolu.
+
+### 5.1 Hiérarchie par fonction
+
+#### A. En cas de conflit sur les règles du système
+Le document de référence est :
+
+**Protocole_Systeme_MayiMayo**
+
+#### B. En cas de conflit sur l’état actuel du projet
+Le document de référence est :
+
+**Etat_canonique_MayiMayo**
+
+#### C. En cas de conflit sur la présentation générale du projet
+Le document de référence est :
+
+**Project_Overview_MayiMayo**, sauf si l’Etat_canonique contient une mise à jour plus récente et explicitement validée.
+
+#### D. En cas de conflit sur la continuité d’un contact, le statut d’un dossier, une comparaison active ou une prochaine action opérationnelle par interlocuteur
+Le document de référence est :
+
+**Registre_Central_De_Suivi_Des_Contacts**
+
+#### E. En cas de conflit sur les règles d’écriture, de structure, de traçabilité ou de versioning du Registre Central de Suivi des Contacts
+Le document de référence est :
+
+**Guide_d_Usage_Registre_Central_De_Suivi_Des_Contacts**
+
+### 5.2 Règle de priorité temporelle
+
+Un document plus récent ne prévaut pas automatiquement sur un document plus ancien.  
+Il ne prévaut que s’il est :
+- dans le bon périmètre ;
+- correctement versionné ;
+- et cohérent avec la hiérarchie ci-dessus.
+
+### 5.3 Règle de priorité locale
+
+Un document opérationnel spécialisé peut devenir la référence prioritaire sur un sous-périmètre précis sans modifier la hiérarchie générale du système.
+
+Exemple :
+- un registre central de contacts peut prévaloir sur un registre transversal d’avancement pour tout ce qui relève de la continuité d’un dossier contact ;
+- sans pour autant devenir supérieur à l’état canonique sur ce qui est considéré comme vrai à l’échelle du projet.
+
+### 5.4 Règle d’absence de doublon d’autorité
+
+Deux documents peuvent se recouvrir partiellement dans les faits.  
+Ils ne doivent pas se recouvrir silencieusement dans leur autorité.
+
+Lorsqu’un document devient la référence active sur un sous-périmètre donné, cette priorité doit être :
+- soit explicitement définie dans le protocole ;
+- soit reflétée dans l’état canonique ;
+- soit nommée comme dette documentaire temporaire.
+
+---
+
+## 6. Autorité du système
+
+### 6.1 Rôle de Captain
+
+Captain est :
+- l’autorité finale du système ;
+- l’orchestrateur ;
+- le détenteur de l’arbitrage stratégique ;
+- le validateur humain des changements qui modifient la structure, la logique ou la portée du système.
+
+Captain ne tient pas le rôle principal de rédaction systématique.  
+Le système est conçu pour que les agents exécutent et maintiennent, tandis que Captain :
+- donne les orientations ;
+- arbitre les choix ;
+- valide les inflexions structurantes.
+
+### 6.2 Rôle général des agents
+
+Les agents :
+- lisent les documents du système ;
+- agissent dans leur cœur de métier ;
+- proposent des mises à jour ;
+- exécutent dans leur périmètre ;
+- ne créent pas d’autorité implicite hors de ce protocole.
+
+### 6.3 Principe de spécialisation
+
+Chaque agent dispose d’un cœur de métier identifiable.  
+La spécialisation n’accorde pas une autorité globale.  
+Elle accorde une autorité d’analyse dans un périmètre donné.
+
+### 6.4 Principe de lecture commune
+
+Tous les agents ont accès aux documents noyaux du système.  
+Aucun agent ne doit fonctionner sur une mémoire privée ou sur un état implicite non documenté.
+
+### 6.5 Règle d’édition distribuée
+
+Tout agent du système peut modifier tout document gouverné, dès lors que cette modification est cadrée par Captain.
+
+Cette règle implique que :
+- aucun document noyau n’est réservé à l’édition d’un seul agent ;
+- l’agent actif dans un canal de travail peut mettre à jour directement les documents concernés ;
+- il n’est pas nécessaire de changer de canal ou de réexposer intégralement le contexte pour effectuer une mise à jour documentaire ;
+- l’autorisation humaine est portée par le cadrage donné par Captain, qu’il soit explicite ou implicite dans la demande formulée.
+
+### 6.6 Sens exact du terme Maintainers
+
+Le champ `Maintainers` désigne des rôles de référence, de stabilité et de responsabilité documentaire.
+
+Il ne désigne pas :
+- des détenteurs exclusifs du droit d’édition ;
+- des gardiens uniques du document ;
+- ni un circuit obligatoire de passage pour toute modification.
+
+Les Maintainers ont une responsabilité de cohérence renforcée, pas un monopole de modification.
+
+---
+
+## 7. Statuts de contenu autorisés
+
+Tout contenu important doit pouvoir être qualifié selon un statut explicite ou implicitement non ambigu.
+
+### 7.1 Canonique
+
+Statut réservé à ce qui est actuellement reconnu comme valide dans le système.
+
+### 7.2 Structurel
+
+Statut réservé aux principes stables de fonctionnement, d’architecture ou de cadrage.
+
+### 7.3 Hypothèse active
+
+Statut réservé à ce qui est considéré comme plausible mais non encore validé.
+
+### 7.4 Décision
+
+Statut réservé à un arbitrage explicitement retenu pour guider l’action.
+
+### 7.5 Suspendu
+
+Statut réservé à ce qui reste ouvert mais n’est pas activement poursuivi.
+
+### 7.6 Rejeté
+
+Statut réservé à une piste ou une hypothèse explicitement écartée.
+
+### 7.7 Interdit
+
+Il est interdit de formuler comme canonique :
+- une intuition non validée ;
+- une extrapolation locale ;
+- une préférence d’agent ;
+- une conclusion obtenue hors protocole.
+
+---
+
+## 8. Modèle de modification documentaire
+
+### 8.1 Principe général
+
+Toute modification d’un document gouverné doit satisfaire quatre conditions :
+
+1. être traçable ;
+2. être qualifiée en niveau de version ;
+3. être cohérente avec la hiérarchie documentaire ;
+4. laisser le système dans un état plus clair qu’avant.
+
+### 8.2 Séquence minimale de modification
+
+Toute modification suit, au minimum, cette séquence :
+
+1. identifier la nature réelle du changement ;
+2. déterminer le bon niveau de version ;
+3. modifier le corps du document ;
+4. mettre à jour le changelog ;
+5. vérifier les impacts sur les autres documents noyaux ;
+6. corriger les contradictions éventuelles.
+
+### 8.3 Règle d’intégrité
+
+Une modification locale qui rend un autre document faux, ambigu ou obsolète sans le signaler est interdite.
+
+### 8.4 Règle d’exécution documentaire
+
+Un agent n’a pas besoin d’être maintainer d’un document pour le modifier.
+
+La légitimité de modification repose sur :
+- le cadrage donné par Captain ;
+- la pertinence du document au regard du travail effectué ;
+- et le respect du présent protocole.
+
+### 8.5 Règle de continuité contextuelle
+
+Lorsqu’un travail significatif est mené dans un canal, l’agent actif dans ce canal peut mettre à jour les documents nécessaires à partir du contexte déjà établi, sans transfert préalable vers un autre agent.
+
+Le système privilégie la continuité de contexte sur la fragmentation artificielle des mises à jour.
+
+---
+
+## 9. Règles de versionnage
+
+Le système utilise un versionnage strict de type :
+
+`major.minor.patch`
+
+Exemple :
+`1.0.0`
+
+Le versionnage n’est pas décoratif.  
+Il doit refléter le niveau réel d’impact documentaire.
+
+### 9.1 Patch
+
+Passage :
+
+`x.y.z → x.y.(z+1)`
+
+Le patch est réservé aux changements **strictement non normatifs**.
+
+Utilisation autorisée uniquement pour :
+- correction typographique ;
+- correction grammaticale ;
+- normalisation terminologique sans impact d’interprétation ;
+- réalignement de mise en forme ;
+- déplacement de métadonnées sans effet de sens ;
+- correction d’une erreur purement formelle ;
+- ajout d’exemples illustratifs n’introduisant aucune règle nouvelle.
+
+Un patch est interdit si le changement :
+- ajoute une règle ;
+- retire une possibilité ;
+- modifie une contrainte ;
+- change la portée d’une section ;
+- modifie la manière raisonnable d’interpréter le document.
+
+### 9.2 Minor
+
+Passage :
+
+`x.y.z → x.(y+1).0`
+
+Le minor est réservé aux changements **normatifs compatibles**, c’est-à-dire qui renforcent, complètent ou étendent le document sans changer son architecture fondamentale.
+
+Utilisation autorisée pour :
+- ajout d’une section nouvelle compatible avec la structure existante ;
+- ajout de règles nouvelles sans rupture avec les précédentes ;
+- clarification normative qui change l’usage attendu du document tout en restant compatible avec sa logique de base ;
+- ajout d’un statut documentaire secondaire ;
+- ajout d’une procédure compatible avec les invariants existants ;
+- précision structurante d’un protocole déjà présent.
+
+Un minor est interdit si le changement :
+- modifie un invariant ;
+- change l’autorité d’un document ;
+- change la hiérarchie documentaire ;
+- redéfinit le rôle du document ;
+- modifie la logique d’arbitrage du système.
+
+### 9.3 Major
+
+Passage :
+
+`x.y.z → (x+1).0.0`
+
+Le major est requis pour tout changement affectant les invariants du système.
+
+Utilisation obligatoire pour :
+- modification d’un invariant ;
+- changement d’architecture documentaire ;
+- redéfinition du rôle d’un document noyau ;
+- changement de logique d’autorité ou d’arbitrage ;
+- changement de hiérarchie documentaire ;
+- fusion ou scission d’un document noyau avec redéfinition de périmètre ;
+- changement de la politique de versionnage elle-même ;
+- redéfinition de la manière dont un document doit être interprété.
+
+### 9.4 Règles d’arbitrage du niveau de version
+
+#### Règle 1
+En cas d’hésitation entre **patch** et **minor**, le patch n’est autorisé que si l’absence totale d’impact normatif peut être défendue explicitement.
+
+#### Règle 2
+En cas d’hésitation entre **minor** et **major**, la priorité va au **major** dès qu’un invariant, une responsabilité centrale, une règle d’interprétation ou une hiérarchie documentaire est touché.
+
+#### Règle 3
+Un changement qui affecte plusieurs sections de premier niveau ne peut pas être classé en patch.
+
+#### Règle 4
+Un changement qui impose une relecture méthodologique d’un autre document noyau tend par défaut vers le **major**.
+
+#### Règle 5
+La création initiale d’un nouveau document commence en :
+
+`1.0.0`
+
+Le système ne crée pas de version `0.x.x` pour les documents noyaux.
+
+---
+
+## 10. Règles de changelog
+
+### 10.1 Obligation
+
+Toute modification d’un document gouverné doit être accompagnée d’une entrée de changelog dans le document concerné.
+
+### 10.2 Contenu minimal
+
+Chaque entrée doit contenir :
+- la version ;
+- la date ;
+- l’agent rédacteur ;
+- la nature du changement ;
+- la raison du changement.
+
+### 10.3 Contenu autorisé
+
+Le changelog doit décrire :
+- les évolutions structurelles ;
+- les ajouts ou suppressions de sections ;
+- les changements de règles ;
+- les clarifications importantes ;
+- les changements de portée ;
+- les conséquences documentaires explicites.
+
+### 10.4 Contenu interdit
+
+Le changelog ne doit pas contenir :
+- débat intermédiaire ;
+- justification longue ;
+- narration opérationnelle ;
+- brouillon décisionnel ;
+- échange relationnel ;
+- log d’exécution.
+
+### 10.5 Breaking Changes
+
+Une section `Breaking Changes` doit être utilisée lorsqu’un changement modifie clairement :
+- la portée du document ;
+- sa logique d’usage ;
+- sa structure de responsabilité ;
+- sa manière d’être interprété.
+
+Si un changement justifie une section `Breaking Changes`, il doit être examiné comme candidat sérieux au **major**.
+
+---
+
+## 11. Métadonnées obligatoires
+
+Tout document noyau doit commencer par un bloc de métadonnées.
+
+### 11.1 Champs obligatoires
+
+- `Document`
+- `Version`
+- `Date`
+- `Maintainers`
+- `Document Role`
+- `Update Policy`
+- `Document Status`
+
+### 11.2 Champs recommandés
+
+- `Scope`
+- `Supersedes`
+- `Dependencies`
+
+### 11.3 Règle de stabilité
+
+Les métadonnées ne doivent pas servir à cacher un changement de fond.  
+Si une métadonnée modifie la compréhension du rôle, du statut ou de la portée du document, le niveau de version doit l’intégrer correctement.
+
+### 11.4 Sens du champ Update Policy
+
+Le champ `Update Policy` ne doit pas être interprété comme une restriction à quelques éditeurs nommés.
+
+Dans ce système, `Human-authorized agent modification only` signifie :
+- qu’aucune modification ne peut être auto-légitimée par un agent seul ;
+- qu’une modification doit être cadrée par Captain ;
+- et qu’une fois ce cadrage établi, tout agent peut exécuter la mise à jour pertinente.
+
+---
+
+## 12. Statuts documentaires
+
+Les documents du système peuvent porter l’un des statuts suivants.
+
+### 12.1 Draft
+
+Document en construction, non encore considéré comme référence fiable.
+
+### 12.2 Active Reference
+
+Document actif, utilisable comme référence dans le système.
+
+### 12.3 Canonical Reference
+
+Document de référence canonique dans son périmètre.
+
+### 12.4 Deprecated
+
+Document encore conservé mais remplacé dans l’usage courant.
+
+### 12.5 Archived
+
+Document clos, conservé uniquement pour mémoire.
+
+### 12.6 Règle
+
+Un document `Draft` ne doit pas être traité comme source canonique.
+
+---
+
+## 13. Cohérence inter-documentaire
+
+### 13.1 Règle de non-contradiction
+
+Deux documents noyaux ne doivent pas contenir de contradiction silencieuse.
+
+### 13.2 Règle de propagation
+
+Quand une modification du protocole affecte l’usage des autres documents noyaux, l’impact doit être :
+- soit répercuté ;
+- soit explicitement signalé comme dette documentaire temporaire.
+
+### 13.3 Dette documentaire
+
+Une dette documentaire ne peut rester implicite.  
+Si un document doit être mis à jour plus tard, cela doit être nommé.
+
+### 13.4 Cohérence des documents complémentaires
+
+Les documents opérationnels complémentaires peuvent contenir :
+- du détail mouvant ;
+- des comparaisons locales ;
+- des statuts de travail ;
+- des continuités de dossier ;
+- des lectures provisoires.
+
+Ils ne doivent pas :
+- contredire silencieusement un document noyau ;
+- se contredire silencieusement entre eux sur leur sous-périmètre principal ;
+- ni devenir des mémoires parallèles sans règle de priorité lisible.
+
+### 13.5 Règle de spécialisation documentaire
+
+Lorsqu’un document complémentaire devient la référence active sur un sous-périmètre précis, les autres documents opérationnels qui recouvrent partiellement ce périmètre doivent être lus :
+- comme mémoire ;
+- comme historique ;
+- ou comme appui secondaire,
+
+mais non comme autorité concurrente sur ce même sous-périmètre.
+
+---
+
+## 14. Principe de minimalisme structurel
+
+Le système n’ajoute pas de complexité documentaire sans nécessité.
+
+Toute création de nouvelle couche documentaire doit pouvoir répondre à trois questions :
+
+1. Quel problème réel résout-elle ?
+2. Pourquoi les documents existants ne suffisent-ils pas ?
+3. Quel coût de maintenance ajoute-t-elle ?
+
+Si ces réponses sont floues, la création doit être refusée ou différée.
+
+---
+
+## 15. Principe de séparation entre système et projet
+
+Le protocole ne doit pas absorber :
+- l’état courant du projet ;
+- les hypothèses métier ;
+- les arbitrages commerciaux ;
+- les scénarios financiers.
+
+Ces éléments appartiennent à d’autres documents.
+
+Le protocole doit rester :
+- stable ;
+- normatif ;
+- transversal ;
+- réutilisable à l’intérieur du système MayiMayo même si le projet évolue fortement.
+
+---
+
+## 16. Règles minimales de rédaction
+
+### 16.1 Clarté de registre
+
+Un document doit distinguer proprement :
+- règle ;
+- observation ;
+- hypothèse ;
+- décision ;
+- conséquence.
+
+### 16.2 Précision terminologique
+
+Les termes centraux doivent être employés de façon stable.  
+Un changement de terme pour un même objet doit être évité ou explicitement cadré.
+
+### 16.3 Densité
+
+Le document doit viser la densité informationnelle et éviter :
+- la répétition vide ;
+- la paraphrase de confort ;
+- les phrases qui n’ajoutent aucune contrainte ni aucun sens.
+
+### 16.4 Effet attendu
+
+Après lecture, un agent doit pouvoir comprendre :
+- ce que le document gouverne ;
+- ce qu’il ne gouverne pas ;
+- ce qu’il autorise ;
+- ce qu’il interdit ;
+- ce qu’il impose comme prochaine discipline de travail.
+
+---
+
+## 17. Règle de stabilité interprétative
+
+Un document noyau ne doit pas dépendre d’un style implicite, d’un contexte oral ou d’une mémoire relationnelle pour être correctement compris.
+
+S’il faut “se souvenir de ce qu’on voulait dire”, le document est insuffisamment stabilisé.
+
+Cette exigence s’étend, par cohérence, aux documents opérationnels de référence lorsqu’ils gouvernent un sous-périmètre actif du système.
+
+---
+
+## 18. Clause de révision future
+
+Ce document constitue la version de référence du protocole système.
+
+Il est attendu que des révisions futures précisent notamment :
+- les règles détaillées de rôle par agent ;
+- les circuits exacts de validation ;
+- les conventions de nommage étendu ;
+- les conditions de création, de fusion, de scission, de dépréciation ou d’archivage des documents complémentaires ;
+- les règles de dette documentaire applicables lorsqu’un registre opérationnel change de rôle ou de priorité locale.
+
+Les règles de droit de modification par type d’agent ne devront pas réintroduire de monopole d’édition contraire au principe d’édition distribuée défini dans le présent protocole.
+
+Ces précisions devront respecter ce protocole ou le modifier explicitement selon les règles de versionnage ci-dessus.
+
+---
+
+# Document Metadata & Changelog
+
+Changelog:
+  - 1.1.0 (2026-04-07, Chief_Structuration_Agent): Révision normative compatible du protocole pour intégrer explicitement l’existence des documents opérationnels complémentaires déjà actifs dans le système. Ajout d’une distinction formelle entre documents noyaux et documents complémentaires, clarification de la priorité locale du Registre Central de Suivi des Contacts sur le sous-périmètre contact, intégration du guide d’usage du registre central dans l’architecture documentaire, et ajout de règles de cohérence pour éviter les doublons silencieux d’autorité documentaire.
+  - 1.0.0 (2026-03-24, Chief_Structuration_Agent): Initialisation de la version de référence du protocole système MayiMayo.
+
+Breaking Changes:
+  - Aucun. Extension normative compatible du protocole sans changement des invariants du système ni de la triade des documents noyaux.
+
+---
+Fin du document
+---
