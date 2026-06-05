@@ -1,0 +1,705 @@
+---
+Document: Guide_d_Usage_Registre_Central_De_Suivi_Des_Contacts
+Version: 1.1.0
+Date: 2026-04-07
+
+Maintainers:
+  - Captain (authority)
+  - Contact_Manager_Agent
+  - Chief_Structuration_Agent
+  - Sites_Projet_Logistique
+  - Supply_Chain_Agent
+  - Finance_And_Unit_Economics_Agent
+
+Document Role: Usage Guide
+Update Policy: Human-authorized agent modification only
+Document Status: Active Reference
+Scope: Règles d’usage, de mise à jour, de traçabilité et de versioning du Registre Central de Suivi des Contacts
+Supersedes: None
+Dependencies:
+  - Protocole_Systeme_MayiMayo
+  - Etat_canonique_MayiMayo
+  - Project_Overview_MayiMayo
+  - Registre_Central_De_Suivi_Des_Contacts
+---
+
+# Guide d’usage du Registre Central de Suivi des Contacts
+
+## 1. Préambule
+
+Ce document définit les règles d’usage du `Registre_Central_De_Suivi_Des_Contacts`.
+
+Il ne contient pas les données opérationnelles du registre.  
+Il décrit uniquement :
+- ce que le registre doit contenir ;
+- ce qu’il ne doit pas contenir ;
+- comment un agent doit le modifier ;
+- comment la continuité des dossiers doit être conservée ;
+- comment la traçabilité doit être écrite ;
+- comment le versioning doit être géré.
+
+Ce guide existe pour éviter trois dérives :
+- le mélange entre consignes et données exploitables ;
+- la perte de continuité entre échanges, devis et interlocuteurs ;
+- l’accumulation de bruit documentaire dans un document qui doit rester lisible et opérationnel.
+
+---
+
+## 2. Rôle exact du registre
+
+Le `Registre_Central_De_Suivi_Des_Contacts` est un document opérationnel de suivi.
+
+Il a pour fonction de centraliser :
+- les contacts ;
+- les continuités de dossier ;
+- les réponses reçues ;
+- les éléments comparables ;
+- les priorités ;
+- les prochaines actions ;
+- la traçabilité opérationnelle minimale.
+
+Le registre n’a pas pour fonction :
+- d’expliquer ses propres règles d’usage ;
+- de contenir un mode d’emploi détaillé ;
+- de porter des développements de gouvernance générale ;
+- de devenir un document canonique du projet ;
+- d’absorber le raisonnement complet ayant conduit à une lecture.
+
+---
+
+## 3. Principe directeur
+
+### 3.1 Règle centrale
+
+Le registre doit rester un document de lecture rapide, exploitable par plusieurs agents, sans mélange entre :
+- les données vivantes ;
+- les consignes de rédaction ;
+- les règles de gouvernance ;
+- les explications méthodologiques.
+
+### 3.2 Conséquence directe
+
+Toute règle générale sur :
+- la manière de remplir une fiche ;
+- le type de formulations autorisées ;
+- la discipline de traçabilité ;
+- la logique de versioning ;
+- les interdictions de modification ;
+
+doit être placée dans le présent guide, pas dans le registre lui-même.
+
+---
+
+## 4. Règle préalable obligatoire
+
+Tout agent doit consulter le présent guide avant toute modification structurante du `Registre_Central_De_Suivi_Des_Contacts`.
+
+Par modification structurante, on entend notamment :
+- changement d’en-tête ;
+- changement de sections ;
+- changement de modèle de fiche ;
+- ajout ou suppression d’un bloc de gouvernance ;
+- modification du format de traçabilité ;
+- changement de logique de classement ;
+- changement de statut documentaire ;
+- changement de version.
+
+Une mise à jour purement opérationnelle d’une fiche existante n’exige pas une relecture intégrale du guide si l’agent applique déjà sa logique sans déviation.
+
+---
+
+## 5. Séparation stricte des niveaux documentaires
+
+## 5.1 Ce qui appartient au registre
+
+Le registre doit contenir uniquement :
+- les fiches contacts ;
+- les statuts ;
+- les informations obtenues ;
+- les inconnues encore ouvertes ;
+- la lecture stratégique locale ;
+- les prochaines actions ;
+- la traçabilité opérationnelle.
+
+## 5.2 Ce qui n’appartient pas au registre
+
+Le registre ne doit pas contenir :
+- les règles générales de gouvernance ;
+- les explications sur la manière correcte d’écrire une fiche ;
+- les règles de versioning détaillées ;
+- les justifications longues sur le fonctionnement inter-agents ;
+- les débats méthodologiques ;
+- les commentaires de forme ;
+- les logs d’exécution verbeux ;
+- les brouillons de raisonnement.
+
+## 5.3 Cas limite
+
+Si une information répond à la question « comment le registre doit être utilisé ? », elle appartient au guide.  
+Si elle répond à la question « quel est l’état actuel de ce contact ? », elle appartient au registre.
+
+---
+
+## 6. Structure minimale attendue dans le registre
+
+Chaque contact doit être documenté comme une fiche autonome, lisible sans reconstruction mentale externe.
+
+Une fiche doit au minimum permettre de comprendre :
+- qui est le contact ;
+- à quelle catégorie il appartient ;
+- quel est son statut ;
+- où en est la continuité du dossier ;
+- ce qui a été obtenu ;
+- ce qui manque ;
+- ce que cela vaut stratégiquement ;
+- ce qu’il faut faire ensuite.
+
+Le registre peut contenir une vue synthétique globale, mais cette vue ne remplace jamais les fiches.
+
+## 6.1 Bloc minimal d’identification et de contact
+
+Chaque fiche doit comporter un bloc d’identification simple, stable et visible, permettant de retrouver immédiatement l’interlocuteur et les moyens de contact pertinents.
+
+Ce bloc doit au minimum prévoir :
+- le nom du contact ;
+- l’email ;
+- le téléphone.
+
+## 6.2 Règle de présence systématique
+
+Le registre doit toujours prévoir un endroit explicite où les champs suivants apparaissent pour chaque fiche, quelle que soit la catégorie :
+- Nom du contact
+- Email
+- Téléphone
+
+Cette exigence s’applique aux fiches :
+- Machine
+- Approvisionnement
+- Site
+
+Elle s’applique également à toute autre section future du registre si cette section contient des fiches contact.
+
+## 6.3 Règle de mise à jour dès acquisition
+
+Dès qu’une information de contact est obtenue, elle doit être intégrée à la fiche correspondante sans attendre une refonte ultérieure du registre.
+
+Sont visés en particulier :
+- le nom du contact lorsqu’il devient connu ;
+- l’email lorsqu’il est identifié ;
+- le téléphone lorsqu’il est identifié.
+
+Une information acquise ne doit pas rester seulement :
+- dans un email isolé ;
+- dans un message de travail ;
+- dans une conversation non consolidée ;
+- ou dans la mémoire locale d’un agent.
+
+## 6.4 Absence d’information
+
+Si le nom du contact, l’email ou le téléphone ne sont pas encore connus, le champ doit malgré tout exister dans la fiche.
+
+Le registre peut alors indiquer, selon le cas :
+- non obtenu ;
+- non trouvé ;
+- non communiqué ;
+- non applicable à ce stade.
+
+L’absence d’information ne justifie pas la disparition du champ.
+
+---
+
+## 7. Continuité des dossiers
+
+## 7.1 Principe
+
+Un email ne doit jamais être traité comme un dossier autonome si cet email appartient à une continuité déjà existante.
+
+La continuité d’un dossier peut relier :
+- un interlocuteur ;
+- plusieurs réponses ;
+- un devis ;
+- une relance ;
+- un document joint ;
+- une clarification ;
+- une lecture comparative.
+
+## 7.2 Règle d’agrégation
+
+Lorsqu’un échange appartient clairement à un même dossier, l’agent doit l’intégrer à la fiche existante plutôt que créer une nouvelle fiche.
+
+Exemples de continuité correcte :
+- fournisseur + devis + relance + réponse complémentaire ;
+- traiteur + retour prix + réponse de maintien + réponse de suivi ;
+- entreprise cible + proposition initiale + refus ou intérêt.
+
+## 7.3 Cas de scission légitime
+
+Une scission de fiche n’est autorisée que si les objets deviennent réellement distincts, par exemple :
+- deux sociétés juridiquement différentes ;
+- deux offres techniquement non liées ;
+- deux interlocuteurs sur deux périmètres sans recouvrement ;
+- un changement complet de sujet sans continuité commerciale réelle.
+
+## 7.4 Champ obligatoire de continuité
+
+Chaque fiche doit comporter un champ ou bloc équivalent permettant d’indiquer :
+- les éléments liés ;
+- les devis liés ;
+- les documents liés ;
+- le niveau de structuration de la continuité.
+
+---
+
+## 8. Catégories autorisées
+
+Le registre doit utiliser des catégories simples, stables et lisibles.
+
+À ce stade, les catégories principales autorisées sont :
+- Machine
+- Approvisionnement
+- Site
+
+Des sous-catégories locales peuvent exister dans la rédaction, mais elles ne doivent pas casser la lisibilité générale.
+
+Un agent ne doit pas multiplier les catégories secondaires sans nécessité réelle.
+
+---
+
+## 9. Statuts de fiches autorisés
+
+Les statuts utilisés dans le registre doivent rester explicites, courts et stables.
+
+Statuts recommandés :
+- Actif
+- En attente de réponse
+- À relancer
+- En comparaison
+- En veille
+- Suspendu
+- Clôturé
+- Abandonné
+
+Un même contact ne doit pas cumuler plusieurs statuts contradictoires.
+
+Si la lecture stratégique est nuancée, elle doit être portée dans le bloc d’analyse, pas dans un empilement de statuts.
+
+---
+
+## 10. Règles de rédaction des fiches
+
+## 10.1 Formulation
+
+Les fiches doivent être rédigées de façon :
+- dense ;
+- explicite ;
+- non narrative ;
+- non promotionnelle ;
+- non redondante.
+
+## 10.2 Distinctions obligatoires
+
+Une fiche doit distinguer clairement :
+- les faits obtenus ;
+- les inconnues ;
+- la lecture stratégique ;
+- la prochaine action.
+
+## 10.3 Interdictions
+
+Une fiche ne doit pas :
+- mélanger faits et interprétations sans signaler le basculement ;
+- reprendre tout le fil email mot à mot ;
+- devenir un commentaire libre sur la qualité de l’échange ;
+- contenir des phrases vagues du type « à revoir plus tard » sans précision ;
+- accumuler des hypothèses non reliées à une action ou à une lecture.
+
+## 10.4 Niveau de détail
+
+Le niveau de détail doit être suffisant pour qu’un autre agent comprenne la situation sans relire tous les emails.  
+Il ne doit pas être si long qu’il rende la fiche plus coûteuse à lire que les emails d’origine.
+
+## 10.5 Coordonnées et statut de connaissance
+
+Le bloc d’identification et de contact doit rester factuel.
+
+Il ne doit pas :
+- être noyé dans le corps narratif de la fiche ;
+- être remplacé par une mention implicite dans le résumé ;
+- varier fortement d’une catégorie à l’autre.
+
+Le registre doit permettre à un agent de repérer rapidement, pour chaque fiche :
+- qui est l’interlocuteur ;
+- quel email est disponible ;
+- quel téléphone est disponible ;
+- et quelles coordonnées manquent encore.
+
+---
+
+## 11. Lecture stratégique
+
+## 11.1 Rôle
+
+La lecture stratégique sert à dire ce que vaut le contact pour le projet à ce stade.
+
+Elle doit permettre de comprendre :
+- sa valeur ;
+- ses risques ;
+- sa place dans le benchmark ;
+- la décision implicite actuelle.
+
+## 11.2 Interdiction de dérive
+
+La lecture stratégique n’est pas un espace de dissertation.
+
+Elle doit rester :
+- courte ;
+- utile ;
+- reliée au projet ;
+- orientée décision.
+
+## 11.3 Décision implicite actuelle
+
+Le champ de décision implicite actuelle doit rester dans des verbes d’action simples, par exemple :
+- Explorer
+- Maintenir
+- Prioriser
+- Mettre en veille
+- Abandonner
+
+---
+
+## 12. Prochaines actions
+
+## 12.1 Obligation
+
+Chaque fiche active doit contenir une prochaine action explicite, ou l’absence justifiée d’action immédiate.
+
+## 12.2 Éléments attendus
+
+Une prochaine action doit préciser :
+- l’action suivante ;
+- le type d’action ;
+- le niveau d’urgence ;
+- la date cible si utile.
+
+## 12.3 Interdictions
+
+Une action ne doit pas être formulée de manière vide, par exemple :
+- « voir plus tard »
+- « à suivre »
+- « recontacter si besoin »
+
+Une formulation acceptable doit indiquer ce qui déclenche l’étape suivante.
+
+Exemple acceptable :
+- « Recontacter après stabilisation de la shortlist machine »
+- « Relancer si aucun prix reçu avant la prochaine revue comparative »
+- « Rechercher l’email et le téléphone du contact si seuls le nom ou l’organisation sont connus »
+
+---
+
+## 13. Vue synthétique des priorités
+
+Le registre peut contenir une vue synthétique des priorités, mais cette section doit rester courte.
+
+Elle sert à donner une lecture rapide de :
+- ce qui est en tête de pile ;
+- ce qui est en veille ;
+- ce qui doit être surveillé ;
+- ce qui n’appelle plus d’effort.
+
+Cette vue ne doit jamais devenir une seconde copie détaillée des fiches.
+
+---
+
+## 14. Traçabilité opérationnelle
+
+## 14.1 Fonction
+
+La traçabilité opérationnelle sert uniquement à conserver une mémoire courte de ce qui a été modifié dans le registre.
+
+Elle n’a pas vocation à :
+- expliquer toute la pensée de l’agent ;
+- raconter le déroulé complet de la session ;
+- justifier longuement une décision.
+
+## 14.2 Règle de contenu
+
+La traçabilité doit contenir uniquement :
+- l’action effectuée ;
+- l’impact.
+
+Éventuellement, elle peut aussi contenir :
+- la date ;
+- l’agent ;
+- le périmètre touché.
+
+## 14.3 Contenu interdit
+
+La traçabilité ne doit pas contenir :
+- d’analyse longue ;
+- de justification argumentative ;
+- de narration ;
+- de compte rendu conversationnel ;
+- de raisonnement détaillé ;
+- de commentaires d’humeur ;
+- de log technique.
+
+## 14.4 Format recommandé
+
+Format recommandé :
+- Date
+- Agent
+- Périmètre touché
+- Action
+- Impact
+
+## 14.5 Exemple acceptable
+
+- [2026-04-04] Contact_Manager_Agent  
+  Périmètre : Fiches machine  
+  Action : Mise à jour des statuts et des priorités de Bicom, Pling et Provending  
+  Impact : Lecture comparative machine rendue plus cohérente
+
+## 14.6 Exemple interdit
+
+- [2026-04-04] Contact_Manager_Agent  
+  Après avoir relu plusieurs fils et hésité entre plusieurs options, j’ai finalement décidé de repositionner Bicom, car la logique de marché semble meilleure et le discours plus cohérent, même si certains points restent encore à clarifier
+
+Ce format est interdit parce qu’il mélange narration, justification et analyse.
+
+---
+
+## 15. Responsabilité des agents
+
+## 15.1 Principe
+
+Tout agent qui modifie le registre est responsable de la clarté locale de sa modification.
+
+## 15.2 Obligation minimale
+
+Une modification est considérée comme correcte si :
+- elle améliore la lisibilité ;
+- elle conserve la continuité des dossiers ;
+- elle ne détruit pas la cohérence du registre ;
+- elle laisse une trace minimale dans la traçabilité si elle est significative.
+
+## 15.3 Interdictions majeures
+
+Un agent ne doit pas :
+- écraser silencieusement une lecture précédente ;
+- déplacer des blocs de texte sans vérifier les effets sur la lisibilité ;
+- injecter des règles générales dans le registre ;
+- créer un nouveau format implicite sans l’assumer ;
+- multiplier les micro-variantes de structure au fil des fiches.
+
+## 15.4 Responsabilité spécifique sur les coordonnées
+
+Lorsqu’un agent obtient une information de contact exploitable, il est responsable de sa consolidation dans la fiche concernée.
+
+Cela vaut notamment pour :
+- le nom du contact ;
+- l’email ;
+- le téléphone.
+
+Un agent ne doit pas considérer que ces informations sont suffisamment conservées parce qu’elles existent déjà dans :
+- un email ;
+- une capture ;
+- un devis ;
+- un fil séparé ;
+- ou une conversation de travail.
+
+---
+
+## 16. Modifications autorisées sans changement de version
+
+Les actions suivantes ne déclenchent pas de changement de version du registre :
+- ajout d’une nouvelle fiche ;
+- mise à jour d’un statut ;
+- ajout d’un devis reçu ;
+- modification d’une priorité locale ;
+- ajout d’une prochaine action ;
+- mise à jour de la traçabilité opérationnelle ;
+- enrichissement factuel d’une fiche existante ;
+- ajout ou mise à jour du nom du contact, de l’email ou du téléphone dans une fiche existante.
+
+Ces actions relèvent de la vie normale du registre.
+
+---
+
+## 17. Versioning du registre
+
+## 17.1 Principe général
+
+Le registre peut porter un numéro de version, mais ce versioning est réservé aux changements structurels du document, pas aux mises à jour opérationnelles courantes.
+
+## 17.2 Patch
+
+Passage :
+`x.y.z → x.y.(z+1)`
+
+Autorisé uniquement pour :
+- correction de faute ;
+- correction typographique ;
+- correction de mise en forme ;
+- harmonisation terminologique sans effet de structure ;
+- correction d’une erreur purement formelle de métadonnées.
+
+## 17.3 Minor
+
+Passage :
+`x.y.z → x.(y+1).0`
+
+Autorisé pour :
+- ajout d’une nouvelle section compatible ;
+- ajout d’un champ stable dans le modèle de fiche ;
+- amélioration de la structure générale sans changement de rôle du document ;
+- ajout d’une vue synthétique stable ;
+- réorganisation légère du registre améliorant sa lecture.
+
+## 17.4 Major
+
+Passage :
+`x.y.z → (x+1).0.0`
+
+Obligatoire pour :
+- changement du rôle du registre ;
+- changement de sa logique d’usage ;
+- fusion du registre avec un autre document ;
+- séparation structurelle du registre en plusieurs documents ;
+- changement des catégories centrales ou du modèle fondamental de lecture ;
+- changement du statut documentaire ou de sa portée.
+
+## 17.5 Règle de non-abus
+
+Un agent ne doit jamais incrémenter la version du registre pour une simple évolution de contenu vivant.
+
+---
+
+## 18. Versioning du présent guide
+
+Le présent guide suit un versioning strict, car il contient des règles normatives.
+
+## 18.1 Patch
+Corrections purement formelles, sans effet normatif.
+
+## 18.2 Minor
+Ajout de règles compatibles, précisions méthodologiques, exemples supplémentaires, nouveaux cas autorisés.
+
+## 18.3 Major
+Changement de logique d’usage, changement des règles de versioning, changement des obligations de consultation, redéfinition du rôle du registre ou du guide.
+
+---
+
+## 19. Changelog du registre versus traçabilité opérationnelle
+
+Ces deux notions ne doivent jamais être confondues.
+
+## 19.1 Changelog
+Le changelog documente les changements structurels du document, liés à sa version.
+
+## 19.2 Traçabilité opérationnelle
+La traçabilité documente les modifications de contenu vivant.
+
+## 19.3 Règle
+
+Un ajout de fiche ne relève pas du changelog.  
+Un changement de modèle de fiche relève du changelog.
+
+---
+
+## 20. Règles d’en-tête du registre
+
+Le registre doit utiliser un en-tête homogène avec les autres documents du système.
+
+Les métadonnées recommandées sont :
+- Document
+- Version
+- Date
+- Maintainers
+- Document Role
+- Update Policy
+- Document Status
+- Scope
+- Supersedes
+- Dependencies
+
+Le présent guide ne fixe pas à lui seul le standard du système, mais impose que le registre reste aligné avec le protocole documentaire global.
+
+---
+
+## 21. Qualité minimale attendue avant sauvegarde d’une modification
+
+Avant de considérer une mise à jour comme correcte, l’agent doit vérifier :
+
+1. Le registre est-il plus lisible qu’avant ?  
+2. La continuité des dossiers est-elle conservée ?  
+3. Les règles ont-elles été laissées dans le guide, pas injectées dans le registre ?  
+4. La traçabilité est-elle courte, factuelle et non narrative ?  
+5. Le changement touche-t-il la structure du document, et donc potentiellement sa version ?  
+6. La modification crée-t-elle une contradiction avec le protocole ou l’état canonique ?  
+7. Chaque fiche concernée comporte-t-elle bien un emplacement explicite pour le nom du contact, l’email et le téléphone ?  
+8. Les coordonnées déjà acquises ont-elles été consolidées dans la fiche plutôt que laissées dans des sources dispersées ?
+
+Si une de ces questions appelle un doute fort, la modification doit être revue.
+
+---
+
+## 22. Principe de minimalisme structurel
+
+Le registre ne doit pas être complexifié sans nécessité réelle.
+
+Avant d’ajouter :
+- une section ;
+- un champ ;
+- une sous-logique ;
+- une nouvelle taxonomie ;
+
+l’agent doit pouvoir répondre :
+- quel problème réel cela résout ;
+- pourquoi la structure actuelle ne suffit pas ;
+- quel coût de maintenance cela ajoute.
+
+Sans réponse claire, la modification doit être refusée ou différée.
+
+---
+
+## 23. Règle de transfert vers les documents noyaux
+
+Le registre reste un document opérationnel, non canonique.
+
+Lorsqu’une information devient suffisamment stable pour modifier la compréhension réelle du projet, elle doit être :
+- transférée ;
+- ou reflétée explicitement
+
+dans le document approprié du système, en cohérence avec le protocole général.
+
+Le registre ne doit pas devenir une mémoire parallèle non synchronisée avec les documents noyaux.
+
+---
+
+## 24. Clause finale
+
+Le `Registre_Central_De_Suivi_Des_Contacts` doit rester :
+- simple ;
+- lisible ;
+- inter-opérable entre agents ;
+- orienté action ;
+- séparé de son propre mode d’emploi.
+
+Le présent guide existe pour protéger cette séparation.
+
+---
+
+# Document Metadata & Changelog
+
+Changelog:
+  - 1.1.0 (2026-04-07, Contact_Manager_Agent): Ajout d’une exigence normative sur le bloc minimal d’identification et de contact dans chaque fiche du registre. Formalisation des champs Nom du contact, Email et Téléphone comme éléments devant apparaître systématiquement dans toutes les catégories de fiches, avec obligation de mise à jour dès acquisition de l’information.
+  - 1.0.0 (2026-04-04, Contact_Manager_Agent): Initialisation du guide d’usage du Registre Central de Suivi des Contacts. Formalisation de la séparation registre / consignes, des règles de continuité, de la discipline de traçabilité, et du versioning du registre et du guide.
+
+Breaking Changes:
+  - Aucun. Extension normative compatible du guide par ajout d’exigences sur le bloc d’identification et de contact des fiches.
+
+---
+Fin du document
+---
