@@ -1,0 +1,3154 @@
+---
+Document: Registre_Central_De_Suivi_Des_Contacts
+Version: 2.4.0
+Date: 2026-06-05
+
+Maintainers:
+  - Captain (authority)
+  - Chief_Structuration_Agent
+  - Sites_Projet_Logistique
+  - Supply_Chain_Agent
+  - Finance_And_Unit_Economics_Agent
+  - Machine_Systems_Agent
+
+Document Role: Operational Contact Register
+Update Policy: Human-authorized agent modification only
+Document Status: Active Reference
+Scope: Centralisation des contacts, des continuités d’échange, des réponses partenaires, des comparaisons actives, des prochaines actions opérationnelles, des contacts institutionnels utiles au cadrage temporel du projet, au passage STEP / CVD, à la finançabilité du projet, aux sites pilotes potentiels, à l’approvisionnement et à la brique machine
+Supersedes: 2.3.0
+Dependencies:
+  - Protocole_Systeme_MayiMayo
+  - Etat_canonique_MayiMayo
+  - Project_Overview_MayiMayo
+  - Guide_d_Usage_Registre_Central_De_Suivi_Des_Contacts
+---
+
+# Registre Central de Suivi des Contacts
+
+## 1. Préambule
+
+Ce document centralise les contacts actifs, les continuités d’échange, les réponses reçues, les éléments comparables utiles et les prochaines actions liées au projet MayiMayo.
+
+Il s’agit d’un registre opérationnel, non d’un document canonique.  
+Il doit rester lisible, orienté action, et strictement centré sur les données exploitables.
+
+Les règles d’usage, de mise à jour, de traçabilité et de versioning de ce registre sont définies dans `Guide_d_Usage_Registre_Central_De_Suivi_Des_Contacts`.
+
+Toute information suffisamment stabilisée pour modifier l’état réel du projet doit être reflétée dans les documents noyaux pertinents du système.
+
+---
+
+## 2. Vue synthétique actuelle
+
+### 2.1 Priorités machine
+
+1. Vendlife / Amy  
+   Reste la piste machine la plus attractive à ce stade.  
+   Référence active : HYJ-FH120 double microwave ovens.  
+   Hypothèse de travail active : machine chinoise très forte, désormais plus cohérente grâce au double micro-ondes, mais toujours dépendante d’une couche locale européenne pour l’installation et la maintenance.  
+   Point récent important : shipping communiqué vers Port of Antwerp à 350 USD, mais ce montant ne couvre pas le coût total rendu exploitable. Les coûts import, dédouanement, livraison finale, terminal, connectivité et mise en service restent à clarifier.
+
+2. Provending / Wayne  
+   Très fort benchmark Chine, notamment pour le ratio prix / capacité et l’ouverture vers une logique de support européen partiel.
+
+3. Bicom / Giacomo  
+   Référence européenne structurée la plus rassurante. Reste un point d’ancrage crédible pour un pilote structuré.
+
+4. Couche locale d’installation et de maintenance  
+   Les pistes HB Services, WFresh et Duo Cool doivent être qualifiées pour sécuriser l’architecture potentielle machine internationale + prestataires locaux européens.
+
+### 2.2 Priorités approvisionnement
+
+1. Maxime Traiteur / Maxime Hollants  
+   Option directe numéro 1 à ce stade. Retour le plus structuré, meilleure base comparative, vraie lisibilité sur la gamme, les prix, la remise volume et la cadence.
+
+2. Alice Traiteur / Lionel Deprez  
+   Option directe numéro 2 à ce stade. Très bon signal de faisabilité, expérience d’un modèle déjà proche, zone de prix exploitable, continuité d’échange saine, insistance pertinente sur 3 recettes rentables et stables.
+
+3. EM Traiteur / Elisa M  
+   Piste complémentaire active. Intéressante parce que l’acteur comprend déjà la logique distributeur 24h/24, mais encore à qualifier sur l’ouverture réelle, la zone logistique, le prix et la posture fournisseur.
+
+4. Le Lagon Bleu / Nathalie Magis  
+   Dossier secondaire toujours ouvert uniquement au titre d’une clarification restée sans réponse. Ne doit pas être lu comme refus net confirmé à ce stade.
+
+5. Architecture d’approvisionnement cible  
+   La lecture active ne consiste plus seulement à trouver un bon traiteur.  
+   MayiMayo doit viser une architecture standardisée, redondante et substituable :
+   - partenaire principal ;
+   - partenaire relais ;
+   - partenaire de secours.  
+   Cela ne signifie pas exploiter trois traiteurs en routine dès le départ. Cela signifie disposer de trois options compatibles avec un cahier des charges commun pour réduire le risque de rupture ou de dépendance excessive.
+
+### 2.3 Priorités sites
+
+1. Validation d’un site pilote crédible  
+   La prochaine grande étape opérationnelle du projet est désormais la qualification d’un site pilote crédible, puis d’une à trois alternatives crédibles.  
+   À ce stade, aucun site fort n’est validé.
+
+2. Terre ASBL / Autre Terre ONG  
+   Hypothèse site active sérieuse.  
+   Besoin fortement plausible, absence de cantine, absence de vraie solution chaude à proximité, estimation mémoire de 400 à 500 collaborateurs, pause à 11h30.  
+   Point faible : absence d’emplacement direct évident dans Terre ASBL.  
+   Point fort potentiel : lieu de réunion Autre Terre ONG comme hub mutualisé et point d’interconnexion.
+
+3. Challenge Handling / Grâce-Hollogne  
+   Très bon candidat structurel dans la zone Liège Airport. Doit être requalifié plus activement.
+
+4. JOST / Herstal  
+   Très bon candidat logistique dans la zone Herstal. Doit entrer dans la vague active de qualification réelle.
+
+5. Swissport Cargo LGG  
+   Piste structurelle intéressante à requalifier. L’ancien canal email était inactif ou non exploitable. Nouveau point d’entrée identifié : Dimitru Stefan, dimitru.stefan@swissport.com.
+
+6. Citadelle et CHC  
+   Pistes institutionnelles utiles surtout pour comprendre les usages et les raisons d’échec de dispositifs similaires. À ce stade, elles ne doivent pas être lues comme sites pilotes prioritaires si leurs offres internes sont déjà structurées.
+
+### 2.4 Priorités STEP / temporalité
+
+1. STEP / entretien individuel  
+   Le diagnostic a clarifié que le comité vérifiera bien la motivation et l’intérêt global de l’idée, mais que les points les plus sensibles à ce stade sont surtout :
+   - l’existence d’un besoin clair ;
+   - la crédibilité du terrain ;
+   - la plausibilité du financement.  
+   Information orale structurante obtenue : si le projet est validé par le comité puis entre en accompagnement, les allocations seraient gelées pendant cette période.
+
+2. Alice Caterina / CVD  
+   Contact opérationnel central pour le passage au Comité de Validation de Diagnostic.  
+   CVD visé : 15/07/2026.  
+   Documents attendus : PPT, BMC, SWOT, plan d’action, avec envoi une semaine avant le comité.  
+   Des documents complémentaires sont également attendus ou utiles, notamment les prévisions et le plan financier.
+
+3. Carla Gesmundo / diagnostic  
+   Contact utile pour le cadrage du diagnostic STEP et des ateliers obligatoires de la phase de diagnostic.
+
+4. IFAPME / Ilona Wieczorek  
+   Contact utile pour clarifier la faisabilité du stage anticipé.  
+   Point acquis : le stage peut commencer de manière anticipée.  
+   Point limitant : la formation commence en début / mi-septembre et ne constitue donc pas en elle-même une solution suffisante sans clarification complémentaire côté Forem.  
+   La piste formation est désormais secondaire par rapport au rail STEP.
+
+### 2.5 Priorité financement
+
+1. Crédal / point d’entrée à identifier  
+   Le front financement doit désormais être lu comme une recherche de lecture de finançabilité plausible, idéalement positive ou favorablement conditionnelle, avant le comité STEP.  
+   Le but n’est pas d’obtenir de l’argent déjà versé avant STEP, mais de pouvoir démontrer qu’un pilote crédible peut être financé dans des conditions réalistes.  
+   Point économique récent : 15k ne couvre que l’hypothèse basse du lancement. Le scénario central dépasse ce niveau. Le dialogue Crédal doit donc partir d’un besoin réel, pas d’un minimum artificiellement compressé.
+
+### 2.6 Contacts en veille
+
+- Pling! / Pommat
+- Magex / Hugues Theys
+- DAP Solutions / Ronald Didion
+- TCN / Michael
+- Ethias / procurement
+- Forem / Val Benoît
+
+### 2.7 Contacts clôturés
+
+- XY Vending / Elaine
+- Distrifood / contact non consolidé
+- Traiteur Hansenne / Philippe Hansenne
+
+### 2.8 Lecture stratégique de synthèse
+
+La comparaison actuelle sur la brique machine ne se joue plus seulement Europe vs Chine.  
+Elle se joue aussi entre :
+- une offre européenne intégrée ;
+- une machine chinoise compétitive appuyée par des spécialistes européens pour l’installation et la maintenance.
+
+À ce stade, Vendlife reste la piste machine la plus attractive en intérêt direct.  
+La lecture active ne repose plus sur l’ancienne machine double cabinet à un seul micro-ondes, mais sur la HYJ-FH120 double microwave ovens, ce qui supprime l’ancien point faible central lié au micro-ondes unique.  
+La machine reste très forte, mais sa viabilité passe toujours clairement par une couche locale européenne d’installation et de maintenance.  
+Le prix fournisseur FOB de 7 490 USD ne doit pas être confondu avec le coût réel de lancement. La lecture doit désormais distinguer FOB, shipping, transport final, import, dédouanement, installation, terminal, connectivité, mise en service, provision incident initiale et trésorerie de départ.
+
+Provending reste un comparatif fort, notamment sur le couple prix / capacité et sur l’hypothèse d’un appui européen partiel.  
+Bicom conserve sa valeur comme référence européenne structurée la plus rassurante.  
+Pling! / Pommat sort du noyau machine actif prioritaire, le dossier s’étant refroidi sur la réactivité et sur l’absence de cadre société suffisamment formalisé côté MayiMayo.  
+TCN est désormais davantage rétrogradé, utile surtout comme benchmark industriel et prix, mais moins prioritaire du fait d’une lecture froid trop instable et de l’absence de couche européenne.  
+Magex reste en veille comme repère haut de coût.  
+DAP reste en veille faute de réponse exploitable.  
+XY est désormais clarifié et clôturé hors shortlist active.
+
+Sur la brique approvisionnement, la lecture active a été recentrée :
+- Maxime Traiteur devient l’option directe numéro 1 à ce stade ;
+- Alice Traiteur devient l’option directe numéro 2 à ce stade ;
+- EM Traiteur devient une piste complémentaire active à qualifier ;
+- Le Lagon Bleu ne doit pas être lu comme dossier clôturé à ce stade ; un malentendu initial a été clarifié, mais aucun retour ultérieur exploitable n’a encore été reçu ;
+- Traiteur Hansenne sort du front actif sur refus explicite de capacité ;
+- les autres traiteurs sollicités restent en attente de retour exploitable ;
+- Distrifood ne fait plus partie du cadre actif du projet ;
+- les zones de prix de Maxime et d’Alice sont désormais explicitement consolidées dans le registre.
+
+La lecture stratégique actuelle de l’approvisionnement est la suivante :
+- marché direct comme rail principal d’analyse ;
+- priorité immédiate donnée à Maxime, Alice et EM Traiteur ;
+- maintien prudent du dossier Le Lagon Bleu uniquement comme clarification en attente, et non comme refus confirmé ;
+- exploration complémentaire possible uniquement si elle améliore réellement la compréhension des prix, de la logistique ou de la gouvernance du modèle ;
+- Distrifood conserve une valeur historique de benchmark déjà observé, mais n’a plus d’utilité opérationnelle dans l’architecture active du projet ;
+- le projet doit viser une architecture traiteur principal / relais / secours afin de réduire le risque de dépendance à un seul acteur.
+
+Sur le front site :
+- aucun site fort n’est validé à ce stade ;
+- le front site constitue, avec le financement, l’un des deux angles morts majeurs du projet ;
+- la recherche ne doit plus seulement viser des sites “intéressants”, mais des sites capables de valider le besoin et la possibilité d’un pilote ;
+- Terre ASBL / Autre Terre ONG devient une hypothèse active sérieuse, mais non validée ;
+- Citadelle et CHC apportent des signaux utiles sur les limites des sites institutionnels disposant déjà de cuisines et de points de vente internes ;
+- Ethias ne doit plus être traité comme refus dur définitif, mais comme piste en veille sans besoin actuel ;
+- Swissport doit être requalifié avec le nouveau point d’entrée identifié ;
+- Forem / Val Benoît reste réactivable, mais la porte d’entrée chaude initiale a été perdue.
+
+Sur le front STEP / temporalité :
+- le rail STEP doit désormais être lu comme le rail principal de cadrage temporel ;
+- le CVD du 15/07/2026 devient le prochain jalon de vérité ;
+- le projet devra y montrer non seulement une idée intéressante et une motivation réelle, mais surtout :
+  - un besoin terrain lisible ;
+  - un site crédible ;
+  - une logique économique présentable ;
+  - une finançabilité plausible ;
+- STEP a demandé un support CVD structuré et le front économique doit désormais produire des prévisions et un plan financier ;
+- l’information orale reçue sur le gel des allocations pendant l’accompagnement, si le projet est validé puis accompagné, reste structurante, mais n’est pas encore formalisée par un support écrit intégré au système.
+
+Sur le front financement :
+- Crédal devient désormais une cible institutionnelle à ouvrir ;
+- l’objectif n’est pas encore un financement déjà débloqué, mais une lecture de finançabilité crédible qui puisse soutenir le passage devant STEP ;
+- le financement doit donc être lu comme un front de validation de plausibilité, pas comme une simple étape postérieure abstraite ;
+- 15k ne doit plus être présenté comme enveloppe centrale suffisante, mais comme hypothèse basse à confronter à un scénario central plus réaliste.
+
+Sur le front formation :
+- la piste IFAPME est désormais réelle mais limitée ;
+- un contact utile a été établi avec Ilona Wieczorek ;
+- le stage anticipé est possible ;
+- la formation commence néanmoins en début / mi-septembre ;
+- la piste formation ne doit donc plus être lue comme le levier principal du projet.
+
+---
+
+## 3. Registre actif, fournisseurs machines
+
+### 3.1 Vendlife / Amy
+
+Nom / Organisation : Amy / VendLife  
+Nom du contact : Amy  
+Email : changvend@vendlife.cn  
+Téléphone : +86 15915941847  
+Catégorie : Machine  
+Statut : Actif  
+Niveau d’intérêt : Prioritaire  
+Dernière interaction : WhatsApp, email, devis visuel, brochure, réponse shipping Port of Antwerp  
+Responsable du suivi : Machine_Systems_Agent  
+Source du contact : Prospection internationale, email puis échanges WhatsApp
+
+Continuité du dossier : Échanges email et WhatsApp, devis visuel, brochure, précisions sur architecture machine, installation, support, garantie, absence d’équipe SAV en Europe, shipping Port of Antwerp, terminal / Nayax / connectivité  
+Devis ou document lié : Oui  
+Niveau de continuité : Structuré
+
+Résumé des échanges :  
+La lecture active Vendlife ne repose plus sur l’ancienne machine double cabinet HYJ-FH218 à un seul micro-ondes.  
+Le nouveau choix actif est désormais la HYJ-FH120 with microwave, présentée comme Elevator Hot Food Vending Machine (double microwave ovens).  
+Le changement est motivé par la présence explicite de deux micro-ondes, qui corrige le point faible principal de l’ancien arbitrage provisoire.  
+Une réponse complémentaire a été reçue sur le shipping vers Port of Antwerp et sur certains coûts périphériques, mais elle ne couvre pas encore le coût total rendu exploitable à Liège.
+
+Informations clés obtenues :
+- modèle actif : HYJ-FH120 with microwave ;
+- désignation : Elevator Hot Food Vending Machine (double microwave ovens) ;
+- prix unitaire FOB : 7 490 USD par machine ;
+- shipping communiqué vers Port of Antwerp : 350 USD ;
+- destination port charges transmises comme référence, non comme coût total définitif ;
+- TVA évoquée autour de 21 % du total ;
+- Nayax card reader setup renvoyé vers le site ou le support Nayax ;
+- connectivité machine dépendante du wifi local ou du coût 4G ;
+- dimensions annoncées : 2307 mm × 1700 mm × 922 mm ;
+- poids annoncé : environ 600 kg ;
+- écran publicitaire multimédia : 21.5 pouces ;
+- architecture de stockage annoncée : 7 layers × 4-8 lanes ;
+- capacité physique annoncée : 3 à 5 items par lane ;
+- stock annoncé : environ 84 à 168 items selon taille produit ;
+- taille produit max annoncée : 210 × 160 × 160 mm ;
+- taille produit min annoncée : 80 × 80 × 40 mm ;
+- puissance annoncée : 2 × 4000W, 220V / 50Hz ;
+- plage de température annoncée : -18°C à 25°C ;
+- réseau : 4G, WIFI, network cable ;
+- CE annoncé ;
+- système par élévateur, sans chute du produit ;
+- remote control annoncé sur stock, température, prix et surveillance ;
+- control system annoncé avec statistiques, comptabilité et auto-diagnostic de panne ;
+- absence confirmée de partenaires ou sociétés recommandées en Europe pour installation et maintenance ;
+- installation jugée non complexe, pouvant être gérée par un technicien local avec guidance vidéo à distance ;
+- support after-sales et pièces annoncés côté fournisseur ;
+- demande complémentaire envoyée pour savoir s’il est possible d’être livré directement à Liège.
+
+Zones de flou / inconnues :
+- possibilité réelle de livraison directe jusqu’à Liège ;
+- coût additionnel éventuel de livraison finale ;
+- gestion ou non du dédouanement dans une configuration Liège ;
+- coût total terminal / Nayax ;
+- coût réel de connectivité ;
+- CBM / RT exact de la machine emballée ;
+- coût réel et fiabilité de la couche locale européenne d’installation et maintenance ;
+- qualité réelle du support lourd si l’architecture locale repose sur un technicien tiers ;
+- compatibilité fine avec le packaging réellement retenu côté approvisionnement ;
+- coût total réel après transport, import, mise en service et sécurisation locale.
+
+Position actuelle du contact :  
+Machine très forte, toujours dans le groupe de tête du benchmark, et désormais plus défendable qu’avant grâce au double micro-ondes. La lecture économique doit cependant être déplacée du prix FOB vers le coût réel de lancement.
+
+Éléments comparables exploitables :
+- prix unitaire très compétitif ;
+- capacité annoncée crédible pour un pilote ;
+- double micro-ondes ;
+- design perçu comme fort ;
+- machine visuellement attractive ;
+- shipping Port of Antwerp communiqué à 350 USD ;
+- support Europe absent, mais installation faisable localement avec guidance ;
+- architecture hybride Chine + technicien local reste une condition de viabilité plus qu’une option de confort.
+
+Valeur pour le projet :  
+Très forte. Candidat machine de tout premier plan sur les plans technique, économique et esthétique.
+
+Risques associés :
+- absence de support européen intégré ;
+- dépendance à une orchestration locale européenne pour installation et maintenance ;
+- confusion possible entre prix FOB et coût complet de lancement ;
+- nécessité de transformer la faisabilité technique en architecture opérationnelle réellement sécurisée.
+
+Position dans le benchmark :  
+Groupe de tête, parmi les tout premiers candidats machine.
+
+Décision implicite actuelle : Prioriser
+
+Action suivante :  
+Attendre ou relancer Amy sur :
+- livraison directe éventuelle jusqu’à Liège ;
+- coût additionnel de cette livraison ;
+- dédouanement ;
+- coût terminal / Nayax ;
+- connectivité machine ;
+- CBM / RT emballé ;
+puis transmettre ces données au front financier.
+
+Type d’action : Clarification  
+Niveau d’urgence : Élevé  
+Date cible : Immédiat
+
+---
+
+### 3.2 Provending / Wayne
+
+Nom / Organisation : Wayne / Provending Machine Co., Ltd  
+Nom du contact : Wayne  
+Email : non obtenu  
+Téléphone : non obtenu  
+Catégorie : Machine  
+Statut : Actif  
+Niveau d’intérêt : Très bon  
+Dernière interaction : Email  
+Responsable du suivi : Machine_Systems_Agent  
+Source du contact : Prospection internationale
+
+Continuité du dossier : Demande initiale, réponse produit, relance technique, réponse sur température, CE et support Europe  
+Devis ou document lié : Oui, au moins au niveau indicatif  
+Niveau de continuité : Structuré
+
+Résumé des échanges :  
+Provending a présenté la machine PV-HVM01. Une première réponse évoquait une température de 2°C à 10°C, puis une seconde réponse a confirmé 0°C à 4°C après relance. Wayne a aussi indiqué une garantie d’un an, des pièces gratuites, l’absence de centre SAV en Belgique et l’existence d’un partenaire en Allemagne.
+
+Informations clés obtenues :
+- capacité de 120 à 160 unités ;
+- compatibilité avec le format 23 × 18 × 5 cm ;
+- micro-ondes intégré 3000W ;
+- modules froids complémentaires possibles ;
+- prix indicatif autour de 6 200 USD FOB avec card reader euros ;
+- CE annoncé ;
+- partenaire allemand pour le support ;
+- garantie 1 an ;
+- pièces gratuites.
+
+Zones de flou / inconnues :
+- robustesse documentaire du 0°C à 4°C ;
+- nature exacte du partenariat allemand ;
+- installation réellement encadrée ou non ;
+- niveau de conformité documentable pour une exploitation industrielle européenne.
+
+Position actuelle du contact :  
+Très intéressant, surtout comme benchmark prix fort avec ouverture partielle vers un support européen.
+
+Éléments comparables exploitables :
+- excellent ratio prix / capacité ;
+- architecture potentielle Chine + maintenance européenne ;
+- offre moins haut de gamme visuellement que Vendlife mais très compétitive.
+
+Valeur pour le projet :  
+Forte.
+
+Risques associés :
+- incohérence initiale sur la température ;
+- nécessité de vérifier CE et support européen ;
+- dépendance au sérieux du partenaire allemand.
+
+Position dans le benchmark :  
+Haut de tableau en offre globale exploitable.
+
+Décision implicite actuelle : Prioriser
+
+Action suivante :  
+Continuer à demander des confirmations écrites sur température, conformité et mode d’installation si Provending reste dans le top final.
+
+Type d’action : Clarification  
+Niveau d’urgence : Élevé  
+Date cible : Comparaison finale courte liste
+
+---
+
+### 3.3 Bicom / Giacomo
+
+Nom / Organisation : Giacomo / Bicom Vending  
+Nom du contact : Giacomo  
+Email : non obtenu  
+Téléphone : non obtenu  
+Catégorie : Machine  
+Statut : En veille  
+Niveau d’intérêt : Très bon  
+Dernière interaction : Email, retour détaillé puis clôture polie initiée côté MayiMayo  
+Responsable du suivi : Machine_Systems_Agent  
+Source du contact : Prospection fournisseur machine
+
+Continuité du dossier : Demande initiale, réponse commerciale, précisions techniques, chiffrage indicatif, réponse de maintien  
+Devis ou document lié : Oui, au niveau indicatif  
+Niveau de continuité : Structuré
+
+Résumé des échanges :  
+Bicom a confirmé que la machine MIDA couvre le besoin repas chaud avec écran tactile, capacité supérieure à 60 repas et possibilité d’atteindre ou dépasser 80 selon configuration. Ils ont ensuite confirmé la compatibilité avec le format 23 × 18 × 5 cm, un prix de départ autour de 15 000 EUR, puis un prix indicatif de 15 600 EUR pour une version à température négative en configuration 60 à 80 repas.
+
+Informations clés obtenues :
+- température positive et négative possibles ;
+- prix indicatif 15 600 EUR pour 60 à 80 repas en version négative ;
+- installation possible sur devis plus précis ;
+- maintenance pensée comme simple ;
+- formation en ligne incluse ;
+- 10 heures de support technique en ligne incluses ;
+- support additionnel à 50 EUR / heure ;
+- pas de location.
+
+Zones de flou / inconnues :
+- absence de solution de location ;
+- coût exact d’installation ;
+- structure de maintenance locale ;
+- adresse exacte et nombre de machines requis pour un chiffrage installation.
+
+Position actuelle du contact :  
+Fournisseur très sérieux, bien qualifié, désormais conservé comme référence européenne forte plutôt que comme premier intérêt immédiat.
+
+Éléments comparables exploitables :
+- un des meilleurs retours reçus sur clarté, température, capacité et prix ;
+- point d’ancrage crédible pour comparer les offres chinoises ;
+- machine perçue comme moins esthétique car les produits ne sont pas visibles.
+
+Valeur pour le projet :  
+Très forte.
+
+Risques associés :
+- esthétique moins attractive ;
+- pas de location ;
+- maintenance locale encore peu détaillée.
+
+Position dans le benchmark :  
+Groupe de tête européen.
+
+Décision implicite actuelle : Maintenir
+
+Action suivante :  
+Réactiver Bicom au moment où la structuration du pilote devient plus concrète ou si la piste Chine + maintenance locale se fragilise.
+
+Type d’action : Attente  
+Niveau d’urgence : Faible  
+Date cible : Après resserrement final de la stratégie machine
+
+---
+
+### 3.4 Pling! / Pommat
+
+Nom / Organisation : Philipp Ohligschläger et Stefan Ohligschläger / Pling!  
+Nom du contact : Philipp Ohligschläger et Stefan Ohligschläger  
+Email : non obtenu  
+Téléphone : non obtenu  
+Catégorie : Machine  
+Statut : En veille  
+Niveau d’intérêt : Bon  
+Dernière interaction : Double réponse email  
+Responsable du suivi : Machine_Systems_Agent  
+Source du contact : Prospection fournisseur machine Allemagne
+
+Continuité du dossier : Réponse technique, filtrage B2B, ouverture à un devis sous réserve de cadrage société  
+Devis ou document lié : Non, pas encore  
+Niveau de continuité : En cours
+
+Résumé des échanges :  
+Philipp a confirmé une machine avec micro-ondes intégré, 88 repas, temps de chauffe propre à chaque repas, gestion possible du frais ou du surgelé, et dimensions de compartiment 237 × 208 × 44 mm. Stefan a demandé des précisions sur le statut société et le cadre opérateur du projet.
+
+Informations clés obtenues :
+- 88 repas ;
+- micro-ondes intégré ;
+- gestion du frais ou du surgelé ;
+- dimensions de compartiment 237 × 208 × 44 mm ;
+- devis possible si détails société transmis ;
+- filtrage commercial B2B explicite.
+
+Zones de flou / inconnues :
+- prix non obtenu ;
+- installation et maintenance non encore détaillées ;
+- compatibilité exacte avec le packaging final ;
+- cadrage société à formaliser.
+
+Position actuelle du contact :  
+Dossier techniquement intéressant, mais désormais refroidi sur la réactivité et sur l’exigence d’un cadre société encore insuffisamment formalisé côté MayiMayo.
+
+Éléments comparables exploitables :
+- bonne capacité ;
+- logique technique propre ;
+- candidat européen sérieux ;
+- mais dynamique commerciale moins favorable que le noyau machine actif prioritaire.
+
+Valeur pour le projet :  
+Moyenne à bonne.
+
+Risques associés :
+- prix encore inconnu ;
+- nécessité de qualification B2B plus forte ;
+- compartiments potentiellement contraignants selon le packaging final ;
+- risque de perte de temps si le dossier est maintenu trop haut dans la lecture comparative malgré son refroidissement.
+
+Position dans le benchmark :  
+Hors noyau machine actif prioritaire à ce stade. À conserver seulement comme repère secondaire ou dossier réactivable si le contexte change.
+
+Décision implicite actuelle : Mettre en veille
+
+Action suivante :  
+Aucune action prioritaire à ce stade. Réactivation seulement si le dossier redevient stratégiquement utile et si le cadre société MayiMayo est davantage formalisé.
+
+Type d’action : Attente  
+Niveau d’urgence : Faible  
+Date cible : Aucune à ce stade
+
+---
+
+### 3.5 Magex / Hugues Theys
+
+Nom / Organisation : Hugues Theys / Magex France  
+Nom du contact : Hugues Theys  
+Email : non obtenu  
+Téléphone : non obtenu  
+Catégorie : Machine  
+Statut : En veille  
+Niveau d’intérêt : Moyen  
+Dernière interaction : Email avec devis et réponses complémentaires  
+Responsable du suivi : Machine_Systems_Agent  
+Source du contact : Prospection fournisseur machine
+
+Continuité du dossier : Demande initiale, cadrage capacité, devis, questions maintenance et financement, réponses complémentaires  
+Devis ou document lié : Oui  
+Niveau de continuité : Structuré
+
+Résumé des échanges :  
+Magex a proposé une solution autour du Bigstore 9 avec double micro-ondes, capacité d’environ 60 plats, réglage de chauffe par produit et modules froids complémentaires possibles. Un devis de 28 170 EUR HT a été transmis. Des réponses complémentaires ont ensuite confirmé contrats de maintenance, impossibilité de cash sur Bigstore, leasing ou location financière possible, et un montant indicatif très élevé ou ambigu pour un module froid complémentaire.
+
+Informations clés obtenues :
+- devis 28 170 EUR HT ;
+- capacité d’environ 60 plats ;
+- double micro-ondes ;
+- maintenance préventive et curative possible ;
+- cash impossible sur Bigstore, possible sur Easy ;
+- leasing 48 à 72 mois ;
+- module froid additionnel annoncé à un niveau de prix très élevé ou ambigu.
+
+Zones de flou / inconnues :
+- coût réel du frigo additionnel ;
+- capacité réelle à 80 plats ;
+- intérêt économique réel après ajout de modules.
+
+Position actuelle du contact :  
+Utile comme benchmark haut de marché, mais moins attractif que les alternatives actuellement prioritaires.
+
+Éléments comparables exploitables :
+- repère haut de coût ;
+- solution sérieuse et structurée ;
+- offre peu défendable pour le pilote au regard des alternatives.
+
+Valeur pour le projet :  
+Moyenne.
+
+Risques associés :
+- CAPEX trop élevé ;
+- coût des modules froids potentiellement bloquant ;
+- attractivité économique dégradée.
+
+Position dans le benchmark :  
+Repère haut de marché, non favori.
+
+Décision implicite actuelle : Mettre en veille
+
+Action suivante :  
+Conserver comme repère comparatif plutôt que comme piste prioritaire.
+
+Type d’action : Attente  
+Niveau d’urgence : Faible  
+Date cible : Aucune à ce stade
+
+---
+
+### 3.6 DAP Solutions / Ronald Didion
+
+Nom / Organisation : Ronald Didion / DAP Solutions  
+Nom du contact : Ronald Didion  
+Email : info@distributeurdepizza.be  
+Téléphone : 0477 24 14 24  
+Catégorie : Machine  
+Statut : En veille  
+Niveau d’intérêt : Bon  
+Dernière interaction : Appel téléphonique et relance restée sans réponse exploitable  
+Responsable du suivi : Machine_Systems_Agent  
+Source du contact : Prospection fournisseur machine Belgique
+
+Continuité du dossier : Contact initial, échange téléphonique, clarification sur machine repas chaud, absence d’approvisionnement, relance, absence de devis exploitable  
+Devis ou document lié : Non  
+Niveau de continuité : Structuré
+
+Résumé des échanges :  
+DAP a confirmé proposer des machines mais sans approvisionnement. Leur modèle de repas chaud fonctionne avec 3 plats possibles. Ils peuvent proposer jusqu’à 3 micro-ondes et des frigos additionnels de 63 plats, en plus des 63 plats de la machine. Le manque d’approvisionnement intégré a réduit fortement l’intérêt stratégique de DAP. Malgré un intérêt initial et une relance, aucun devis exploitable n’a été reçu dans la fenêtre utile.
+
+Informations clés obtenues :
+- machine repas chaud avec 3 plats possibles ;
+- possibilité de micro-ondes additionnels ;
+- frigos additionnels de 63 plats ;
+- absence d’approvisionnement intégré ;
+- devis toujours manquant ;
+- interlocuteur ouvert à discuter, mais continuité commerciale non matérialisée.
+
+Zones de flou / inconnues :
+- prix réel ;
+- délai ;
+- réactivité commerciale ;
+- configuration réellement proposée ;
+- coût total machine + micro-ondes + frigos ;
+- conditions de maintenance.
+
+Position actuelle du contact :  
+Mis de côté faute de matérialisation commerciale et du fait que l’approvisionnement n’est pas intégré.
+
+Éléments comparables exploitables :
+- utile comme référence historique belge ;
+- utile pour comprendre une architecture machine + responsabilité approvisionnement portée par MayiMayo ;
+- non exploitable à court terme sans devis.
+
+Valeur pour le projet :  
+Limitée à court terme.
+
+Risques associés :
+- inertie commerciale ;
+- impossibilité de comparer proprement sans devis ;
+- retour de complexité sur MayiMayo si l’approvisionnement reste totalement à porter.
+
+Position dans le benchmark :  
+Option théorique sortie du front actif.
+
+Décision implicite actuelle : Mettre en veille
+
+Action suivante :  
+Réactivation seulement si DAP revient avec un devis concret.
+
+Type d’action : Attente  
+Niveau d’urgence : Faible  
+Date cible : Aucune
+
+---
+
+### 3.7 TCN / Michael
+
+Nom / Organisation : Michael / TCN  
+Nom du contact : Michael  
+Email : non obtenu  
+Téléphone : non obtenu  
+Catégorie : Machine  
+Statut : En veille  
+Niveau d’intérêt : Bon  
+Dernière interaction : Messages complémentaires, brochure rectificative, puis clôture polie  
+Responsable du suivi : Machine_Systems_Agent  
+Source du contact : Prospection internationale
+
+Continuité du dossier : Premier modèle inadéquat, brochure rectificative, messages complémentaires sur spécifications, support, absence d’Europe et statut du dual microwave  
+Devis ou document lié : Oui, au niveau brochure et documentation  
+Niveau de continuité : Structuré
+
+Résumé des échanges :  
+Un premier modèle envoyé était trop orienté pizza. Une brochure rectificative a ensuite montré une machine repas plus polyvalente. Michael a ensuite transmis plusieurs compléments sur les caractéristiques, le support et le prix EXW, puis a confirmé l’absence de sociétés partenaires en Europe. Le dernier arbitrage communiqué par TCN est que le modèle dual microwave est encore en développement et sera lancé plus tard ; le modèle actuellement recommandé reste donc un modèle à un seul micro-ondes.
+
+Informations clés obtenues :
+- cloud administrative system ;
+- visual display window ;
+- 4 adjustable wheels with locking mechanisms ;
+- écran tactile 21,5 pouces avec android controller ;
+- flexible slots ;
+- maximum meal box size 220 × 175 × 75 mm ;
+- XY axis elevator system ;
+- microwave heating system ;
+- DEX & MDB ;
+- customized sticker and logo ;
+- alimentation 220V / 50Hz ;
+- contrainte d’installation de 5 à 10 cm par rapport au mur ;
+- prix EXW 4 588 USD hors système de paiement, emballage individuel, sticker et logo ;
+- garantie 1 an ;
+- support technique à vie ;
+- support vidéo 24/7 ;
+- formation sur site en Chine si un technicien est envoyé ;
+- pas de partenaire Europe pour installation ou maintenance ;
+- groupe WhatsApp possible avec leur ingénieur after-sales après réception machine ;
+- spare parts disponibles ;
+- modèle actuellement recommandé avec un seul micro-ondes ;
+- dual microwave encore en développement, non disponible à court terme ;
+- refroidissement annoncé de façon incohérente selon les messages, entre 2°C à 10°C et 2°C à 25°C ajustables.
+
+Zones de flou / inconnues :
+- lecture refroidissement trop instable pour être considérée comme suffisamment lisible à ce stade ;
+- absence de clarification fiable sur la vraie plage froide exploitable pour un usage conforme ;
+- débit réel de service du modèle recommandé à un seul micro-ondes non documenté ;
+- installation sur site industriel possible en logique autonome, mais sans couche européenne structurée.
+
+Position actuelle du contact :  
+Benchmark industriel utile, mais nettement moins lisible opérationnellement que les meilleurs dossiers actifs.
+
+Éléments comparables exploitables :
+- bon niveau industriel ;
+- prix agressif ;
+- capacité intéressante ;
+- mais discours froid trop instable ;
+- dual microwave non disponible à court terme ;
+- pas de couche européenne.
+
+Valeur pour le projet :  
+Moyenne.
+
+Risques associés :
+- incohérence répétée sur le froid ;
+- absence de partenaires européens ;
+- solution recommandée actuellement limitée à un seul micro-ondes ;
+- lisibilité opérationnelle inférieure à Vendlife, Provending et aux options européennes les plus rassurantes.
+
+Position dans le benchmark :  
+En retrait derrière Vendlife et Provending en lisibilité opérationnelle, et non prioritaire face aux dossiers européens les plus structurés.
+
+Décision implicite actuelle : Mettre en veille
+
+Action suivante :  
+Aucune action immédiate. Dossier utile comme benchmark industriel et prix, mais non prioritaire sans meilleure clarté sur le froid et le support.
+
+Type d’action : Attente  
+Niveau d’urgence : Faible  
+Date cible : Aucune à ce stade
+
+---
+
+### 3.8 XY Vending / Elaine
+
+Nom / Organisation : Elaine / XY Vending  
+Nom du contact : Elaine  
+Email : non obtenu  
+Téléphone : +86 198 9288 4015  
+Catégorie : Machine  
+Statut : Clôturé  
+Niveau d’intérêt : Faible  
+Dernière interaction : Email et précisions complémentaires  
+Responsable du suivi : Machine_Systems_Agent  
+Source du contact : Prospection internationale
+
+Continuité du dossier : Réponse fournisseur initiale, précisions complémentaires sur la plage de froid, l’installation et l’état de développement des variantes freezing + heating  
+Devis ou document lié : Non, pas de prix standard reçu  
+Niveau de continuité : Structuré
+
+Résumé des échanges :  
+XY a d’abord indiqué que les plateaux pouvaient être personnalisés selon les dimensions produit, avec une capacité estimée de 72 pièces sur le format transmis, une température de 2°C à 12°C, une machine préassemblée, une garantie d’un an et un support à vie. Les échanges complémentaires ont ensuite clarifié que la température minimale reste 2°C, que cette plage est considérée par eux comme largement acceptée sur le marché, que la version chaude réfrigérée actuelle ne descend pas à 0°C ou en négatif, et qu’une version freezer séparée serait nécessaire pour cela.
+
+Informations clés obtenues :
+- plateaux personnalisables ;
+- capacité estimée 72 pièces ;
+- température confirmée de 2°C à 12°C ;
+- minimum confirmé à 2°C, sans possibilité actuelle de 0°C à 4°C ni de négatif sur la machine chaude réfrigérée proposée ;
+- si une température sous 0°C est requise, une version freezer séparée est nécessaire ;
+- les modèles combinant freezing + heating sont encore en développement ;
+- machine préassemblée ;
+- installation annoncée comme très simple, avec mise en service possible après setup du compte ;
+- garantie 1 an ;
+- support technique online à vie.
+
+Zones de flou / inconnues :
+- aucune inconnue critique structurante restante sur la machine chaude réfrigérée actuellement proposée ;
+- seul le calendrier réel de disponibilité d’une version freezing + heating resterait à documenter, mais ce point n’est plus prioritaire au vu du déclassement du dossier.
+
+Position actuelle du contact :  
+Dossier désormais clarifié et clôturé.
+
+Éléments comparables exploitables :
+- confirme qu’une partie de l’offre chinoise reste bloquée à 2°C à 12°C sur les machines chaudes réfrigérées ;
+- utile comme point de contraste face à Vendlife, Bicom, Pling! et Provending ;
+- intérêt comparatif faible à ce stade.
+
+Valeur pour le projet :  
+Faible.
+
+Risques associés :
+- limite froid réellement bloquante ;
+- faible différenciation ;
+- version plus adaptée encore non disponible ;
+- absence de couche européenne structurée.
+
+Position dans le benchmark :  
+Derrière Vendlife, Bicom, Pling! et Provending. Hors shortlist active.
+
+Décision implicite actuelle : Abandonner
+
+Action suivante :  
+Aucune.
+
+Type d’action : Attente  
+Niveau d’urgence : Faible  
+Date cible : Aucune
+
+---
+
+## 4. Support local machine / installation / maintenance
+
+### 4.1 Lecture de section
+
+Cette section est active.
+
+La recherche machine a fait émerger une architecture supplémentaire : machine internationale + prestataire local européen.
+
+Cette architecture devient pertinente à partir des échanges avec Vendlife et Provending :
+- Vendlife n’a pas de partenaire européen identifié à ce stade, mais indique que l’installation peut être gérée par un technicien local avec guidage à distance ;
+- Provending a indiqué ne pas avoir de centre SAV en Belgique, mais mentionne un partenaire en Allemagne capable d’assurer de l’after-sales pendant la période de garantie ;
+- cette logique rend nécessaire la recherche d’acteurs locaux capables d’assurer installation, mise en service, diagnostic, maintenance ponctuelle et dépannage.
+
+La préférence doit aller vers des prestataires techniques neutres plutôt que vers des opérateurs vending concurrents, afin de limiter le risque de désintermédiation ou de captation du modèle.
+
+### 4.2 HB Services
+
+Nom / Organisation : HB Services  
+Nom du contact : non obtenu  
+Email : info@hb-services.be ; hbservices@skynet.be  
+Téléphone : non obtenu  
+Catégorie : Machine  
+Sous-catégorie locale : Installation / maintenance technique  
+Statut : À contacter  
+Niveau d’intérêt : Bon  
+Dernière interaction : Aucune interaction directe encore consolidée  
+Responsable du suivi : Machine_Systems_Agent  
+Source du contact : Recherche locale support installation / maintenance
+
+Continuité du dossier : Piste locale identifiée pour tester la possibilité d’un collaborateur long terme sur l’installation initiale, la mise en service, la maintenance ponctuelle et le dépannage d’une machine automatisée de repas chauds  
+Devis ou document lié : Non  
+Niveau de continuité : Non ouvert
+
+Résumé des échanges :  
+Aucune interaction directe encore consolidée. HB Services est retenu comme piste prioritaire pour tester la possibilité d’un collaborateur local capable d’intervenir sur l’installation initiale, la mise en service, la maintenance ponctuelle et le dépannage d’une machine automatisée.
+
+Informations clés obtenues :
+- piste locale plus technique qu’opérateur vending complet ;
+- risque concurrentiel jugé plus faible que DAP, Distri’Break ou Gamaco ;
+- message de premier contact déjà préparé.
+
+Zones de flou / inconnues :
+- capacité réelle à intervenir sur machine importée ;
+- capacité à intervenir sur site industriel ;
+- périmètre exact maintenance mécanique / électronique / paiement / froid ;
+- disponibilité ;
+- tarification.
+
+Position actuelle du contact :  
+Piste locale prioritaire à ouvrir.
+
+Éléments comparables exploitables :
+- profil potentiellement plus neutre que les opérateurs vending concurrents ;
+- utile pour tester l’architecture Vendlife + support local.
+
+Valeur pour le projet :  
+Forte si acceptation d’intervention sur machine fournie par un tiers.
+
+Risques associés :
+- refus d’intervenir sur machine importée ;
+- périmètre de compétence insuffisant ;
+- coût d’intervention trop élevé.
+
+Position dans le benchmark :  
+Piste locale n°1 pour installation / maintenance générale.
+
+Décision implicite actuelle : Explorer
+
+Action suivante :  
+Envoyer le message de premier contact.
+
+Type d’action : Contact initial  
+Niveau d’urgence : Élevé  
+Date cible : Immédiat
+
+---
+
+### 4.3 WFresh
+
+Nom / Organisation : WFresh  
+Nom du contact : non obtenu  
+Email : info@wfresh.be ; contact@wfresh.be  
+Téléphone : non obtenu  
+Catégorie : Machine  
+Sous-catégorie locale : Froid commercial / maintenance frigorifique  
+Statut : À contacter  
+Niveau d’intérêt : Bon  
+Dernière interaction : Aucune interaction directe encore consolidée  
+Responsable du suivi : Machine_Systems_Agent  
+Source du contact : Recherche locale support froid
+
+Continuité du dossier : Piste locale identifiée pour sécuriser la partie froid commercial d’une machine importée si le support constructeur est principalement distant  
+Devis ou document lié : Non  
+Niveau de continuité : Non ouvert
+
+Résumé des échanges :  
+Aucune interaction directe encore consolidée. WFresh est retenu comme piste locale pour la partie froid commercial, notamment si MayiMayo retient une machine internationale dont le support constructeur est principalement distant.
+
+Informations clés obtenues :
+- piste technique neutre ;
+- non positionnée comme opérateur vending direct ;
+- utile pour diagnostic froid, maintenance frigorifique et interventions ponctuelles.
+
+Zones de flou / inconnues :
+- acceptation d’intervention sur machine importée ;
+- capacité à travailler à partir d’une documentation fournisseur ;
+- couverture exacte du territoire ;
+- délais et coût d’intervention.
+
+Position actuelle du contact :  
+Piste locale à ouvrir pour sécuriser la partie froid.
+
+Éléments comparables exploitables :
+- profil potentiellement neutre ;
+- utile pour dissocier support froid et opérateur vending.
+
+Valeur pour le projet :  
+Bonne.
+
+Risques associés :
+- refus d’intervention sur machine importée ;
+- intervention limitée au froid sans prise en charge plus large ;
+- coût ou délais incompatibles avec un pilote.
+
+Position dans le benchmark :  
+Piste locale support froid.
+
+Décision implicite actuelle : Explorer
+
+Action suivante :  
+Envoyer le message de premier contact.
+
+Type d’action : Contact initial  
+Niveau d’urgence : Élevé  
+Date cible : Immédiat
+
+---
+
+### 4.4 Duo Cool
+
+Nom / Organisation : Duo Cool  
+Nom du contact : non obtenu  
+Email : info@duocool.eu ; service@duocool.eu  
+Téléphone : non obtenu  
+Catégorie : Machine  
+Sous-catégorie locale : Froid commercial / maintenance frigorifique  
+Statut : À contacter  
+Niveau d’intérêt : Bon  
+Dernière interaction : Aucune interaction directe encore consolidée  
+Responsable du suivi : Machine_Systems_Agent  
+Source du contact : Recherche locale support froid
+
+Continuité du dossier : Piste locale identifiée comme alternative ou complément à WFresh pour la partie froid commercial / réfrigération  
+Devis ou document lié : Non  
+Niveau de continuité : Non ouvert
+
+Résumé des échanges :  
+Aucune interaction directe encore consolidée. Duo Cool est retenu comme seconde piste locale pour la partie froid commercial / réfrigération, en complément ou alternative à WFresh.
+
+Informations clés obtenues :
+- piste technique neutre ;
+- non positionnée comme opérateur vending direct ;
+- pertinente pour intervention frigorifique professionnelle.
+
+Zones de flou / inconnues :
+- acceptation d’intervention sur machine importée ;
+- capacité à intervenir sur site industriel ;
+- coût de maintenance ponctuelle ;
+- réactivité dépannage.
+
+Position actuelle du contact :  
+Piste locale à ouvrir pour éviter la dépendance à un seul frigoriste.
+
+Éléments comparables exploitables :
+- profil potentiellement neutre ;
+- alternative utile à WFresh.
+
+Valeur pour le projet :  
+Bonne.
+
+Risques associés :
+- refus d’intervention sur machine importée ;
+- champ d’intervention trop restreint ;
+- réactivité insuffisante.
+
+Position dans le benchmark :  
+Alternative locale support froid.
+
+Décision implicite actuelle : Explorer
+
+Action suivante :  
+Envoyer le message de premier contact.
+
+Type d’action : Contact initial  
+Niveau d’urgence : Élevé  
+Date cible : Immédiat
+
+---
+
+## 5. Approvisionnement
+
+### 5.1 Lecture de section
+
+Cette section est active.
+
+La logique actuellement retenue sur l’approvisionnement ne repose plus sur deux rails actifs au même niveau.  
+Distrifood ne fait plus partie du cadre opérationnel utile du projet.  
+La comparaison active repose désormais principalement sur le marché direct, avec priorité aux acteurs capables de proposer :
+- des plats individuels compatibles micro-ondes ;
+- une qualité perçue crédible ;
+- une logistique exploitable pour un pilote ;
+- une gouvernance compatible avec le modèle MayiMayo ;
+- une substituabilité suffisante pour limiter la dépendance à un seul traiteur.
+
+À ce stade, l’objectif n’est pas encore de sélectionner le fournisseur final.  
+L’objectif est de :
+- valider la faisabilité perçue du besoin ;
+- cartographier les zones de prix ;
+- comparer la structure réelle des offres ;
+- identifier les signaux logistiques crédibles ;
+- construire une architecture d’approvisionnement standardisée, redondante et substituable ;
+- maintenir plusieurs options ouvertes avant d’entrer dans une phase de clarification plus lourde.
+
+Le besoin actuellement retenu comme standard pilote de travail repose sur :
+- 3 recettes standard ;
+- 2 livraisons par semaine ;
+- mardi après-midi ;
+- vendredi après-midi ;
+- 72 plats par livraison ;
+- 24 plats par recette ;
+- conditionnement individuel ;
+- compatibilité micro-ondes ;
+- projet pilote en environnement entreprise ;
+- hypothèse de site encore non validée ;
+- phase encore en structuration et analyse de faisabilité.
+
+La logique de montée en charge devra être lue selon la rotation réelle :
+- passage à 84 ou 96 plats par livraison si rupture rapide ;
+- maintien ou réduction si invendus ;
+- augmentation ciblée d’une recette dominante ;
+- densification plus forte si le format réel le permet.
+
+### 5.2 Priorités approvisionnement à ce stade
+
+1. Maxime Traiteur / Maxime Hollants  
+   Option directe numéro 1 à ce stade. Retour le plus structuré, meilleure base comparative, vraie lisibilité sur la gamme, les prix, la remise volume et la cadence.
+
+2. Alice Traiteur / Lionel Deprez  
+   Option directe numéro 2 à ce stade. Très bon signal de faisabilité, expérience d’un modèle déjà proche, zone de prix exploitable, continuité d’échange saine.
+
+3. EM Traiteur / Elisa M  
+   Piste complémentaire active. Intéressante parce que l’acteur comprend déjà la logique distributeur 24h/24, mais encore à qualifier sur l’ouverture réelle et la zone logistique.
+
+4. Le Lagon Bleu / Nathalie Magis  
+   Dossier secondaire toujours ouvert uniquement au titre d’une clarification restée sans réponse. Ne doit pas être lu comme refus net confirmé à ce stade.
+
+5. Architecture principal / relais / secours  
+   La priorité n’est pas seulement d’obtenir un bon prix.  
+   Il faut identifier quels acteurs peuvent jouer :
+   - partenaire principal ;
+   - partenaire relais ;
+   - partenaire de secours.  
+   La valeur stratégique d’un traiteur doit donc être lue aussi selon sa substituabilité, sa stabilité de recettes, sa cadence, son packaging et sa capacité à entrer dans un cahier des charges commun.
+
+### 5.3 Traiteur Maxime / Maxime Hollants
+
+Nom / Organisation : Maxime Hollants / Traiteur Maxime  
+Nom du contact : Maxime Hollants  
+Email : maxime@traiteurmaxime.be  
+Téléphone : non obtenu  
+Catégorie : Approvisionnement  
+Statut : Actif  
+Niveau d’intérêt : Prioritaire  
+Dernière interaction : Réponse détaillée reçue par email le 2026-03-26 ; message de maintien envoyé côté MayiMayo le 2026-03-31  
+Responsable du suivi : Supply_Chain_Agent  
+Source du contact : Prospection traiteur, email groupé initial puis réponse directe du contact
+
+Continuité du dossier : Email initial sur info@traiteurmaxime.be, réponse détaillée reçue depuis l’adresse directe du contact, maintien de continuité envoyé ensuite  
+Devis ou document lié : Non, mais chiffrage structuré dans le corps de l’email  
+Niveau de continuité : Structuré
+
+Résumé des échanges :  
+Maxime a répondu avec une structure d’offre claire, deux formats de produits, une zone de prix, une logique de remise volume, une cadence de production définie et une livraison possible dans un rayon de 20 km autour de Liège. Un message de continuité a ensuite été envoyé pour maintenir le dossier ouvert sans entrer trop tôt dans une clarification fine.  
+La lecture pilote active s’oriente désormais vers un standard de 3 recettes, 2 livraisons par semaine, 72 plats par livraison au départ.
+
+Informations clés obtenues :
+- deux formats proposés ;
+- bols kraft de 350 à 450 g, cuisine continentale, à 7,90 € à 9,90 € ;
+- barquettes compatibles micro-ondes et four, 550 à 650 g, cuisine continentale, végétarienne, poisson ou viande, à 12,90 € à 17,90 € ;
+- légumes bio et locaux ;
+- féculents bio ;
+- production et mise à disposition le mardi et le vendredi à partir de 15h ;
+- livraison possible dans un rayon de 20 km autour de Liège ;
+- remise de 20 % envisageable sur volume structuré ;
+- délai de paiement de 7 jours possible sous réserve de validation ;
+- standard pilote envisagé compatible avec la cadence mardi / vendredi ;
+- logique de départ désormais envisagée : 72 plats par livraison, 3 recettes, 24 plats par recette.
+
+Zones de flou / inconnues :
+- compatibilité exacte du format bol avec la machine finale ;
+- logique de packaging précise à retenir pour le pilote ;
+- prix réel des recettes cibles si une sélection courte est opérée ;
+- niveau de souplesse si le site pilote exige un cadrage plus spécifique ;
+- capacité à standardiser un format micro-ondable optimisé autour de 400 à 500 g si le choix machine confirme l’intérêt d’un contenant plus compact.
+
+Position actuelle du contact :  
+Candidat direct le plus sérieux à ce stade.
+
+Éléments comparables exploitables :
+- retour le plus structuré reçu à ce stade ;
+- vraie architecture d’offre ;
+- signal prix exploitable ;
+- remise volume claire ;
+- présence d’un cadre logistique crédible ;
+- bonne compatibilité potentielle avec une cadence pilote à 2 livraisons par semaine.
+
+Valeur pour le projet :  
+Très forte. Meilleure base actuelle de comparaison sur le marché direct.
+
+Risques associés :
+- partie haute de gamme potentiellement trop premium à l’achat ;
+- nécessité de vérifier la meilleure compatibilité machine selon le format finalement retenu ;
+- risque de standardisation insuffisante si les recettes ou formats varient trop.
+
+Position dans le benchmark :  
+Option directe numéro 1 à ce stade.
+
+Décision implicite actuelle : Prioriser
+
+Action suivante :  
+Conserver le dossier chaud, puis revenir vers Maxime dans une deuxième salve avec un cadrage plus précis du pilote :
+- 3 recettes ;
+- 2 livraisons par semaine ;
+- 72 plats par livraison au départ ;
+- possibilité de montée à 84 ou 96 ;
+- format micro-ondable optimisé selon la machine retenue.
+
+Type d’action : Clarification future  
+Niveau d’urgence : Élevé  
+Date cible : Après clarification du site pilote et du format machine utile
+
+---
+
+### 5.4 Alice Traiteur / Lionel Deprez
+
+Nom / Organisation : Lionel Deprez / Alice Traiteur  
+Nom du contact : Lionel Deprez  
+Email : commandes@letraiteur.be  
+Téléphone : 0498 79 90 59  
+Catégorie : Approvisionnement  
+Statut : Actif  
+Niveau d’intérêt : Très bon  
+Dernière interaction : Réponse de faisabilité reçue par email le 2026-03-26 ; message de continuité envoyé côté MayiMayo le 2026-03-31 ; accusé de continuité reçu le 2026-04-03  
+Responsable du suivi : Supply_Chain_Agent  
+Source du contact : Prospection traiteur, email groupé initial puis réponse directe
+
+Continuité du dossier : Email initial envoyé sur info@letraiteur.be, réponse reçue depuis commandes@letraiteur.be, maintien de continuité envoyé, retour confirmant la disponibilité future de l’échange  
+Devis ou document lié : Non, mais zone de prix fournie dans l’email  
+Niveau de continuité : Structuré
+
+Résumé des échanges :  
+Alice Traiteur a indiqué faire déjà quelque chose de similaire à plus petite échelle pour une autre société. Le contact a insisté sur l’importance de stabiliser 3 recettes rentables et a communiqué une première zone de prix simple. Il a précisé fournir des plats à 9,50 € et à 11,00 € et a mentionné faire 30 % sur ces plats. Un message de continuité a ensuite été envoyé pour confirmer l’intérêt de MayiMayo, puis un accusé favorable a été reçu.
+
+Informations clés obtenues :
+- ils font déjà quelque chose de proche à plus petite échelle ;
+- la stabilité de 3 recettes est explicitement identifiée comme une condition économique forte ;
+- Alice indique fournir des plats à 9,50 € et à 11,00 € ;
+- mention de 30 % sur ces plats, comme beaucoup d’autres dans le secteur selon le contact ;
+- discussion ouverte ;
+- signal logistique implicite crédible, sans cadrage détaillé à ce stade ;
+- la lecture active MayiMayo vers 3 recettes standard est compatible avec le signal donné par Alice.
+
+Zones de flou / inconnues :
+- correspondance exacte entre les deux niveaux de prix et les types de plats ;
+- structure exacte du conditionnement ;
+- modalités précises de livraison ;
+- logique de conservation réellement proposée ;
+- degré de prise en charge opérationnelle si le pilote avance ;
+- capacité à tenir une cadence type 2 livraisons par semaine / 72 plats / 3 recettes.
+
+Position actuelle du contact :  
+Très bon candidat direct, légèrement derrière Maxime sur la structuration de l’offre mais très fort sur le signal de faisabilité et la continuité d’échange.
+
+Éléments comparables exploitables :
+- un des meilleurs signaux de faisabilité reçus à ce stade ;
+- prix dans une zone réaliste ;
+- expérience déjà proche du modèle ;
+- très bonne base comparative pour lire le marché direct ;
+- forte cohérence avec la logique pilote 3 recettes.
+
+Valeur pour le projet :  
+Très forte.
+
+Risques associés :
+- offre encore moins structurée que celle de Maxime ;
+- profondeur logistique encore non documentée ;
+- zone de prix moins détaillée par format ou grammage.
+
+Position dans le benchmark :  
+Option directe numéro 2 à ce stade.
+
+Décision implicite actuelle : Prioriser
+
+Action suivante :  
+Maintenir le lien, puis revenir vers Alice dans une phase 2 avec un cadrage plus concret :
+- 3 recettes ;
+- 2 livraisons par semaine ;
+- 72 plats par livraison ;
+- 24 plats par recette ;
+- format micro-ondable ;
+- cadence d’ajustement selon rotation.
+
+Type d’action : Clarification future  
+Niveau d’urgence : Élevé  
+Date cible : Après consolidation site / machine
+
+---
+
+### 5.5 Le Lagon Bleu / Nathalie Magis
+
+Nom / Organisation : Nathalie Magis / Le Lagon Bleu  
+Nom du contact : Nathalie Magis  
+Email : info@lelagonbleu.be  
+Téléphone : non obtenu  
+Catégorie : Approvisionnement  
+Statut : En attente de réponse  
+Niveau d’intérêt : Faible à moyen  
+Dernière interaction : Réponse initiale reçue, puis clarification envoyée le 2026-03-27 ; aucun retour ultérieur consolidé à ce stade  
+Responsable du suivi : Supply_Chain_Agent  
+Source du contact : Prospection traiteur, email groupé initial
+
+Continuité du dossier : Email initial, réponse indiquant qu’ils ne sont pas dans un projet de placement ou de développement d’un distributeur, clarification envoyée pour préciser que MayiMayo portait la machine et explorait uniquement la fourniture des repas, aucun retour ultérieur consolidé dans le système  
+Devis ou document lié : Non  
+Niveau de continuité : Structuré
+
+Résumé des échanges :  
+Le Lagon Bleu a d’abord répondu dans un cadre mal compris, comme si la demande portait sur le placement ou le développement d’un distributeur. Une clarification a ensuite été envoyée pour préciser que MayiMayo portait la machine et explorait uniquement la fourniture des repas. À ce stade, aucun retour ultérieur exploitable n’a été reçu.
+
+Informations clés obtenues :
+- malentendu initial sur la nature de la demande ;
+- clarification envoyée ;
+- aucun retour ultérieur consolidé à ce stade ;
+- absence de refus net confirmé après clarification.
+
+Zones de flou / inconnues :
+- intérêt réel une fois la demande correctement comprise ;
+- capacité à se positionner comme simple fournisseur ;
+- niveau de disponibilité ;
+- structure d’offre ;
+- prix ;
+- logistique.
+
+Position actuelle du contact :  
+Dossier secondaire encore ouvert, mais sans signal de conversion après clarification.
+
+Éléments comparables exploitables :
+- cas utile pour mesurer la lisibilité perçue de la proposition marché ;
+- montre l’importance de distinguer clairement machine et fourniture repas ;
+- ne constitue pas encore une piste active solide.
+
+Valeur pour le projet :  
+Faible à ce stade.
+
+Risques associés :
+- surinterpréter le simple envoi de clarification comme une ouverture réelle ;
+- perdre du temps sur un dossier sans retour.
+
+Position dans le benchmark :  
+Dossier secondaire, non prioritaire.
+
+Décision implicite actuelle : Maintenir avec prudence
+
+Action suivante :  
+Aucune action prioritaire immédiate. Conserver comme clarification en attente, sans le traiter comme refus net ni comme piste chaude.
+
+Type d’action : Attente  
+Niveau d’urgence : Faible  
+Date cible : À réévaluer seulement si une relance secondaire devient utile
+
+---
+
+### 5.6 Traiteur Hansenne / Philippe Hansenne
+
+Nom / Organisation : Philippe Hansenne / Traiteur Philippe Hansenne  
+Nom du contact : Philippe Hansenne  
+Email : info@traiteurhansenne.be  
+Téléphone : 087 33 79 09  
+Catégorie : Approvisionnement  
+Statut : Clôturé  
+Niveau d’intérêt : Bon  
+Dernière interaction : Réponse de refus reçue par email, date précise non consolidée dans le registre  
+Responsable du suivi : Supply_Chain_Agent  
+Source du contact : Prospection directe complémentaire
+
+Continuité du dossier : Sollicitation envoyée, réponse explicite de refus pour surcharge de travail et impossibilité d’absorber la demande avec l’équipe en place  
+Devis ou document lié : Non  
+Niveau de continuité : Structuré
+
+Résumé des échanges :  
+Hansenne a indiqué ne pas pouvoir assurer la demande, en expliquant avoir déjà trop de travail et de commandes, et ne pas pouvoir accepter ce projet avec l’équipe en place.
+
+Informations clés obtenues :
+- refus explicite ;
+- motif de refus lié à la charge de travail et à la capacité humaine ;
+- pas d’ouverture concrète vers une suite à court terme.
+
+Zones de flou / inconnues :
+- aucune inconnue critique utile à lever à ce stade ;
+- possibilité d’un changement futur non exclue, mais sans signal concret.
+
+Position actuelle du contact :  
+Dossier fermé à court terme.
+
+Éléments comparables exploitables :
+- signal de saturation du marché artisanal local ;
+- utile pour calibrer la difficulté à trouver des acteurs qualitatifs disponibles.
+
+Valeur pour le projet :  
+Faible à court terme.
+
+Risques associés :
+- perte de temps à insister malgré un refus net.
+
+Position dans le benchmark :  
+Hors front actif.
+
+Décision implicite actuelle : Abandonner
+
+Action suivante :  
+Aucune action immédiate. Conserver uniquement comme trace d’un refus explicite.
+
+Type d’action : Attente  
+Niveau d’urgence : Faible  
+Date cible : Aucune
+
+---
+
+### 5.7 EM Traiteur / Elisa M
+
+Nom / Organisation : Elisa M / EM Traiteur  
+Nom du contact : Elisa M  
+Email : info@emtraiteur.com  
+Téléphone : non obtenu  
+Catégorie : Approvisionnement  
+Statut : Actif  
+Niveau d’intérêt : Bon  
+Dernière interaction : Email entrant demandant plus d’informations sur la société, le lieu et les jours souhaités ; réponse de cadrage préparée, envoi non confirmé dans le système  
+Responsable du suivi : Supply_Chain_Agent  
+Source du contact : Deuxième vague de prospection élargie
+
+Continuité du dossier : Premier contact établi, retour demandant plus de précisions, réponse de cadrage préparée pour présenter le projet comme pilote en phase de structuration et d’analyse de faisabilité  
+Devis ou document lié : Non  
+Niveau de continuité : En cours
+
+Résumé des échanges :  
+EM Traiteur a demandé davantage d’informations sur la société, le lieu, et les jours de commande souhaités. Ils ont précisé travailler principalement en région verviétoise et à l’extérieur de Liège, sans livraison en centre-ville. Une réponse de cadrage a été préparée pour présenter le projet comme un pilote pressenti, dans un cadre encore en structuration.
+
+Informations clés obtenues :
+- demande de précisions supplémentaires avant positionnement ;
+- zone logistique a priori non bloquante si le site pilote reste hors centre-ville ;
+- acteur potentiellement intéressant car déjà familier de la logique 24h/24 ;
+- projet pilote envisagé à Herstal communiqué dans le cadrage préparé.
+
+Zones de flou / inconnues :
+- envoi effectif de la réponse de cadrage non confirmé dans le système ;
+- niveau d’ouverture commerciale réel ;
+- structure d’offre ;
+- prix ;
+- compatibilité fine avec le pilote ;
+- rôle potentiel comme partenaire principal, relais ou secours.
+
+Position actuelle du contact :  
+Piste complémentaire active, à potentiel, mais encore insuffisamment documentée.
+
+Éléments comparables exploitables :
+- très utile pour comparer un acteur déjà proche de la logique distributeur ;
+- bonne piste pour tester la frontière entre fournisseur et opérateur intégré.
+
+Valeur pour le projet :  
+Bonne.
+
+Risques associés :
+- difficulté potentielle à obtenir une vraie posture de fournisseur plutôt que de logique opérateur ;
+- dossier encore peu profond tant que la réponse de cadrage n’est pas consolidée.
+
+Position dans le benchmark :  
+Piste active complémentaire, derrière Maxime et Alice.
+
+Décision implicite actuelle : Explorer
+
+Action suivante :  
+Confirmer l’envoi de la réponse de cadrage ou l’envoyer si ce n’est pas encore fait, puis attendre un retour plus précis avant de reclasser le dossier.
+
+Type d’action : Clarification  
+Niveau d’urgence : Modéré  
+Date cible : Immédiat si l’envoi n’a pas encore été effectué
+
+---
+
+### 5.8 Distrifood / contact non consolidé
+
+Nom / Organisation : Distrifood  
+Nom du contact : non identifié  
+Email : non obtenu  
+Téléphone : non obtenu  
+Catégorie : Approvisionnement  
+Statut : Clôturé  
+Niveau d’intérêt : Faible à ce stade  
+Dernière interaction : Échange téléphonique exploratoire, puis sortie du cadre actif  
+Responsable du suivi : Supply_Chain_Agent  
+Source du contact : Recherche fournisseur repas chaud avec approvisionnement intégré
+
+Continuité du dossier : Appel exploratoire, compréhension du modèle, évaluation de l’intérêt d’une collaboration, puis révision de la pertinence stratégique  
+Devis ou document lié : Non  
+Niveau de continuité : Structuré
+
+Résumé des échanges :  
+Distrifood a été exploré comme acteur intégré plus mature, avec réseau de traiteurs, approvisionnement, réapprovisionnement et machines propres. Une collaboration avait été envisagée comme possibilité de lancement, mais l’évolution du projet a conduit à considérer que Distrifood n’apporte plus d’utilité réelle dans l’architecture active.
+
+Informations clés obtenues :
+- modèle intégré plus mature ;
+- réseau de traiteurs ;
+- gestion de l’approvisionnement et du réapprovisionnement ;
+- installation de leurs propres machines ;
+- ouverture de principe à une proposition ;
+- mais faible utilité opérationnelle actuelle pour MayiMayo.
+
+Zones de flou / inconnues :
+- aucune inconnue utile prioritaire à lever à ce stade ;
+- l’intérêt d’aller plus loin n’est plus démontré.
+
+Position actuelle du contact :  
+Dossier désormais sorti du cadre actif.
+
+Éléments comparables exploitables :
+- utile historiquement comme benchmark intégré ;
+- utile pour comprendre ce qu’un modèle intégré change sur la chaîne de valeur ;
+- non utile comme piste active à ce stade.
+
+Valeur pour le projet :  
+Faible désormais.
+
+Risques associés :
+- perte de temps sur une piste qui n’apporte plus d’utilité réelle ;
+- confusion entre benchmark historique et option encore vivante.
+
+Position dans le benchmark :  
+Hors cadre actif.
+
+Décision implicite actuelle : Abandonner
+
+Action suivante :  
+Aucune action immédiate. Conserver seulement comme trace d’un benchmark intégré exploré puis écarté.
+
+Type d’action : Attente  
+Niveau d’urgence : Faible  
+Date cible : Aucune
+
+---
+
+### 5.9 Chef Léa
+
+Nom / Organisation : Chef Léa  
+Nom du contact : non obtenu  
+Email : hello@cheflea.be  
+Téléphone : non obtenu  
+Catégorie : Approvisionnement  
+Statut : En attente de réponse  
+Niveau d’intérêt : Très bon  
+Dernière interaction : Email initial envoyé le 2026-03-26, sans retour à ce stade  
+Responsable du suivi : Supply_Chain_Agent  
+Source du contact : Prospection traiteur, vague initiale
+
+Continuité du dossier : Email groupé initial envoyé dans la première vague traiteur  
+Devis ou document lié : Non  
+Niveau de continuité : Isolé
+
+Résumé des échanges :  
+Aucun retour exploitable reçu à ce stade.
+
+Informations clés obtenues :
+- sollicitation envoyée ;
+- aucun retour reçu.
+
+Zones de flou / inconnues :
+- intérêt réel ;
+- structure d’offre ;
+- prix ;
+- logistique ;
+- volonté de collaborer sur un pilote entreprise.
+
+Position actuelle du contact :  
+Piste qualitative encore ouverte, mais sans signal reçu.
+
+Éléments comparables exploitables :
+- aucun élément comparatif direct obtenu à ce stade.
+
+Valeur pour le projet :  
+Bonne en théorie, non documentée en pratique.
+
+Risques associés :
+- immobilisation du dossier si aucune relance n’est opérée.
+
+Position dans le benchmark :  
+Ouvert, non classable à ce stade.
+
+Décision implicite actuelle : Maintenir
+
+Action suivante :  
+Conserver dans la pile de relance secondaire après nouvelle consolidation des retours déjà actifs.
+
+Type d’action : Relance  
+Niveau d’urgence : Modéré  
+Date cible : Après revue de la deuxième vague de sourcing
+
+---
+
+### 5.10 Aux Fruits de ma Passion
+
+Nom / Organisation : Aux Fruits de ma Passion  
+Nom du contact : non obtenu  
+Email : info@traiteur-passion.be  
+Téléphone : non obtenu  
+Catégorie : Approvisionnement  
+Statut : En attente de réponse  
+Niveau d’intérêt : Très bon  
+Dernière interaction : Email initial envoyé le 2026-03-26, sans retour à ce stade  
+Responsable du suivi : Supply_Chain_Agent  
+Source du contact : Prospection traiteur, vague initiale
+
+Continuité du dossier : Email groupé initial envoyé dans la première vague traiteur  
+Devis ou document lié : Non  
+Niveau de continuité : Isolé
+
+Résumé des échanges :  
+Aucun retour exploitable reçu à ce stade.
+
+Informations clés obtenues :
+- sollicitation envoyée ;
+- aucun retour reçu.
+
+Zones de flou / inconnues :
+- intérêt réel ;
+- structure d’offre ;
+- prix ;
+- logistique.
+
+Position actuelle du contact :  
+Piste encore ouverte, sans réponse à ce stade.
+
+Éléments comparables exploitables :
+- aucun élément direct obtenu à ce stade.
+
+Valeur pour le projet :  
+Bonne en théorie, non documentée en pratique.
+
+Risques associés :
+- dossier dormant sans relance.
+
+Position dans le benchmark :  
+Ouvert, non classable à ce stade.
+
+Décision implicite actuelle : Maintenir
+
+Action suivante :  
+Conserver dans la pile de relance secondaire.
+
+Type d’action : Relance  
+Niveau d’urgence : Modéré  
+Date cible : Après revue de la pile active actuelle
+
+---
+
+### 5.11 Les Saisons de Marie
+
+Nom / Organisation : Les Saisons de Marie  
+Nom du contact : non obtenu  
+Email : info@lessaisonsdemarie.be  
+Téléphone : non obtenu  
+Catégorie : Approvisionnement  
+Statut : En attente de réponse  
+Niveau d’intérêt : Bon  
+Dernière interaction : Email initial envoyé le 2026-03-26, sans retour à ce stade  
+Responsable du suivi : Supply_Chain_Agent  
+Source du contact : Prospection traiteur, vague initiale
+
+Continuité du dossier : Email groupé initial envoyé dans la première vague traiteur  
+Devis ou document lié : Non  
+Niveau de continuité : Isolé
+
+Résumé des échanges :  
+Aucun retour exploitable reçu à ce stade.
+
+Informations clés obtenues :
+- sollicitation envoyée ;
+- aucun retour reçu.
+
+Zones de flou / inconnues :
+- intérêt réel ;
+- structure d’offre ;
+- prix ;
+- logistique.
+
+Position actuelle du contact :  
+Piste encore ouverte, sans signal reçu.
+
+Éléments comparables exploitables :
+- aucun élément direct obtenu à ce stade.
+
+Valeur pour le projet :  
+Moyenne à bonne en théorie, non documentée en pratique.
+
+Risques associés :
+- faible densité de lecture sans réponse.
+
+Position dans le benchmark :  
+Ouvert, non classable à ce stade.
+
+Décision implicite actuelle : Maintenir
+
+Action suivante :  
+Conserver le dossier dans la pile de relance secondaire.
+
+Type d’action : Relance  
+Niveau d’urgence : Faible  
+Date cible : Après relance des dossiers plus chauds
+
+---
+
+### 5.12 Traiteur Thoma’s
+
+Nom / Organisation : Traiteur Thoma’s  
+Nom du contact : non obtenu  
+Email : info@traiteur-thomas.be  
+Téléphone : non obtenu  
+Catégorie : Approvisionnement  
+Statut : En attente de réponse  
+Niveau d’intérêt : Bon  
+Dernière interaction : Email initial envoyé le 2026-03-26, sans retour à ce stade  
+Responsable du suivi : Supply_Chain_Agent  
+Source du contact : Prospection traiteur, vague initiale
+
+Continuité du dossier : Email groupé initial envoyé dans la première vague traiteur  
+Devis ou document lié : Non  
+Niveau de continuité : Isolé
+
+Résumé des échanges :  
+Aucun retour exploitable reçu à ce stade.
+
+Informations clés obtenues :
+- sollicitation envoyée ;
+- aucun retour reçu.
+
+Zones de flou / inconnues :
+- intérêt réel ;
+- structure d’offre ;
+- prix ;
+- logistique.
+
+Position actuelle du contact :  
+Piste encore ouverte, sans signal reçu.
+
+Éléments comparables exploitables :
+- aucun élément direct obtenu à ce stade.
+
+Valeur pour le projet :  
+Moyenne à bonne en théorie, non documentée en pratique.
+
+Risques associés :
+- dossier passif sans relance.
+
+Position dans le benchmark :  
+Ouvert, non classable à ce stade.
+
+Décision implicite actuelle : Maintenir
+
+Action suivante :  
+Conserver le dossier pour relance secondaire.
+
+Type d’action : Relance  
+Niveau d’urgence : Faible  
+Date cible : Après les dossiers directement répondeurs
+
+---
+
+### 5.13 Cooking and Go
+
+Nom / Organisation : Cooking and Go  
+Nom du contact : non obtenu  
+Email : fvanderkelen@cookingandgo.be  
+Téléphone : non obtenu  
+Catégorie : Approvisionnement  
+Statut : En attente de réponse  
+Niveau d’intérêt : Bon  
+Dernière interaction : Email initial envoyé le 2026-03-26, sans retour à ce stade  
+Responsable du suivi : Supply_Chain_Agent  
+Source du contact : Prospection traiteur, vague initiale
+
+Continuité du dossier : Email groupé initial envoyé dans la première vague traiteur  
+Devis ou document lié : Non  
+Niveau de continuité : Isolé
+
+Résumé des échanges :  
+Aucun retour exploitable reçu à ce stade.
+
+Informations clés obtenues :
+- sollicitation envoyée ;
+- aucun retour reçu.
+
+Zones de flou / inconnues :
+- intérêt réel ;
+- structure d’offre ;
+- prix ;
+- logistique.
+
+Position actuelle du contact :  
+Piste encore ouverte, sans réponse à ce stade.
+
+Éléments comparables exploitables :
+- aucun élément direct obtenu à ce stade.
+
+Valeur pour le projet :  
+Moyenne en théorie, non documentée en pratique.
+
+Risques associés :
+- perte de lisibilité si le dossier reste trop longtemps sans mouvement.
+
+Position dans le benchmark :  
+Ouvert, non classable à ce stade.
+
+Décision implicite actuelle : Maintenir
+
+Action suivante :  
+Relancer plus tard seulement si la base comparative reste trop étroite.
+
+Type d’action : Relance  
+Niveau d’urgence : Faible  
+Date cible : Après revue des dossiers prioritaires
+
+---
+
+### 5.14 La Cookidienne
+
+Nom / Organisation : La Cookidienne  
+Nom du contact : non obtenu  
+Email : info@lacookidienne.be  
+Téléphone : non obtenu  
+Catégorie : Approvisionnement  
+Statut : En attente de réponse  
+Niveau d’intérêt : Bon  
+Dernière interaction : Email initial envoyé le 2026-03-26, sans retour à ce stade  
+Responsable du suivi : Supply_Chain_Agent  
+Source du contact : Prospection traiteur, vague initiale
+
+Continuité du dossier : Email groupé initial envoyé dans la première vague traiteur  
+Devis ou document lié : Non  
+Niveau de continuité : Isolé
+
+Résumé des échanges :  
+Aucun retour exploitable reçu à ce stade.
+
+Informations clés obtenues :
+- sollicitation envoyée ;
+- aucun retour reçu.
+
+Zones de flou / inconnues :
+- intérêt réel ;
+- structure d’offre ;
+- prix ;
+- logistique.
+
+Position actuelle du contact :  
+Piste encore ouverte, sans réponse à ce stade.
+
+Éléments comparables exploitables :
+- aucun élément direct obtenu à ce stade.
+
+Valeur pour le projet :  
+Moyenne à bonne en théorie, non documentée en pratique.
+
+Risques associés :
+- dossier dormant si aucune relance n’est faite.
+
+Position dans le benchmark :  
+Ouvert, non classable à ce stade.
+
+Décision implicite actuelle : Maintenir
+
+Action suivante :  
+Conserver dans la pile de relance secondaire.
+
+Type d’action : Relance  
+Niveau d’urgence : Faible  
+Date cible : Après consolidation des dossiers actifs
+
+---
+
+## 6. Sites
+
+### 6.1 Lecture de section
+
+Cette section est active.
+
+Le portefeuille sites actuellement suivi comprend :
+- les cibles entreprises conservées dans la vague Liège et alentours ;
+- les sites industriels / logistiques compatibles avec la thèse MayiMayo ;
+- les pistes institutionnelles utiles comme sources d’apprentissage ;
+- les pistes mutualisées potentielles ;
+- les dossiers théoriques encore non convertis en signal utile.
+
+À ce stade :
+- aucun site fort n’est validé ;
+- l’objectif n’est plus simplement d’obtenir un retour, mais de faire émerger :
+  - un site pilote crédible ;
+  - puis une à trois alternatives crédibles ;
+- la recherche de site qualifié devient la prochaine grande étape, au-delà de la simple prospection email ;
+- le projet doit désormais tester au moins une prospection plus active, notamment par appel ou point d’entrée nominatif.
+
+Les retours institutionnels récents indiquent que les grands sites disposant déjà de cuisines et de points de vente internes peuvent être moins adaptés comme pilotes primaires, même s’ils restent utiles pour comprendre les raisons d’échec ou de non-besoin.  
+Les sites sans cantine et sans solution chaude réelle à proximité, notamment en zone industrielle ou logistique, restent plus alignés avec la thèse centrale.
+
+---
+
+### 6.2 Challenge Handling / Grâce-Hollogne
+
+Nom / Organisation : Challenge Handling / Grâce-Hollogne  
+Nom du contact : non identifié à ce stade  
+Email : info.chh@challenge-group.com  
+Téléphone : non obtenu  
+Catégorie : Site  
+Statut : En attente de réponse  
+Niveau d’intérêt : Prioritaire  
+Dernière interaction : Email initial envoyé, sans réponse à ce stade  
+Responsable du suivi : Sites_Projet_Logistique  
+Source du contact : Prospection ciblée Liège Airport
+
+Continuité du dossier : Identification de cible, qualification initiale du site, email de prospection envoyé  
+Devis ou document lié : Non  
+Niveau de continuité : En cours
+
+Résumé des échanges :  
+Le site a été retenu comme cible prioritaire dans la zone Liège Airport. Un email initial de prospection a été envoyé. Aucune réponse exploitable n’a été reçue à ce stade.
+
+Informations clés obtenues :
+- site cargo et terrain fortement identifiable ;
+- dossier resté en tête de la shortlist Liège ;
+- aucun retour reçu à ce stade.
+
+Zones de flou / inconnues :
+- décideur local exact ;
+- niveau réel d’autonomie locale ;
+- intérêt effectif pour le service ;
+- canal de contact le plus réactif.
+
+Position actuelle du contact :  
+Très bon candidat structurel, mais encore non qualifié commercialement.
+
+Éléments comparables exploitables :
+- site terrain fort ;
+- logique opérationnelle favorable ;
+- bon dossier de test pour la qualification réelle d’un site cargo.
+
+Valeur pour le projet :  
+Très forte.
+
+Risques associés :
+- absence de réponse ;
+- décideur non identifié ;
+- besoin encore seulement probable.
+
+Position dans le benchmark :  
+Groupe de tête des cibles sites Liège.
+
+Décision implicite actuelle : Prioriser
+
+Action suivante :  
+Passer du simple envoi email à une qualification plus active du site et rechercher un décideur local précis.
+
+Type d’action : Clarification  
+Niveau d’urgence : Élevé  
+Date cible : Prochaine vague de qualification site
+
+---
+
+### 6.3 JOST / Herstal
+
+Nom / Organisation : JOST / Herstal  
+Nom du contact : non identifié à ce stade  
+Email : info@jostgroup.com  
+Téléphone : non obtenu  
+Catégorie : Site  
+Statut : En attente de réponse  
+Niveau d’intérêt : Prioritaire  
+Dernière interaction : Email initial envoyé, sans réponse à ce stade  
+Responsable du suivi : Sites_Projet_Logistique  
+Source du contact : Prospection ciblée Herstal
+
+Continuité du dossier : Identification de cible, qualification initiale du site, email de prospection envoyé  
+Devis ou document lié : Non  
+Niveau de continuité : En cours
+
+Résumé des échanges :  
+JOST a été retenu comme candidat logistique fort dans la zone Herstal. Un email initial a été envoyé. Aucun retour exploitable n’a été reçu.
+
+Informations clés obtenues :
+- siège et implantation clairement identifiés ;
+- aucun retour reçu à ce stade.
+
+Zones de flou / inconnues :
+- décideur local exact ;
+- niveau de besoin réel ;
+- logique d’usage sur site ;
+- meilleur canal d’entrée.
+
+Position actuelle du contact :  
+Très bon dossier à requalifier activement.
+
+Éléments comparables exploitables :
+- cible logistique cohérente ;
+- bon site pour tester la traction hors zone aéroportuaire.
+
+Valeur pour le projet :  
+Forte.
+
+Risques associés :
+- aucune réponse ;
+- absence de décideur identifié ;
+- besoin encore seulement probable.
+
+Position dans le benchmark :  
+Haut de tableau dans la vague élargie.
+
+Décision implicite actuelle : Prioriser
+
+Action suivante :  
+Identifier un interlocuteur local plus précis et faire entrer JOST dans la vague active de recherche de site qualifié.
+
+Type d’action : Clarification  
+Niveau d’urgence : Élevé  
+Date cible : Prochaine vague de qualification site
+
+---
+
+### 6.4 EVS / Seraing
+
+Nom / Organisation : EVS / Seraing  
+Nom du contact : non identifié à ce stade  
+Email : info@evs.com  
+Téléphone : non obtenu  
+Catégorie : Site  
+Statut : En attente de réponse  
+Niveau d’intérêt : Bon  
+Dernière interaction : Email initial envoyé, sans réponse à ce stade  
+Responsable du suivi : Sites_Projet_Logistique  
+Source du contact : Prospection ciblée Liège Science Park
+
+Continuité du dossier : Identification de cible, qualification initiale du site, email de prospection envoyé  
+Devis ou document lié : Non  
+Niveau de continuité : En cours
+
+Résumé des échanges :  
+EVS a été intégré dans le périmètre élargi services / bureaux / IT. Un email initial a été envoyé. Aucun retour exploitable n’a été reçu.
+
+Informations clés obtenues :
+- site bureau / tech identifié ;
+- aucun retour reçu à ce stade.
+
+Zones de flou / inconnues :
+- niveau de besoin réel ;
+- intérêt pour une solution de repas chaud sur site ;
+- décideur local ou facility ;
+- potentiel de volume effectif.
+
+Position actuelle du contact :  
+Cible élargie intéressante, mais moins naturellement évidente que les meilleurs sites logistiques.
+
+Éléments comparables exploitables :
+- utile pour tester la réception du projet sur des environnements plus tertiaires.
+
+Valeur pour le projet :  
+Bonne.
+
+Risques associés :
+- besoin potentiellement moins aigu ;
+- aucune réponse ;
+- logique d’usage moins captive.
+
+Position dans le benchmark :  
+Milieu de portefeuille élargi.
+
+Décision implicite actuelle : Explorer
+
+Action suivante :  
+Conserver EVS comme cible exploratoire, sans lui donner la priorité sur les meilleurs dossiers terrain.
+
+Type d’action : Attente  
+Niveau d’urgence : Faible  
+Date cible : Après qualification de la première vague terrain
+
+---
+
+### 6.5 Kaneka Eurogentec / Seraing
+
+Nom / Organisation : Kaneka Eurogentec / Seraing  
+Nom du contact : non identifié à ce stade  
+Email : info@eurogentec.com  
+Téléphone : non obtenu  
+Catégorie : Site  
+Statut : En attente de réponse  
+Niveau d’intérêt : Bon  
+Dernière interaction : Email initial envoyé, sans réponse à ce stade  
+Responsable du suivi : Sites_Projet_Logistique  
+Source du contact : Prospection ciblée Liège Science Park
+
+Continuité du dossier : Identification de cible, qualification initiale du site, email de prospection envoyé  
+Devis ou document lié : Non  
+Niveau de continuité : En cours
+
+Résumé des échanges :  
+Eurogentec a été retenu comme candidat santé / biotech dans le périmètre élargi. Un email initial a été envoyé. Aucun retour exploitable n’a été reçu.
+
+Informations clés obtenues :
+- site clairement identifié ;
+- aucun retour reçu à ce stade.
+
+Zones de flou / inconnues :
+- décideur local ;
+- logique d’usage sur site ;
+- besoin réel ;
+- accessibilité du dossier.
+
+Position actuelle du contact :  
+Cible exploratoire cohérente dans le portefeuille élargi.
+
+Éléments comparables exploitables :
+- bon contrepoint par rapport aux sites purement logistiques ;
+- utile pour tester le segment santé / biotech.
+
+Valeur pour le projet :  
+Bonne.
+
+Risques associés :
+- aucune réponse ;
+- besoin moins évident ;
+- faible visibilité sur la convertibilité.
+
+Position dans le benchmark :  
+Milieu de portefeuille élargi.
+
+Décision implicite actuelle : Explorer
+
+Action suivante :  
+Maintenir le dossier ouvert, sans priorité supérieure aux sites terrain les plus favorables.
+
+Type d’action : Attente  
+Niveau d’urgence : Faible  
+Date cible : Après qualification de la première vague terrain
+
+---
+
+### 6.6 NRB / Herstal
+
+Nom / Organisation : NRB / Herstal  
+Nom du contact : non identifié à ce stade  
+Email : info@nrb.be  
+Téléphone : non obtenu  
+Catégorie : Site  
+Statut : En attente de réponse  
+Niveau d’intérêt : Bon  
+Dernière interaction : Email initial envoyé, sans réponse à ce stade  
+Responsable du suivi : Sites_Projet_Logistique  
+Source du contact : Prospection ciblée Herstal
+
+Continuité du dossier : Identification de cible, qualification initiale du site, email de prospection envoyé  
+Devis ou document lié : Non  
+Niveau de continuité : En cours
+
+Résumé des échanges :  
+NRB a été intégré dans le périmètre élargi IT / campus / bureaux. Un email initial a été envoyé. Aucun retour exploitable n’a été reçu.
+
+Informations clés obtenues :
+- campus clairement identifié ;
+- aucun retour reçu à ce stade.
+
+Zones de flou / inconnues :
+- décideur local ;
+- niveau réel de besoin ;
+- intérêt pour une solution de restauration automatisée ;
+- potentiel de consommation sur site.
+
+Position actuelle du contact :  
+Cible intéressante dans l’élargissement de segment, mais non encore qualifiée.
+
+Éléments comparables exploitables :
+- utile pour tester un grand site IT / campus.
+
+Valeur pour le projet :  
+Bonne.
+
+Risques associés :
+- aucune réponse ;
+- besoin plus difficile à estimer ;
+- potentiel moins captif que sur un site logistique dur.
+
+Position dans le benchmark :  
+Milieu de portefeuille élargi.
+
+Décision implicite actuelle : Explorer
+
+Action suivante :  
+Conserver la cible, mais concentrer les efforts de qualification active d’abord sur les dossiers terrain et sur les pistes plus fortes.
+
+Type d’action : Attente  
+Niveau d’urgence : Faible  
+Date cible : Après qualification de la première vague terrain
+
+---
+
+### 6.7 RESA / Liège
+
+Nom / Organisation : RESA / Liège  
+Nom du contact : non identifié à ce stade  
+Email : acheteurs@resa.be  
+Téléphone : non obtenu  
+Catégorie : Site  
+Statut : En attente de réponse  
+Niveau d’intérêt : Bon  
+Dernière interaction : Email initial envoyé, sans réponse à ce stade  
+Responsable du suivi : Sites_Projet_Logistique  
+Source du contact : Prospection ciblée services / utilities
+
+Continuité du dossier : Identification de cible, qualification initiale du site, email de prospection envoyé  
+Devis ou document lié : Non  
+Niveau de continuité : En cours
+
+Résumé des échanges :  
+RESA a été contacté via le point d’entrée fournisseurs. Aucun retour exploitable n’a été reçu à ce stade.
+
+Informations clés obtenues :
+- email d’entrée fournisseur identifié ;
+- aucun retour reçu à ce stade.
+
+Zones de flou / inconnues :
+- décideur réellement concerné par le sujet ;
+- intérêt réel du site ;
+- pertinence du canal achats pour ce type de proposition.
+
+Position actuelle du contact :  
+Cible encore ouverte, mais moins chaude que les dossiers terrain et institutionnels.
+
+Éléments comparables exploitables :
+- bon test d’un point d’entrée achats explicite.
+
+Valeur pour le projet :  
+Bonne.
+
+Risques associés :
+- canal d’entrée peut être trop administratif ;
+- aucune réponse ;
+- besoin site non prouvé.
+
+Position dans le benchmark :  
+Milieu de portefeuille.
+
+Décision implicite actuelle : Maintenir
+
+Action suivante :  
+Ne pas prioriser RESA dans la prochaine vague terrain, sauf si un meilleur point d’entrée local est identifié.
+
+Type d’action : Attente  
+Niveau d’urgence : Faible  
+Date cible : Après la première phase de qualification active
+
+---
+
+### 6.8 Ethias / Liège
+
+Nom / Organisation : Ethias / Liège  
+Nom du contact : Erik Meers, équipe procurement  
+Email : erik.meers@ethias.be  
+Téléphone : non obtenu  
+Catégorie : Site  
+Statut : En veille  
+Niveau d’intérêt : Faible  
+Dernière interaction : Réponse reçue par email  
+Responsable du suivi : Sites_Projet_Logistique  
+Source du contact : Prospection ciblée procurement
+
+Continuité du dossier : Identification de cible, email initial envoyé, réponse reçue, dossier mis en veille  
+Devis ou document lié : Non  
+Niveau de continuité : Structuré
+
+Résumé des échanges :  
+Ethias est à ce stade le seul site entreprise ayant répondu à la vague de prospection déjà envoyée. Le contact a indiqué qu’il n’y avait pas ce besoin actuellement, tout en laissant entendre qu’un retour pourrait avoir lieu plus tard si la situation change. Le dossier ne doit donc pas être lu comme une piste pilote active, mais pas non plus comme un refus dur définitivement fermé.
+
+Informations clés obtenues :
+- réponse reçue ;
+- point d’entrée procurement valide ;
+- absence de besoin actuellement ;
+- possibilité théorique d’un retour plus tard si la situation change.
+
+Zones de flou / inconnues :
+- évolution future du besoin ;
+- existence ou non d’autres interlocuteurs internes plus proches du terrain ;
+- raisons exactes de l’absence de besoin.
+
+Position actuelle du contact :  
+Seul retour entreprise explicite à ce stade, mais sans besoin actuel.
+
+Éléments comparables exploitables :
+- valide le fait qu’un point d’entrée procurement peut répondre ;
+- utile comme signal terrain négatif nuancé ;
+- ne constitue pas une base pilote.
+
+Valeur pour le projet :  
+Faible à ce stade.
+
+Risques associés :
+- surinterpréter le simple fait d’avoir reçu une réponse ;
+- confondre activité relationnelle et vraie opportunité site ;
+- clôturer trop durement un dossier qui a été plutôt mis en veille.
+
+Position dans le benchmark :  
+Hors front actif prioritaire.
+
+Décision implicite actuelle : Mettre en veille
+
+Action suivante :  
+Aucune action immédiate. Conserver comme piste en veille, réactivable uniquement si un nouveau signal apparaît.
+
+Type d’action : Attente  
+Niveau d’urgence : Faible  
+Date cible : Aucune
+
+---
+
+### 6.9 Swissport Cargo / LGG
+
+Nom / Organisation : Swissport Cargo / LGG  
+Nom du contact : Dimitru Stefan  
+Email : dimitru.stefan@swissport.com  
+Téléphone : non obtenu  
+Catégorie : Site  
+Statut : À relancer  
+Niveau d’intérêt : Bon  
+Dernière interaction : Ancien canal email non exploitable ; nouveau contact identifié  
+Responsable du suivi : Sites_Projet_Logistique  
+Source du contact : Prospection ciblée LGG et correction du point d’entrée
+
+Continuité du dossier : Identification de cible, tentative de contact antérieure via canal non actif ou non exploitable, identification d’un nouveau contact nominatif  
+Devis ou document lié : Non  
+Niveau de continuité : En cours
+
+Résumé des échanges :  
+Swissport LGG reste un dossier structurellement intéressant sur le plan site. L’adresse email précédemment utilisée était inactive ou non exploitable. Un nouveau point d’entrée a été identifié : Dimitru Stefan. Le dossier doit donc être requalifié avec ce canal, sans être traité comme favori implicite avant retour réel.
+
+Informations clés obtenues :
+- dossier site conservé ;
+- ancien canal email non exploitable ;
+- nouveau contact identifié : Dimitru Stefan ;
+- email exploitable : dimitru.stefan@swissport.com ;
+- pas encore de réponse sur ce nouveau canal ;
+- pas de décideur local consolidé au-delà de ce point d’entrée.
+
+Zones de flou / inconnues :
+- rôle exact de Dimitru Stefan ;
+- pertinence réelle de ce point d’entrée ;
+- décideur local exact ;
+- meilleur point d’entrée entre management, facility, opérations ou achats ;
+- niveau réel d’intérêt du site.
+
+Position actuelle du contact :  
+Bon candidat structurel, à requalifier avec un canal de contact plus fiable.
+
+Éléments comparables exploitables :
+- excellent dossier terrain LGG sur le papier ;
+- utile comme rappel qu’un bon site théorique n’est pas un site qualifié ;
+- dossier à relancer correctement avant de le reclasser plus haut.
+
+Valeur pour le projet :  
+Bonne en théorie, à confirmer.
+
+Risques associés :
+- surinterpréter l’intérêt structurel du site ;
+- maintenir trop haut un dossier sans signal réel ;
+- perdre du temps si le nouveau point d’entrée n’est pas qualifié rapidement.
+
+Position dans le benchmark :  
+Piste théorique intéressante, à requalifier.
+
+Décision implicite actuelle : Explorer avec prudence
+
+Action suivante :  
+Contacter Dimitru Stefan avec un message court de requalification.
+
+Type d’action : Relance  
+Niveau d’urgence : Élevé  
+Date cible : Prochaine vague de qualification site
+
+---
+
+### 6.10 Forem / Val Benoît
+
+Nom / Organisation : Forem / Val Benoît  
+Nom du contact : non consolidé, ancien contact direct perdu  
+Email : non obtenu  
+Téléphone : non obtenu  
+Catégorie : Site  
+Statut : À relancer  
+Niveau d’intérêt : Bon  
+Dernière interaction : Continuité directe rompue, piste réactivable uniquement par email à ce stade  
+Responsable du suivi : Sites_Projet_Logistique  
+Source du contact : Échange antérieur en visio, puis perte des coordonnées directes
+
+Continuité du dossier : Un contact direct avait existé et un intérêt verbal avait été exprimé, mais les coordonnées de cette porte d’entrée n’ont pas été conservées. Le dossier peut encore être réactivé par email, mais la continuité chaude est perdue.  
+Devis ou document lié : Non  
+Niveau de continuité : Partiellement rompu
+
+Résumé des échanges :  
+Forem / Val Benoît reste une piste institutionnelle intéressante en accès et en apprentissage. En revanche, la porte d’entrée chaude initiale n’existe plus de manière exploitable dans le système. Le dossier ne doit donc plus être lu comme warm lead. Il reste réactivable par email, potentiellement en jouant l’angle d’un projet utile à la structuration du parcours d’un demandeur d’emploi, mais avec un niveau de convertibilité inférieur à la lecture précédente.
+
+Informations clés obtenues :
+- un échange visio avait bien eu lieu ;
+- un intérêt verbal avait été exprimé ;
+- la continuité directe est désormais perdue ;
+- le nom du contact n’est plus retrouvé à ce stade ;
+- le dossier reste réactivable par email ;
+- la piste demeure plus utile en accès et en apprentissage qu’en cible pilote prioritaire.
+
+Zones de flou / inconnues :
+- canal email le plus pertinent pour réouverture ;
+- décideur ou interlocuteur réellement utile ;
+- nom du contact perdu ;
+- niveau réel de pouvoir de décision locale ;
+- intérêt concret du site en tant que terrain d’apprentissage versus pilote ;
+- degré d’ouverture si le projet est présenté comme utile à un parcours entrepreneurial accompagné.
+
+Position actuelle du contact :  
+Piste institutionnelle refroidie, réactivable, mais non chaude.
+
+Éléments comparables exploitables :
+- utile pour tester une logique institutionnelle ;
+- utile comme terrain d’apprentissage ;
+- non suffisant à ce stade pour être lu comme cible pilote prioritaire.
+
+Valeur pour le projet :  
+Bonne en accès et en apprentissage. Limitée en traction directe à ce stade.
+
+Risques associés :
+- surinterpréter l’existence passée d’un intérêt verbal ;
+- confondre continuité relationnelle perdue et dossier encore chaud ;
+- perdre du temps si la réactivation email n’est pas cadrée proprement.
+
+Position dans le benchmark :  
+Dossier institutionnel réactivable, mais non prioritaire comme pilote.
+
+Décision implicite actuelle : Explorer
+
+Action suivante :  
+Rechercher le nom du contact perdu ou reconstituer une entrée locale, puis réactiver le dossier par email si utile.
+
+Type d’action : Relance  
+Niveau d’urgence : Modéré  
+Date cible : Après vague active sur les sites les plus directement convertibles
+
+---
+
+### 6.11 Citadelle / CHR
+
+Nom / Organisation : Citadelle / CHR  
+Nom du contact : Eric Finet  
+Email : eric.finet@citadelle.be  
+Téléphone : non obtenu  
+Catégorie : Site  
+Statut : Actif  
+Niveau d’intérêt : Moyen  
+Dernière interaction : Réponse obtenue et orientation vers Mme Perin  
+Responsable du suivi : Sites_Projet_Logistique  
+Source du contact : Prospection site institutionnel / hospitalier
+
+Continuité du dossier : Contact avec Eric Finet, retour sur expériences similaires, orientation vers Mme Perin pour retour plus détaillé  
+Devis ou document lié : Non  
+Niveau de continuité : Structuré
+
+Résumé des échanges :  
+Eric Finet a indiqué que des initiatives similaires portées par d’autres producteurs locaux avaient déjà été tentées et avaient été stoppées par manque de succès. Il a également indiqué que le CHR dispose de ses propres cuisines et points de vente. Il a orienté vers Mme Perin, chef de division alimentaire, pour un retour plus détaillé.
+
+Informations clés obtenues :
+- des initiatives similaires ont déjà été tentées ;
+- elles ont été stoppées par manque de succès ;
+- le CHR dispose de ses propres cuisines ;
+- le CHR dispose de points de vente internes ;
+- Eric Finet a orienté vers Mme Perin pour un retour plus détaillé.
+
+Contact secondaire :
+- Nom du contact : Mme Perin
+- Fonction : chef de division alimentaire
+- Email : non trouvé publiquement
+- Téléphone : non obtenu
+
+Zones de flou / inconnues :
+- causes exactes de l’échec des initiatives précédentes ;
+- type de produits concernés ;
+- conditions de prix et de distribution ;
+- rôle exact des cuisines internes dans la faible pertinence d’une solution MayiMayo ;
+- email direct de Mme Perin.
+
+Position actuelle du contact :  
+Signal terrain utile. Site peu favorable comme pilote primaire si l’offre chaude interne est déjà structurée, mais forte valeur d’apprentissage sur les raisons d’échec.
+
+Éléments comparables exploitables :
+- démontre qu’un grand site institutionnel peut avoir déjà testé des offres proches ;
+- montre que la présence de cuisines internes et de points de vente réduit fortement la pertinence pilote ;
+- utile pour comprendre la causalité des échecs.
+
+Valeur pour le projet :  
+Bonne comme source d’apprentissage. Faible à moyenne comme pilote.
+
+Risques associés :
+- confondre accès institutionnel et besoin réel ;
+- poursuivre un site avec offre alimentaire interne déjà forte ;
+- perdre le contact secondaire si la demande n’est pas transférée proprement.
+
+Position dans le benchmark :  
+Site d’apprentissage, non priorité pilote à ce stade.
+
+Décision implicite actuelle : Explorer pour apprentissage
+
+Action suivante :  
+Demander à Eric Finet l’email direct de Mme Perin ou lui demander de transférer le message.
+
+Type d’action : Clarification  
+Niveau d’urgence : Modéré  
+Date cible : Prochaine vague site institutionnelle
+
+---
+
+### 6.12 CHC
+
+Nom / Organisation : CHC  
+Nom du contact : Sabrina Lava  
+Email : sabrina.lava@chc.be  
+Téléphone : non obtenu  
+Catégorie : Site  
+Statut : Actif  
+Niveau d’intérêt : Moyen  
+Dernière interaction : Contact identifié, suite non consolidée  
+Responsable du suivi : Sites_Projet_Logistique  
+Source du contact : Prospection site institutionnel / hospitalier
+
+Continuité du dossier : Contacts identifiés pour exploration institutionnelle, mais pas encore de retour exploitable consolidé dans le registre  
+Devis ou document lié : Non  
+Niveau de continuité : En cours
+
+Contact secondaire :
+- Nom du contact : Alain Hougrand
+- Email : alain.hougrand@chc.be
+- Téléphone : non obtenu
+
+Résumé des échanges :  
+Le CHC est conservé comme piste institutionnelle utile pour comprendre les usages, les contraintes et la pertinence éventuelle d’une solution MayiMayo dans un grand environnement de santé. À ce stade, le dossier doit être lu comme exploratoire, pas comme piste pilote prioritaire.
+
+Informations clés obtenues :
+- contacts identifiés ;
+- aucun retour consolidé dans le registre à ce stade ;
+- piste institutionnelle utile pour compréhension des usages ;
+- site probablement moins favorable comme premier pilote si restauration interne déjà structurée.
+
+Zones de flou / inconnues :
+- présence exacte de cantines, cuisines ou points de vente ;
+- besoin réel côté personnel ;
+- possibilité ou non d’un emplacement pertinent ;
+- rôle exact des contacts identifiés ;
+- appétence pour un service externe automatisé.
+
+Position actuelle du contact :  
+Piste institutionnelle d’apprentissage, non prioritaire comme terrain de lancement.
+
+Éléments comparables exploitables :
+- utile pour comprendre les environnements où l’offre interne existe déjà ;
+- utile pour affiner la distinction entre site “grand” et site réellement sous-équipé.
+
+Valeur pour le projet :  
+Bonne comme apprentissage. Moyenne à faible comme pilote à ce stade.
+
+Risques associés :
+- effort trop élevé pour un site avec offre interne déjà structurée ;
+- accès institutionnel lent ;
+- risque de canal trop administratif.
+
+Position dans le benchmark :  
+Site d’apprentissage, non priorité pilote.
+
+Décision implicite actuelle : Explorer
+
+Action suivante :  
+Conserver comme site d’apprentissage plutôt que comme site pilote prioritaire.
+
+Type d’action : Attente  
+Niveau d’urgence : Faible  
+Date cible : Après priorités sites industriels / logistiques
+
+---
+
+### 6.13 Skechers / Herstal
+
+Nom / Organisation : Skechers / Herstal  
+Nom du contact : non consolidé  
+Email : edcreception@eu.skechers.com  
+Téléphone : 04 228 62 11 ; +31 416 673 160 ; 04 228 62 17  
+Catégorie : Site  
+Statut : En veille  
+Niveau d’intérêt : Bon  
+Dernière interaction : Email envoyé à edcreception@eu.skechers.com, contexte indiquant présence déjà existante de machines automatiques  
+Responsable du suivi : Sites_Projet_Logistique  
+Source du contact : Prospection ciblée logistique / grande taille
+
+Continuité du dossier : Identification du site, collecte de coordonnées, email envoyé, apprentissage que des machines automatiques existent déjà sur place  
+Devis ou document lié : Non  
+Niveau de continuité : En cours
+
+Résumé des échanges :  
+Skechers a été identifié comme site logistique très compatible structurellement avec la thèse MayiMayo. Un point a cependant modifié la lecture : des machines automatiques existent déjà sur place. Cela ne rend pas le dossier inutile, mais impose de ne pas se positionner comme simple vending classique. L’intérêt potentiel réside plutôt dans la différenciation repas chaud.
+
+Informations clés obtenues :
+- site de grande taille ;
+- email disponible : edcreception@eu.skechers.com ;
+- téléphone principal : 04 228 62 11 ;
+- téléphone backup Benelux : +31 416 673 160 ;
+- téléphone indirect lié au site : 04 228 62 17 ;
+- présence déjà existante de machines automatiques ;
+- différenciation repas chaud nécessaire.
+
+Zones de flou / inconnues :
+- besoin réel en repas chaud ;
+- état exact de l’offre alimentaire existante ;
+- présence ou non de cantine ;
+- décideur local ;
+- emplacement possible ;
+- niveau de centralisation des décisions.
+
+Position actuelle du contact :  
+Site structurellement intéressant, mais moins simple que prévu du fait de machines déjà présentes. À conserver en veille ou à réactiver uniquement avec une proposition différenciée sur le repas chaud.
+
+Éléments comparables exploitables :
+- illustre le problème “bonne zone mais machine déjà présente” ;
+- confirme l’intérêt de ne pas se positionner sur vending classique ;
+- utile pour affiner la stratégie de différenciation repas chaud.
+
+Valeur pour le projet :  
+Bonne, si la différenciation chaude est claire.
+
+Risques associés :
+- concurrence ou contrat existant avec opérateur vending ;
+- décision centralisée ;
+- faible intérêt si l’offre existante couvre déjà suffisamment les besoins ;
+- friction d’accès au décideur.
+
+Position dans le benchmark :  
+Site intéressant mais non prioritaire tant qu’un canal décisionnel et un besoin chaud ne sont pas confirmés.
+
+Décision implicite actuelle : Maintenir en veille
+
+Action suivante :  
+Ne réactiver que via une approche explicitement centrée sur repas chaud, besoin non couvert et complémentarité avec les machines existantes.
+
+Type d’action : Attente / relance ciblée  
+Niveau d’urgence : Modéré  
+Date cible : Après consolidation de la proposition site pilote
+
+---
+
+### 6.14 Terre ASBL / Autre Terre ONG
+
+Nom / Organisation : Terre ASBL / Autre Terre ONG  
+Nom du contact : non obtenu  
+Email : non obtenu  
+Téléphone : non obtenu  
+Catégorie : Site  
+Statut : Hypothèse active  
+Niveau d’intérêt : Prioritaire  
+Dernière interaction : Analyse interne fondée sur estimation mémoire et connaissance terrain  
+Responsable du suivi : Sites_Projet_Logistique  
+Source du contact : Connaissance terrain Captain / réflexion site logistique et associatif
+
+Continuité du dossier : Hypothèse active à créer et qualifier. Aucun contact direct consolidé dans le registre à ce stade.  
+Devis ou document lié : Non  
+Niveau de continuité : À ouvrir
+
+Résumé des échanges :  
+Terre ASBL / Autre Terre ONG devient une hypothèse site importante. Le point faible identifié est l’absence d’emplacement réellement disponible directement au sein de Terre ASBL. Le point fort potentiel est l’existence possible d’un emplacement dans le lieu de réunion d’Autre Terre ONG, qui pourrait servir de point d’interconnexion entre plusieurs entités du Groupe Terre.
+
+Informations clés obtenues :
+- absence d’emplacement réellement disponible directement au sein de Terre ASBL ;
+- possibilité d’un emplacement dans le lieu de réunion d’Autre Terre ONG ;
+- logique potentielle de point d’interconnexion entre plusieurs entités du Groupe Terre ;
+- estimation mémoire de 400 à 500 employés sur le périmètre ;
+- pause à 11h30 ;
+- absence de cantine ;
+- absence de véritable solution de repas chaud à proximité, hors supérettes ;
+- possibilité de capter à la fois les collaborateurs de Terre et les flux liés aux réunions.
+
+Zones de flou / inconnues :
+- nombre réel d’employés présents quotidiennement ;
+- flux réel entre Terre ASBL et le lieu de réunion Autre Terre ONG ;
+- distance et friction de déplacement ;
+- emplacement disponible ;
+- décideurs des deux côtés ;
+- possibilité de communication conjointe ;
+- niveau d’acceptation du lieu de réunion comme point repas légitime ;
+- contraintes électriques, accès, horaires et sécurité.
+
+Position actuelle du contact :  
+Hypothèse active sérieuse, potentiellement très compatible avec la thèse MayiMayo, mais non validée.
+
+Éléments comparables exploitables :
+- besoin fortement plausible ;
+- absence d’offre chaude structurée ;
+- environnement semi-captif ;
+- grand effectif estimé ;
+- possibilité de hub mutualisé ;
+- fort intérêt pour tester la logique de site industriel / associatif sous-équipé.
+
+Valeur pour le projet :  
+Très forte si le lieu de réunion peut être reconnu comme point repas légitime et communiqué comme tel.
+
+Risques associés :
+- absence d’emplacement interne direct ;
+- friction trop élevée entre Terre et Autre Terre ;
+- communication insuffisante ;
+- décision multi-acteurs plus complexe ;
+- estimation mémoire à confirmer.
+
+Position dans le benchmark :  
+Hypothèse site prioritaire à qualifier.
+
+Décision implicite actuelle : Prioriser
+
+Action suivante :  
+Confirmer sur place :
+- fréquentation réelle ;
+- distance et friction entre Terre et le lieu de réunion ;
+- décideurs côté Terre ASBL et Autre Terre ONG ;
+- possibilité d’une communication conjointe ;
+- possibilité technique d’installation.
+
+Type d’action : Qualification terrain  
+Niveau d’urgence : Élevé  
+Date cible : Prochaine phase de qualification site
+
+---
+
+## 7. STEP / CVD / accompagnement
+
+### 7.1 Lecture de section
+
+Cette section est active.
+
+Son rôle n’est pas de transformer le registre en état canonique bis.  
+Son rôle est de conserver les contacts institutionnels vivants liés à :
+- la phase de diagnostic STEP ;
+- la préparation du CVD ;
+- les exigences documentaires du comité ;
+- la continuité opérationnelle avec les personnes utiles ;
+- et les informations orales structurantes obtenues lors des échanges.
+
+À ce stade :
+- STEP devient le rail principal de lecture temporelle du projet ;
+- le 15/07/2026 devient le prochain jalon de vérité ;
+- les documents attendus sont connus ;
+- les critères utiles du comité sont mieux compris ;
+- mais l’information sur le gel des allocations pendant l’accompagnement reste, à ce stade, une information orale, structurante mais non encore confirmée par un support écrit intégré au système.
+
+### 7.2 Accompagnatrice STEP / entretien individuel
+
+Nom / Organisation : Step Entreprendre / accompagnatrice individuelle  
+Nom du contact : non obtenu  
+Email : non obtenu  
+Téléphone : non obtenu  
+Catégorie : STEP / Accompagnement  
+Statut : Actif  
+Niveau d’intérêt : Prioritaire  
+Dernière interaction : Premier entretien individuel de diagnostic  
+Responsable du suivi : Chief_Structuration_Agent  
+Source du contact : Entretien individuel STEP
+
+Continuité du dossier : Premier entretien individuel réalisé dans le cadre du diagnostic, clarification orale du niveau d’exigence du comité et du rôle potentiel de STEP dans la temporalité du projet  
+Devis ou document lié : Non  
+Niveau de continuité : Structuré
+
+Résumé des échanges :  
+Le premier entretien individuel a permis de clarifier que le comité regardera bien la motivation et l’intérêt de l’idée, mais que ces points ne sont pas le nœud principal du dossier à ce stade. Les deux points les plus critiques pour le passage en comité sont désormais :
+- l’existence d’un besoin clair ;
+- et la possibilité que le projet soit financé de manière plausible.
+
+Une information orale structurante a également été transmise : si le projet est validé par le comité puis entre en accompagnement, les allocations de chômage seraient gelées pendant la durée de l’accompagnement.
+
+Informations clés obtenues :
+- le comité cherchera à tester la crédibilité réelle du projet ;
+- les critères sensibles sont désormais surtout :
+  - besoin clair ;
+  - terrain crédible ;
+  - finançabilité plausible ;
+- la motivation et l’intérêt de l’idée restent évalués, mais ne constituent pas le principal point de tension à ce stade ;
+- information orale structurante sur un gel potentiel des allocations pendant l’accompagnement ;
+- prochain comité visé : 15/07/2026 ;
+- une accompagnatrice a demandé des documents complémentaires, notamment prévisions et plan financier.
+
+Zones de flou / inconnues :
+- confirmation écrite de la portée exacte du gel des allocations ;
+- niveau exact de tolérance du comité si le site n’est pas parfaitement validé mais très fortement cadré ;
+- degré d’exigence réel sur la lecture de finançabilité ;
+- format exact attendu pour les prévisions et le plan financier.
+
+Position actuelle du contact :  
+Contact oral structurant pour la lecture réelle de STEP.
+
+Éléments comparables exploitables :
+- change directement la hiérarchie des fronts ;
+- fait passer STEP du statut d’acteur de structuration à celui de filtre de crédibilité et levier temporel potentiel ;
+- impose de lire le comité comme un vrai point de bascule.
+
+Valeur pour le projet :  
+Très forte.
+
+Risques associés :
+- traiter une information orale comme certitude absolue sans confirmation écrite ;
+- surinterpréter STEP comme garantie alors qu’il s’agit d’abord d’un filtre ;
+- se présenter devant le comité avec une bonne narration mais sans terrain ni finançabilité suffisants.
+
+Position dans le benchmark :  
+Contact institutionnel critique.
+
+Décision implicite actuelle : Prioriser
+
+Action suivante :  
+Structurer toute la préparation du CVD autour de cette lecture : site pilote crédible, alternatives crédibles, prévisions, plan financier et première finançabilité plausible.
+
+Type d’action : Structuration  
+Niveau d’urgence : Très élevé  
+Date cible : Immédiat jusqu’au comité du 15/07/2026
+
+---
+
+### 7.3 Alice Caterina / STEP
+
+Nom / Organisation : Alice Caterina / Step Entreprendre  
+Nom du contact : Alice Caterina  
+Email : a.caterina@stepentreprendre.be  
+Téléphone : non obtenu  
+Catégorie : STEP / Accompagnement  
+Statut : Actif  
+Niveau d’intérêt : Prioritaire  
+Dernière interaction : Email d’invitation et de consignes CVD  
+Responsable du suivi : Chief_Structuration_Agent  
+Source du contact : Email STEP relatif au CVD
+
+Continuité du dossier : Invitation formelle au CVD, consignes de préparation, modalités de passage, consignes d’envoi des documents  
+Devis ou document lié : Oui, modèle de présentation PPT et consignes associées  
+Niveau de continuité : Structuré
+
+Résumé des échanges :  
+Alice Caterina a transmis les informations pratiques du Comité de Validation de Diagnostic. La présentation dure 15 minutes dans une séance de 45 minutes au total, avec questions-réponses. Le comité demande une présentation structurée selon les consignes et les documents joints. Les éléments annoncés à transmettre au plus tard une semaine avant le comité sont :
+- la présentation PowerPoint ;
+- le BMC ;
+- la SWOT ;
+- le plan d’actions ;
+en version PPT et PDF.
+
+Informations clés obtenues :
+- CVD en présentiel à Liège ;
+- passage de 45 minutes par personne ;
+- 15 minutes de présentation ;
+- comité composé de 2 à 3 accompagnateurs ;
+- modèle PPT fourni ;
+- logique de présentation structurée attendue ;
+- envoi demandé une semaine avant ;
+- documents explicitement mentionnés :
+  - PPT ;
+  - BMC ;
+  - SWOT ;
+  - plan d’actions.
+
+Zones de flou / inconnues :
+- niveau de souplesse du comité sur la profondeur de certains blocs ;
+- place exacte des prévisions et du plan financier dans le pack envoyé, ceux-ci ayant été demandés par l’accompagnatrice mais non explicitement listés dans cet email précis.
+
+Position actuelle du contact :  
+Contact opérationnel central pour le passage CVD.
+
+Éléments comparables exploitables :
+- clarifie le format réel attendu ;
+- oblige à distinguer document de fond et support oral ;
+- rend impossible une approche trop libre ou trop narrative.
+
+Valeur pour le projet :  
+Très forte.
+
+Risques associés :
+- préparer un support trop narratif ;
+- traiter le PPT comme un simple résumé plutôt que comme un support de validation ;
+- produire un BMC, une SWOT ou un plan d’action décoratifs ;
+- envoyer un pack incomplet si les prévisions et le plan financier ne sont pas correctement joints ou articulés.
+
+Position dans le benchmark :  
+Contact institutionnel critique.
+
+Décision implicite actuelle : Prioriser
+
+Action suivante :  
+Produire le pack CVD complet et cohérent, puis l’envoyer dans les délais, en articulant proprement PPT, BMC, SWOT, plan d’action, prévisions et plan financier.
+
+Type d’action : Exécution documentaire  
+Niveau d’urgence : Très élevé  
+Date cible : Une semaine avant le comité du 15/07/2026
+
+---
+
+### 7.4 Carla Gesmundo / STEP
+
+Nom / Organisation : Carla Gesmundo / Step Entreprendre  
+Nom du contact : Carla Gesmundo  
+Email : non obtenu  
+Téléphone : non obtenu  
+Catégorie : STEP / Accompagnement  
+Statut : Actif  
+Niveau d’intérêt : Bon  
+Dernière interaction : Email de cadrage diagnostic et ateliers collectifs  
+Responsable du suivi : Chief_Structuration_Agent  
+Source du contact : Email STEP de cadrage diagnostic
+
+Continuité du dossier : Invitation à la phase de diagnostic, cadrage des ateliers collectifs, explication du déroulé diagnostic puis précréation  
+Devis ou document lié : Non  
+Niveau de continuité : Structuré
+
+Résumé des échanges :  
+Carla a cadré la logique de la phase de diagnostic chez STEP :
+- rendez-vous individuels ;
+- trois ateliers collectifs obligatoires ;
+- et validation du niveau de maturité du projet avant éventuel démarrage en précréation.
+
+Le message indiquait également :
+- diagnostic entre mai et juin ;
+- précréation potentielle entre juin et septembre ;
+- logique de validation ou de réorientation selon la maturité.
+
+Informations clés obtenues :
+- STEP ne propose pas automatiquement un accompagnement acquis ;
+- la phase de diagnostic est un filtre de maturité ;
+- les ateliers collectifs sont obligatoires dans cette phase ;
+- la lecture du calendrier STEP est conditionnelle et non garantie ;
+- STEP peut réorienter si le projet n’est pas jugé assez mûr.
+
+Zones de flou / inconnues :
+- rythme exact si le comité valide le projet ;
+- modalités précises entre validation diagnostic et accompagnement effectif ;
+- portée exacte du gel des allocations si accompagnement.
+
+Position actuelle du contact :  
+Contact utile pour comprendre le cadre général du diagnostic STEP.
+
+Éléments comparables exploitables :
+- permet de lire STEP comme une porte ouverte, mais non comme un accompagnement déjà acquis ;
+- rappelle que le projet doit justifier son entrée en précréation.
+
+Valeur pour le projet :  
+Bonne.
+
+Risques associés :
+- croire que l’entrée en diagnostic vaut validation ;
+- sous-estimer la sélectivité implicite du passage vers la précréation.
+
+Position dans le benchmark :  
+Contact institutionnel utile de cadrage.
+
+Décision implicite actuelle : Maintenir
+
+Action suivante :  
+Conserver ce cadrage comme contexte de référence pour lire la phase STEP, sans lui donner priorité sur les actions directement liées au CVD.
+
+Type d’action : Attente  
+Niveau d’urgence : Modéré  
+Date cible : Aucune, sauf si continuité directe avec Carla réapparaît
+
+---
+
+## 8. Formation / temporalité
+
+### 8.1 Lecture de section
+
+Cette section reste active, mais elle n’est plus le rail principal.
+
+Son rôle n’est pas de transformer le registre en document administratif général.  
+Son rôle est de conserver les contacts utiles pour clarifier :
+- la fenêtre temporelle réelle du projet ;
+- l’éventuelle utilité d’une formation reconnue ;
+- la possibilité d’un stage anticipé ;
+- et la valeur concrète, ou non, d’un levier administratif avant le 01/10/2026.
+
+À ce stade :
+- une piste IFAPME utile a été ouverte ;
+- un contact direct existe désormais ;
+- un point important a été clarifié ;
+- la formation commence néanmoins en début / mi-septembre ;
+- la prochaine clarification utile du point de vue administratif se situe désormais plutôt du côté du Forem ;
+- mais la formation ne doit plus structurer la séquence principale du projet.
+
+### 8.2 IFAPME / Ilona Wieczorek
+
+Nom / Organisation : Ilona Wieczorek / IFAPME  
+Nom du contact : Ilona Wieczorek  
+Email : ilona.wieczorek@ifapme.be  
+Téléphone : 0470 23 20 69  
+Catégorie : Formation / Temporalité  
+Statut : Actif  
+Niveau d’intérêt : Bon  
+Dernière interaction : Email envoyé puis réponse reçue  
+Responsable du suivi : Finance_And_Unit_Economics_Agent  
+Source du contact : Service Alternance IFAPME, après échange téléphonique de cadrage
+
+Continuité du dossier : Appel au service alternance, confirmation qu’un stage peut être entamé avant la séance d’information, transmission des coordonnées d’Ilona Wieczorek, email de cadrage envoyé, réponse reçue  
+Devis ou document lié : Non  
+Niveau de continuité : Structuré
+
+Résumé des échanges :  
+Le contact a été ouvert pour clarifier s’il était possible de commencer un stage avant septembre dans le cadre de la formation IFAPME Entrepreneur e-commerce. Le retour obtenu confirme qu’un stage peut commencer de manière anticipée, mais que la formation elle-même commence en début / mi-septembre. La piste reste donc utile, mais ne constitue pas en elle-même une solution suffisante au regard de l’arrêt des allocations au 01/10/2026.
+
+Informations clés obtenues :
+- contact direct utile obtenu ;
+- stage anticipé possible ;
+- formation début / mi-septembre ;
+- la piste IFAPME est réelle, mais son utilité dépend désormais d’une clarification complémentaire avec le Forem ;
+- la piste formation est désormais secondaire par rapport au rail STEP.
+
+Zones de flou / inconnues :
+- effet concret, ou non, de cette configuration sur la fenêtre administrative réelle ;
+- possibilité d’une solution utile côté Forem ;
+- valeur pratique du stage anticipé si la formation commence trop tard.
+
+Position actuelle du contact :  
+Contact utile pour avoir clarifié la réalité de la piste IFAPME. Dossier désormais partiellement clarifié.
+
+Éléments comparables exploitables :
+- permet de distinguer clairement stage anticipé et début effectif de la formation ;
+- permet d’éviter une surinterprétation optimiste du levier IFAPME ;
+- sert de base pour la prochaine question à adresser au Forem si cela reste utile.
+
+Valeur pour le projet :  
+Bonne sur le plan de la clarté temporelle. Limitée comme solution autonome.
+
+Risques associés :
+- surestimer l’effet pratique du stage anticipé ;
+- confondre piste réelle et solution suffisante ;
+- structurer la suite sur une hypothèse administrative encore incomplète.
+
+Position dans le benchmark :  
+Contact institutionnel utile, mais non solution finale à ce stade.
+
+Décision implicite actuelle : Maintenir
+
+Action suivante :  
+Conserver le dossier utile, mais ne plus le traiter comme levier principal de temporalité.
+
+Type d’action : Attente  
+Niveau d’urgence : Modéré  
+Date cible : À réévaluer seulement si le rail STEP se fragilise
+
+---
+
+## 9. Financement / Crédal
+
+### 9.1 Lecture de section
+
+Cette section est active.
+
+Son rôle n’est pas de transformer le registre en plan financier.  
+Son rôle est de conserver les contacts utiles et les points d’entrée institutionnels liés à la lecture de finançabilité du projet.
+
+À ce stade :
+- le financement ne doit pas encore être lu comme un chantier bancaire complet ;
+- il doit être lu comme une recherche de finançabilité plausible ;
+- l’objectif est d’obtenir, si possible avant le CVD, un retour ou un cadrage Crédal suffisamment favorable pour renforcer la crédibilité du projet ;
+- l’ordre logique retenu est désormais :
+  - site pilote crédible ;
+  - lecture de finançabilité plausible ;
+  - puis comité STEP.
+
+La lecture économique récente modifie le cadrage :
+- 15k couvre seulement une version basse du lancement ;
+- le scénario central dépasse ce niveau ;
+- Crédal doit donc être approché avec une lecture de besoin réel, pas avec un montant minimal artificiellement compressé.
+
+### 9.2 Crédal / point d’entrée à identifier
+
+Nom / Organisation : Crédal  
+Nom du contact : non obtenu  
+Email : non obtenu  
+Téléphone : non obtenu  
+Catégorie : Financement  
+Statut : Actif  
+Niveau d’intérêt : Prioritaire  
+Dernière interaction : Aucune interaction consolidée à ce stade  
+Responsable du suivi : Finance_And_Unit_Economics_Agent  
+Source du contact : Décision stratégique active du projet après entretien STEP et modélisation financière récente
+
+Continuité du dossier : Front financement à ouvrir. Aucune continuité d’échange encore consolidée dans le système.  
+Devis ou document lié : Non  
+Niveau de continuité : Non ouvert
+
+Résumé des échanges :  
+Aucun échange consolidé à ce stade. Crédal devient néanmoins un acteur prioritaire à ouvrir car le projet a désormais besoin, avant le comité STEP, non pas forcément d’un financement déjà versé, mais d’une lecture de finançabilité crédible.
+
+Informations clés obtenues :
+- aucune donnée de contact consolidée à ce stade ;
+- priorité stratégique désormais claire :
+  - préparer un dossier de phase 1 ;
+  - chercher un retour positif ou favorablement conditionnel sur la finançabilité du pilote ;
+  - ne pas se limiter à une hypothèse minimale de 15k ;
+- lecture financière récente :
+  - 15k couvre seulement l’hypothèse basse ;
+  - le scénario central dépasse ce montant.
+
+Zones de flou / inconnues :
+- bon point d’entrée exact ;
+- niveau de maturité minimal attendu par Crédal ;
+- format de dossier le plus utile ;
+- nature du retour exploitable avant comité ;
+- niveau de précision exigé sur site, machine, approvisionnement et prévisions ;
+- montant finançable selon scénario bas et scénario central ;
+- possibilité de lecture conditionnelle avant validation STEP complète.
+
+Position actuelle du contact :  
+Front à ouvrir immédiatement dès que le socle documentaire site + prévisions + plan financier devient suffisamment présentable.
+
+Éléments comparables exploitables :
+- permet de lire le financement comme front actif de crédibilisation ;
+- clarifie que le besoin n’est pas encore un déblocage de fonds, mais une validation plausible de finançabilité ;
+- évite de présenter 15k comme montant central trop optimiste.
+
+Valeur pour le projet :  
+Très forte.
+
+Risques associés :
+- ouvrir Crédal trop tôt avec un dossier encore décoratif ;
+- chercher un accord final alors que le besoin est d’abord une lecture de plausibilité ;
+- présenter une économie non reliée à un site crédible ;
+- réduire artificiellement le besoin pour coller à un montant plus confortable.
+
+Position dans le benchmark :  
+Contact institutionnel à ouvrir, prioritaire.
+
+Décision implicite actuelle : Prioriser
+
+Action suivante :  
+Identifier le bon point d’entrée Crédal, puis préparer un premier dossier de phase 1 articulé autour de :
+- site pilote crédible ;
+- une à trois alternatives crédibles ;
+- architecture machine resserrée ;
+- architecture approvisionnement lisible ;
+- prévisions ;
+- plan financier ;
+- besoin financier bas et central.
+
+Type d’action : Ouverture de front  
+Niveau d’urgence : Élevé  
+Date cible : Dès que la première base site + prévisions + plan financier devient présentable
+
+---
+
+## 10. Traçabilité opérationnelle
+
+- [2026-06-05] Chief_Structuration_Agent  
+  Périmètre : Vue synthétique, fiche Vendlife, section support local machine, section Approvisionnement, fiches sites, section Financement / Crédal, traçabilité, changelog  
+  Action : Mise à jour structurante du registre central avec intégration des dernières informations machine, approvisionnement, sites et financement. Ajout de la lecture shipping Vendlife vers Port of Antwerp, clarification du fait que le prix FOB ne suffit pas à lire le coût réel de lancement, création des fiches HB Services, WFresh et Duo Cool, renforcement du standard pilote approvisionnement à 3 recettes et 72 plats par livraison, ajout de la logique principal / relais / secours, correction d’Ethias en veille plutôt que clôture dure, requalification de Swissport avec Dimitru Stefan, création des fiches Citadelle, CHC, Skechers et Terre ASBL / Autre Terre ONG, enrichissement de Crédal avec la lecture 15k comme hypothèse basse seulement.  
+  Impact : Le registre reflète désormais plus fidèlement les fronts vivants et les priorités opérationnelles : site pilote crédible, coût réel Vendlife, support local machine, approvisionnement substituable, préparation STEP / CVD et lecture de finançabilité Crédal.
+
+- [2026-05-27] Supply_Chain_Agent  
+  Périmètre : Vue synthétique approvisionnement, fiches Maxime, Alice, Le Lagon Bleu, contacts clôturés, lecture de section Approvisionnement  
+  Action : Mise à jour opérationnelle de la section Approvisionnement. Consolidation explicite des prix Maxime et Alice dans les fiches, précision du signal de marge évoqué par Alice, correction factuelle du statut du Lagon Bleu en clarification restée sans réponse au lieu de refus net confirmé, et réalignement de la lecture synthétique approvisionnement avec l’état réel des échanges.  
+  Impact : Le registre devient plus strict factuellement sur la brique approvisionnement, avec une meilleure lisibilité des zones de prix documentées et des statuts réellement soutenables.
+
+- [2026-05-21] Chief_Structuration_Agent  
+  Périmètre : Vue synthétique, création section STEP / CVD / accompagnement, création section Financement / Crédal, lecture de section Sites, métadonnées, changelog  
+  Action : Mise à jour structurante du registre pour réaligner le document avec la nouvelle séquence active du projet. Intégration explicite du rail STEP comme priorité temporelle principale, ajout des contacts opérationnels Alice Caterina et Carla Gesmundo, création d’une fiche de continuité pour l’entretien individuel STEP sans nom consolidé, intégration explicite du jalon CVD du 15/07/2026, ajout du front Crédal comme front institutionnel à ouvrir, recentrage de la priorité sites sur un site pilote crédible puis une à trois alternatives crédibles, et reclassement de la piste IFAPME comme rail secondaire.  
+  Impact : Le registre devient cohérent avec la hiérarchie actuelle du projet, avec STEP comme filtre de crédibilité et levier temporel potentiel, Crédal comme front de finançabilité à ouvrir, et la validation du site pilote comme priorité absolue.
+
+- [2026-04-22] Chief_Structuration_Agent  
+  Périmètre : Vue synthétique, fiche Vendlife, lecture approvisionnement, ajout section Formation / temporalité, fiche Distrifood, fiche Swissport LGG, fiche Forem / Val Benoît, métadonnées  
+  Action : Mise à jour structurante du registre pour réaligner le document avec l’état réel actuel du projet. Intégration de la nouvelle référence active Vendlife HYJ-FH120 double microwave ovens ; sortie explicite de Distrifood du cadre actif ; reclassement de Swissport LGG comme piste théorique non convertie ; reclassement de Forem / Val Benoît comme piste institutionnelle réactivable mais refroidie ; ajout du contact IFAPME Ilona Wieczorek et de la lecture stage anticipé possible mais formation en septembre ; absorption implicite de la fonction Contact_Manager_Agent dans la maintenance documentaire portée par le Chief_Structuration_Agent.  
+  Impact : Le registre redevient cohérent avec la feuille de route actuelle, la lecture machine active, la hiérarchie réelle de l’approvisionnement, l’état réel du front site et le levier formation / temporalité.
+
+- [2026-04-18] Contact_Manager_Agent  
+  Périmètre : Vue synthétique, fiche Pling!, fiche Ethias, fiche Forem / Val Benoît, fiche Le Lagon Bleu, lecture de section Sites  
+  Action : Mise à jour ciblée du registre central pour réaligner la lecture machine, site et approvisionnement avec l’état canonique et la feuille de route. Sortie de Pling! du noyau machine actif prioritaire, reclassement d’Ethias en retour négatif non prioritaire, repositionnement de Forem / Val Benoît comme piste d’accès et d’apprentissage non prioritaire, formalisation de l’absence de site fort et reclassement du Lagon Bleu en refus net.  
+  Impact : Le registre central redevient cohérent avec la lecture actuelle du projet sur les fronts machine, site et approvisionnement.
+
+- [2026-04-07] Machine_Infrastructure_Agent  
+  Périmètre : Fiches machine internationales  
+  Action : Mise à jour des fiches Vendlife, TCN et XY avec les derniers échanges WhatsApp et clarification des statuts comparatifs  
+  Impact : Lecture machine internationale rendue plus cohérente sur les axes froid, micro-ondes, support Europe et priorisation réelle
+
+- [2026-04-07] Supply_Chain_Agent  
+  Périmètre : Section Approvisionnement, vue synthétique et hiérarchisation des traiteurs  
+  Action : Activation complète de la section Approvisionnement dans le registre central ; intégration des fiches Maxime, Alice, Le Lagon Bleu, Hansenne, EM Traiteur et des traiteurs encore sans réponse ; hiérarchisation explicite de Maxime en option 1 et Alice en option 2 ; consolidation des coordonnées emails disponibles  
+  Impact : Le registre central devient exploitable sur la brique approvisionnement avec une lecture claire des dossiers actifs, des refus, des clarifications en cours et des prochaines actions
+
+- [2026-04-07] Contact_Manager_Agent  
+  Périmètre : En-tête, vue synthétique, modèle de fiche, section Sites, traçabilité  
+  Action : Mise à jour structurelle compatible du registre, activation de la section Sites, intégration des champs Nom du contact / Email / Téléphone dans les fiches, ajout des dossiers sites actifs et repositionnement de la priorité opérationnelle sur la recherche de site qualifié  
+  Impact : Le registre devient cohérent avec le guide d’usage 1.1.0 ; les coordonnées ont désormais un emplacement explicite dans chaque fiche ; la section Sites est exploitable ; Ethias est identifié comme seul dossier ayant répondu ; Forem Val Benoît est intégré comme piste institutionnelle active ; Swissport LGG est requalifié comme dossier à relancer sur canal de contact
+
+- [2026-04-04] Contact_Manager_Agent  
+  Périmètre : Document complet, en-tête, structure, fiches machine, bas de page  
+  Action : Refonte structurelle du registre et réordonnancement des priorités machine  
+  Impact : Le registre est désormais recentré sur les données opérationnelles ; les règles sont retirées du corps ; Vendlife devient la priorité machine actuelle avec une logique hybride Chine + spécialistes locaux
+
+- [2026-04-01] Contact_Manager_Agent  
+  Périmètre : Structure du document  
+  Action : Renforcement ciblé  
+  Impact : Le document a été rendu plus robuste pour un usage collaboratif, avant refonte structurelle complète
+
+---
+
+# Document Metadata & Changelog
+
+Changelog:
+  - 2.4.0 (2026-06-05, Chief_Structuration_Agent): Mise à jour structurante du registre avec intégration des dernières informations machine, approvisionnement, sites et financement. Ajout de la lecture shipping Vendlife vers Port of Antwerp, distinction explicite entre prix FOB et coût réel de lancement, création d’une section support local machine avec HB Services, WFresh et Duo Cool, renforcement du standard pilote approvisionnement à 3 recettes et 72 plats par livraison, intégration de l’architecture traiteur principal / relais / secours, correction du statut Ethias en veille, requalification de Swissport avec Dimitru Stefan, création des fiches Citadelle, CHC, Skechers et Terre ASBL / Autre Terre ONG, et enrichissement de Crédal avec la lecture selon laquelle 15k couvre seulement une hypothèse basse.
+  - 2.3.0 (2026-05-21, Chief_Structuration_Agent): Mise à jour structurante du registre avec intégration explicite du rail STEP / CVD et du front Financement / Crédal. Ajout d’une section STEP / CVD / accompagnement avec les fiches Alice Caterina, Carla Gesmundo et la continuité issue du premier entretien individuel STEP ; formalisation explicite du jalon CVD du 15/07/2026, des documents attendus et de la lecture du comité comme filtre de crédibilité. Ajout d’une section Financement / Crédal pour ouvrir proprement le front de finançabilité plausible. Recentrage de la priorité sites sur un site pilote crédible puis une à trois alternatives crédibles. Reclassement de la piste IFAPME comme levier secondaire par rapport au rail STEP.
+  - 2.2.0 (2026-04-22, Chief_Structuration_Agent): Mise à jour structurante du registre avec réalignement complet sur l’état réel actuel du projet. Intégration de la nouvelle référence active Vendlife HYJ-FH120 double microwave ovens avec prix unitaire FOB à 7 490 USD et sortie de l’ancienne lecture centrée sur un seul micro-ondes ; sortie explicite de Distrifood du cadre actif avec ajout d’une fiche clôturée de continuité ; reclassement de Swissport LGG comme piste théorique sans signal utile et de Forem / Val Benoît comme piste institutionnelle réactivable mais refroidie ; ajout d’une section Formation / temporalité avec intégration du contact IFAPME Ilona Wieczorek, du stage anticipé possible et du démarrage de formation en début / mi-septembre ; mise à jour des maintainers avec absorption de la fonction Contact_Manager_Agent par le Chief_Structuration_Agent et intégration explicite de Machine_Systems_Agent.
+  - 2.1.0 (2026-04-18, Contact_Manager_Agent): Mise à jour opérationnelle du registre. Réalignement de la vue synthétique et des fiches Pling!, Ethias, Forem / Val Benoît et Le Lagon Bleu avec la lecture stratégique actuelle du projet, sans modification structurelle lourde du document. Ajout du bloc stable d’identification et de contact dans les fiches avec les champs Nom du contact, Email et Téléphone ; activation de la section Sites avec intégration des cibles Liège et alentours ; intégration du dossier Forem ciblé sur Val Benoît ; prise en compte du fait qu’Ethias est le seul site ayant répondu à ce stade ; requalification de Swissport LGG comme dossier à relancer car l’ancienne adresse email utilisée n’était pas active ; recentrage de la priorité opérationnelle sur la recherche de site qualifié.
+  - 2.0.0 (2026-04-04, Contact_Manager_Agent): Refonte structurelle majeure du registre. Standardisation complète de l’en-tête selon le protocole documentaire ; suppression des règles d’usage du corps du document ; recentrage sur les données opérationnelles ; création d’une vue synthétique actuelle ; réordonnancement des fiches machine selon la priorité réelle du moment ; intégration explicite de Vendlife comme premier intérêt machine avec hypothèse de travail hybride installation et maintenance locales.
+  - 1.0.0 (2026-04-01, Contact_Manager_Agent): Première structuration opérationnelle du registre sous forme de document de suivi inter-agents.
+
+Breaking Changes:
+  - Aucun
+
+---
+Fin du document
+---
