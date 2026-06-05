@@ -1,0 +1,498 @@
+---
+Document: Project_Overview_MayiMayo
+Version: 1.2.0
+Date: 2026-06-05
+
+Maintainers:
+  - Captain (authority)
+  - Chief_Structuration_Agent
+  - Supply_Chain_Agent
+  - Finance_Unit_Economics_Agent
+
+Document Role: Project Overview
+Update Policy: Human-authorized agent modification only
+Document Status: Active Reference
+Scope: Core Project Representation
+Supersedes: 1.1.0
+Dependencies:
+  - Protocole_Systeme_MayiMayo
+  - Etat_canonique_MayiMayo
+---
+
+# Vue d’ensemble du projet MayiMayo
+
+## 1. Préambule
+
+Ce document présente MayiMayo dans sa forme structurée et stable.
+
+Il n’a pas pour rôle de contenir l’état détaillé, mouvant ou exploratoire du projet.  
+Il fixe :
+- la nature du projet ;
+- son périmètre ;
+- sa logique stratégique ;
+- ses objets principaux ;
+- ses contraintes structurantes ;
+- son modèle de déploiement de référence.
+
+L’overview ne remplace pas l’état canonique.  
+Il doit rester lisible, stable et interprétable même si certaines hypothèses opérationnelles évoluent.
+
+---
+
+## 2. Définition synthétique du projet
+
+MayiMayo est un projet de déploiement de solutions de repas chauds automatisés sur des sites professionnels sous-équipés en restauration, avec une priorité donnée aux environnements industriels et logistiques de taille significative.
+
+Le projet ne part pas d’une machine à vendre.  
+Il part d’un manque structurel à combler :
+- absence de cantine réelle ;
+- offre alimentaire limitée ou incomplète ;
+- pauses courtes ;
+- difficulté de sortie du site ;
+- besoin d’une solution de repas rapide, fiable et disponible sur place.
+
+MayiMayo vise à construire un modèle réplicable, mais uniquement à partir d’un premier déploiement qualifié et rigoureusement cadré.
+
+---
+
+## 3. Thèse centrale du projet
+
+La thèse centrale de MayiMayo est la suivante :
+
+**certains sites professionnels, notamment industriels et logistiques, présentent un déficit de restauration chaude sur place, alors même que leur taille, leur organisation et leurs contraintes de pause rendent une solution automatisée potentiellement pertinente et monétisable.**
+
+Cette thèse implique deux conditions :
+
+1. le besoin doit être réel, récurrent et observable ;
+2. la solution ne peut être déployée qu’à partir d’un système opérationnel viable, pas seulement d’une intuition commerciale.
+
+---
+
+## 4. Positionnement stratégique
+
+MayiMayo se positionne comme un projet de **restauration chaude automatisée pilotée par partenariat**, non comme un simple projet de distribution automatique classique.
+
+Le projet repose sur une séparation fonctionnelle claire entre :
+- l’accès au site et la qualification de l’opportunité ;
+- l’infrastructure machine ;
+- l’approvisionnement alimentaire ;
+- l’exploitation du point de service ;
+- le cadre économique de l’unité.
+
+Le cœur stratégique de MayiMayo n’est donc pas la machine seule.  
+Le cœur stratégique est l’assemblage cohérent entre :
+- un site suffisamment qualifié ;
+- une solution technique adaptée ;
+- un approvisionnement exploitable ;
+- une exploitation soutenable ;
+- et une économie unitaire défendable.
+
+MayiMayo doit donc être lu comme un **système à interconnexion**, et non comme une succession d’éléments indépendants. Le site, la machine, l’approvisionnement et l’économie du modèle se modifient mutuellement. Une évolution sur l’un de ces axes peut déplacer l’équilibre des autres.
+
+---
+
+## 5. Problème traité
+
+MayiMayo traite un problème précis :
+
+sur certains sites de grande taille, les collaborateurs disposent :
+- de solutions snack ou boisson ;
+- ou de solutions insuffisantes ;
+- mais pas d’une véritable offre de repas chaud pratique, régulière et accessible sur place.
+
+Cette insuffisance crée un espace potentiel pour une solution qui apporte :
+- simplicité ;
+- disponibilité ;
+- gain de temps ;
+- confort d’usage ;
+- amélioration du service sur site.
+
+Le projet ne suppose pas que tout site de grande taille est pertinent.  
+Il suppose qu’un sous-ensemble identifiable de sites peut l’être.
+
+---
+
+## 6. Cible principale
+
+La cible principale de MayiMayo est constituée de sites :
+- professionnels ;
+- à effectif significatif ;
+- avec présence physique stable ;
+- avec contraintes de temps ou de mobilité ;
+- et avec déficit de restauration chaude structurée.
+
+La priorité stratégique est donnée aux :
+- centres logistiques ;
+- sites industriels ;
+- plateformes de distribution ;
+- grands sites opérationnels avec flux de personnel récurrents.
+
+Cette priorité ne constitue pas une exclusivité doctrinale.  
+Elle constitue le terrain d’hypothèse principal du projet à ce stade.
+
+---
+
+## 7. Principe de lancement
+
+MayiMayo ne repose pas sur un achat spéculatif de machine.  
+Le principe de lancement est le suivant :
+
+**une première unité de repas chaud n’est déployée que sur un site qualifié, avec besoin confirmé ou fortement plausible, emplacement identifié, décideur accessible et faisabilité opérationnelle suffisamment cadrée.**
+
+Ce principe est un invariant du projet.  
+Il structure la logique de décision, le calendrier, le besoin de partenaires et la préparation du financement.
+
+---
+
+## 8. Modèle de déploiement de référence
+
+Le modèle de déploiement de référence comprend quatre briques.
+
+Ces briques ne doivent pas être lues comme des blocs indépendants.  
+Elles forment un système interdépendant :
+- le site influence les volumes, les horaires, les usages et le prix acceptable ;
+- la machine influence la capacité, la compatibilité produit, la maintenance et l’investissement initial ;
+- l’approvisionnement influence la marge, la disponibilité, le réassort, le format et le risque opérationnel ;
+- l’économie du pilote influence le niveau de risque acceptable, le besoin de financement et la structure de lancement.
+
+### 8.1 Qualification du site
+
+Avant toute décision d’investissement, le site doit être qualifié sur les axes suivants :
+- besoin réel ;
+- intérêt potentiel du service ;
+- emplacement interne exploitable ;
+- accessibilité du décideur ;
+- compatibilité avec l’existant ;
+- volume potentiel ;
+- cohérence logistique.
+
+### 8.2 Brique machine
+
+Le projet s’appuie sur une solution de distribution / réchauffe adaptée à la restauration chaude automatisée.
+
+Cette brique couvre :
+- la machine principale ;
+- la capacité utile ;
+- les modules additionnels éventuels ;
+- l’installation ;
+- la maintenance ;
+- le support technique ;
+- et, lorsque nécessaire, la couche locale de mise en service et d’assistance.
+
+La brique machine ne peut pas être évaluée uniquement par son prix d’achat ou sa capacité théorique.  
+Elle doit être évaluée selon son coût réel de déploiement, sa compatibilité avec le format alimentaire, son niveau de support, son adéquation au site, et son impact sur la rentabilité du pilote.
+
+### 8.3 Brique approvisionnement
+
+L’approvisionnement n’est pas traité comme un détail annexe.  
+Il constitue une composante centrale du projet.
+
+Le projet privilégie, à ce stade, une logique de partenariat d’approvisionnement plutôt qu’une internalisation immédiate de la restauration.
+
+Cette brique peut, selon les configurations, s’appuyer :
+- sur un partenaire intégré ;
+- sur un marché direct structuré ;
+- ou sur une architecture hybride combinant plusieurs niveaux de partenaires.
+
+MayiMayo vise une architecture d’approvisionnement standardisée, redondante et substituable, afin de réduire le risque de dépendance à un seul traiteur, de limiter le coût de substitution et de préserver la continuité du service en cas de blocage, d’indisponibilité ou de rigidité opérationnelle d’un partenaire.
+
+Cette logique ne signifie pas que plusieurs traiteurs doivent fonctionner en parallèle dès le départ.  
+Elle signifie que le système doit pouvoir être remplacé, ajusté ou relayé sans devoir redessiner entièrement le modèle.
+
+L’approvisionnement doit donc être pensé à deux niveaux :
+- le niveau opérationnel, c’est-à-dire la production, le conditionnement, la livraison et le réassort ;
+- le niveau structurel, c’est-à-dire la capacité du système à rester gouvernable, standardisable et remplaçable.
+
+### 8.4 Brique économique
+
+Chaque unité doit être modélisée comme un système autonome avec :
+- investissement initial ;
+- coûts récurrents ;
+- marge unitaire ;
+- cadence de vente minimale ;
+- capacité de réapprovisionnement ;
+- et seuil de viabilité.
+
+La brique économique ne doit pas être dissociée des trois autres briques.  
+Un modèle peut paraître viable sur le papier mais devenir fragile si le site ne convertit pas assez, si la machine limite la capacité utile, ou si l’approvisionnement est trop rigide, trop coûteux ou insuffisamment substituable.
+
+---
+
+## 9. Architecture partenariale
+
+MayiMayo a vocation à fonctionner par articulation de compétences spécialisées.
+
+Le modèle actuellement visé est un modèle dans lequel :
+- un partenaire technique couvre la partie machine, totalement ou partiellement ;
+- un partenaire alimentaire couvre tout ou partie de l’approvisionnement ;
+- une couche locale d’installation et de maintenance peut être mobilisée si la solution technique le requiert ;
+- MayiMayo orchestre la qualification des sites, la structuration du déploiement et la cohérence globale du système.
+
+Cette architecture permet de réduire la charge de complexité directement portée par MayiMayo, mais elle augmente la sensibilité du projet aux interdépendances entre partenaires.
+
+Le projet doit donc rester :
+- modulaire ;
+- négociable ;
+- substituable autant que possible ;
+- et suffisamment protégé contre le contournement ou la désintermédiation.
+
+La modularité ne vaut pas uniquement pour la machine ou le site.  
+Elle vaut également pour l’approvisionnement.
+
+Le modèle d’approvisionnement visé ne repose pas structurellement sur un seul traiteur.  
+Il repose sur une logique de continuité structurée pouvant comprendre :
+- un partenaire principal ;
+- un partenaire relais activable rapidement ;
+- un partenaire de secours qualifié.
+
+L’objectif n’est pas d’exploiter systématiquement plusieurs traiteurs en routine dès le départ, mais de rendre le système remplaçable et gouvernable sans devoir repartir de zéro en cas de blocage, de saturation, de défaillance ou de désalignement d’un partenaire.
+
+Cette architecture implique que MayiMayo doit tendre vers un cadre de collaboration standardisé, couvrant notamment :
+- le type de plats ;
+- le nombre de recettes actives ;
+- le format de conditionnement ;
+- la compatibilité micro-ondes ;
+- la cadence de livraison ;
+- les volumes de départ ;
+- les règles d’ajustement ;
+- et les conditions minimales de substitution.
+
+---
+
+## 10. Nature réelle du projet
+
+MayiMayo n’est pas un projet purement machine.  
+Ce n’est pas non plus un projet purement food.
+
+C’est un projet à l’intersection de :
+- la distribution automatisée ;
+- la restauration opérationnelle ;
+- la logistique de service ;
+- la qualification d’emplacements ;
+- la coordination de partenaires ;
+- et la modélisation économique.
+
+Cette nature hybride est structurante.  
+Elle explique pourquoi le projet exige à la fois :
+- une rigueur de cadrage ;
+- une discipline de qualification ;
+- et une forte attention à la chaîne de valeur complète.
+
+Le projet doit être piloté comme une gestion de système.  
+Sa maturité ne dépend pas seulement de l’avancement isolé de chaque axe, mais de la convergence réelle entre le site, la machine, l’approvisionnement et l’économie du pilote.
+
+---
+
+## 11. Contraintes structurantes du projet
+
+Les contraintes majeures de MayiMayo sont les suivantes.
+
+### 11.1 Dépendance multi-acteurs
+
+Le modèle repose potentiellement sur plusieurs parties :
+- porteur de projet ;
+- fournisseur machine ;
+- partenaire approvisionnement ;
+- site d’accueil ;
+- financeur ;
+- prestataire local d’installation ou de maintenance selon les cas.
+
+Cette richesse structurelle renforce le dossier, mais fragilise la stratégie si aucune alternative n’est prévue.
+
+### 11.2 Sensibilité à la marge unitaire
+
+Le modèle ne repose pas uniquement sur le prix de vente final.  
+Il dépend de :
+- la remise obtenue sur les plats ;
+- la marge réellement conservée ;
+- le coût machine ;
+- et la fréquence de vente.
+
+### 11.3 Sensibilité à la capacité et au réassort
+
+Le projet ne doit pas seulement atteindre un volume minimum.  
+Il doit aussi éviter une sous-capacité opérationnelle qui détruirait la disponibilité produit et plafonnerait artificiellement le chiffre d’affaires.
+
+### 11.4 Sensibilité à la gouvernance partenariale
+
+Le projet doit éviter de devenir une simple source d’opportunités captées par des partenaires mieux installés.
+
+### 11.5 Sensibilité à la couche locale de support
+
+Certaines architectures techniques peuvent être attractives sur le papier mais rester fragiles si l’installation, la maintenance ou le support lourd ne sont pas suffisamment ancrés localement.
+
+### 11.6 Sensibilité à la continuité d’approvisionnement
+
+Le projet peut être fragilisé si l’approvisionnement repose sur un seul partenaire difficilement remplaçable.
+
+Le risque ne porte pas seulement sur le prix des plats.  
+Il porte aussi sur :
+- la fiabilité de production ;
+- la capacité de livraison ;
+- la stabilité des recettes ;
+- la compatibilité du conditionnement ;
+- la flexibilité en cas de variation de volume ;
+- la capacité à absorber une montée en charge ;
+- et la possibilité de substituer rapidement un partenaire en cas de rupture.
+
+Une architecture d’approvisionnement non standardisée peut créer un coût caché important : chaque changement de traiteur pourrait obliger à redéfinir les recettes, les formats, les prix, la logistique et la promesse commerciale.
+
+### 11.7 Sensibilité à la convergence des briques
+
+MayiMayo peut être avancé sur un front et fragile sur l’ensemble.
+
+Un fournisseur machine attractif ne suffit pas si le site n’est pas qualifié.  
+Un traiteur intéressant ne suffit pas si la capacité machine, le format de plat ou le coût final rendent le modèle difficilement viable.  
+Un site prometteur ne suffit pas si le financement ou l’approvisionnement ne suivent pas.
+
+La contrainte structurante du projet est donc la convergence entre les briques, pas uniquement leur progression séparée.
+
+---
+
+## 12. Logique du pilote
+
+Le pilote n’a pas pour fonction de “prouver que l’idée existe”.  
+Il a pour fonction de tester la viabilité réelle d’un modèle.
+
+Le pilote doit permettre de mesurer au minimum :
+- l’acceptation du service ;
+- le rythme d’achat ;
+- le comportement par créneau horaire ;
+- la capacité utile réelle ;
+- la fréquence de réassort nécessaire ;
+- la soutenabilité de la marge ;
+- la qualité de la coordination entre partenaires ;
+- et la robustesse opérationnelle de la chaîne machine + approvisionnement + site.
+
+Le pilote est donc un dispositif de vérité opérationnelle.
+
+Cette logique implique que le pilote doit tester non seulement la demande client, mais aussi la capacité du système à fonctionner comme un tout :
+- machine disponible ;
+- approvisionnement fiable ;
+- site réellement demandeur ;
+- économie soutenable ;
+- ajustements possibles sans rupture excessive.
+
+---
+
+## 13. Rapport entre overview, état canonique et registres opérationnels
+
+Le présent document formule les principes stables du projet.  
+Il ne doit pas absorber le détail évolutif des négociations, hypothèses locales, réponses partenaires ou états de leads.
+
+Ces éléments appartiennent :
+- à **Etat_canonique_MayiMayo** lorsqu’ils deviennent structurants pour la compréhension réelle du projet ;
+- aux registres opérationnels lorsqu’ils relèvent encore du suivi vivant, des continuités de contact, des comparaisons locales ou des prochaines actions.
+
+Règle de lecture :
+- l’overview expose le cadre du projet ;
+- l’état canonique indique ce qui est effectivement confirmé, actif, suspendu ou rejeté ;
+- les registres opérationnels portent le mouvement, les comparaisons et les dossiers vivants.
+
+Les scénarios financiers détaillés, hypothèses chiffrées, volumes de test, coûts d’import, seuils de vente et arbitrages de financement ne doivent pas être absorbés par l’overview.  
+Ils doivent être portés dans l’état canonique lorsqu’ils deviennent structurants, ou dans un document financier dédié lorsqu’ils relèvent du prévisionnel détaillé.
+
+---
+
+## 14. Exemple de terrain compatible avec la thèse
+
+À ce stade du projet, un site logistique de grande taille tel que Skechers Herstal peut servir d’**exemple de terrain fortement compatible avec la thèse centrale**.
+
+Cette mention n’a pas valeur de validation.  
+Elle signifie uniquement qu’un site de ce type correspond fortement à l’hypothèse centrale du projet :
+- grande taille ;
+- activité logistique ;
+- présence sur site ;
+- besoin potentiel non couvert ;
+- intérêt possible d’une solution de repas chaud.
+
+Le statut exact de cette piste, comme celui des autres sites réellement travaillés, doit toujours être lu dans l’état canonique et les registres opérationnels, jamais inféré depuis cet overview.
+
+---
+
+## 15. Critères de cohérence du projet
+
+MayiMayo est considéré comme cohérent seulement si les conditions suivantes sont réunies :
+
+1. le besoin terrain est confirmé ou fortement plausible ;
+2. la solution technique est adaptée ;
+3. l’approvisionnement est structurable sans faire porter au projet une complexité excessive ;
+4. l’économie unitaire reste défendable ;
+5. la dépendance aux partenaires reste gouvernable ;
+6. le pilote peut être déployé sans spéculation aveugle.
+
+La condition liée à l’approvisionnement doit être comprise de manière forte : il ne suffit pas d’identifier un fournisseur capable de produire des plats. Il faut que l’architecture d’approvisionnement soit suffisamment gouvernable, standardisable et substituable pour ne pas faire reposer la viabilité du pilote sur un partenaire unique difficilement remplaçable.
+
+La cohérence du projet suppose donc :
+- une offre alimentaire désirable ;
+- une logistique compatible avec le site ;
+- un format compatible avec la machine ;
+- une marge suffisamment défendable ;
+- une capacité d’ajustement des volumes ;
+- et une continuité de service préservée en cas de difficulté partenaire.
+
+Si une de ces conditions manque, le projet ne doit pas être forcé artificiellement.
+
+---
+
+## 16. Horizon de développement
+
+Le projet se déploie par étapes.
+
+### 16.1 Étape 1
+Cadrage du projet, qualification de la thèse, identification du modèle pilote.
+
+### 16.2 Étape 2
+Qualification d’un ou plusieurs terrains crédibles, cadrage des partenaires, premières hypothèses financières robustes.
+
+### 16.3 Étape 3
+Structuration du dossier, arbitrage du pilote, recherche de financement.
+
+### 16.4 Étape 4
+Déploiement du pilote, mesure des performances réelles, consolidation du modèle.
+
+### 16.5 Étape 5
+Réplication éventuelle sur d’autres sites, uniquement après apprentissage transférable réel.
+
+---
+
+## 17. Ce que MayiMayo n’est pas
+
+MayiMayo n’est pas :
+- un projet de snack classique ;
+- un projet de restauration internalisée dès le départ ;
+- un projet fondé sur une seule machine sans logique système ;
+- un projet reposant sur une seule opportunité non substituable ;
+- un projet dont la solidité dépendrait d’un flou volontaire ;
+- un projet réductible à un simple achat de machine isolée ;
+- un projet fondé sur un seul partenaire alimentaire non remplaçable.
+
+Cette clarification négative fait partie de l’identité du projet.
+
+---
+
+## 18. Orientation directrice
+
+L’orientation directrice de MayiMayo peut se résumer ainsi :
+
+**construire un modèle de repas chauds automatisés pour sites sous-équipés, en partant d’un pilote qualifié, avec une logique modulaire, partenariale, substituable et économiquement disciplinée.**
+
+Cette phrase constitue la synthèse opératoire du projet à ce stade.
+
+MayiMayo doit rester un système gouvernable : un site qualifié, une machine adaptée, un approvisionnement standardisable et une économie défendable doivent converger avant tout déploiement significatif.
+
+---
+
+# Document Metadata & Changelog
+
+Changelog:
+  - 1.2.0 (2026-06-05, Chief_Structuration_Agent): Renforcement compatible de l’overview pour intégrer explicitement la logique de système à interconnexion entre site, machine, approvisionnement et économie. Ajout de la logique d’approvisionnement redondante, standardisée et substituable dans les sections brique approvisionnement, architecture partenariale, contraintes structurantes et critères de cohérence. Clarification du fait que l’overview ne doit pas absorber les scénarios financiers détaillés ni les données mouvantes de suivi opérationnel.
+  - 1.1.0 (2026-04-07, Chief_Structuration_Agent): Révision compatible de l’overview pour l’aligner avec l’état canonique actuel. Clarification du rôle des registres opérationnels, intégration explicite de la couche locale de support dans la logique machine, renforcement de la dimension partenariale modulaire, et retrait de toute surindexation implicite sur Skechers comme site pilote prioritaire unique.
+  - 1.0.0 (2026-03-24, Assistant): Initialisation de la version de référence de l’overview du projet MayiMayo.
+
+Breaking Changes:
+  - Aucun. Révision compatible de l’overview sans changement de rôle du document.
+
+---
+Fin du document
+---
