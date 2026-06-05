@@ -1,0 +1,1711 @@
+---
+Document: Feuille_De_Route_MayiMayo
+Version: 1.9.0
+Date: 2026-06-05
+
+Maintainers:
+  - Kevin NEES [Captain] (authority)
+  - Chief_Structuration_Agent
+  - Sites_Projet_Logistique
+  - Supply_Chain_Agent
+  - Finance_And_Unit_Economics_Agent
+  - Machine_Systems_Agent
+
+Document Role: Strategic Roadmap
+Update Policy: Human-authorized agent modification only
+Document Status: Active Reference
+Scope: Coordination inter-agents, priorités actives, séquencement du travail, dépendances structurantes, logique de pré-finançabilité, préparation du CVD STEP, pilotage temporel, gouvernance hebdomadaire, standard pilote d’approvisionnement, coût réel machine importée, document financier prévisionnel de phase 1 et critères de progression du projet
+Supersedes: 1.8.0
+Dependencies:
+  - Protocole_Systeme_MayiMayo
+  - Etat_canonique_MayiMayo
+  - Project_Overview_MayiMayo
+  - Registre_Central_De_Suivi_Des_Contacts
+---
+
+# Feuille de route stratégique MayiMayo
+
+## 1. Préambule
+
+Ce document traduit l’état actuel du projet en trajectoire de travail coordonnée.
+
+Il ne remplace pas :
+- le protocole système ;
+- l’état canonique ;
+- l’overview ;
+- les registres opérationnels ;
+- le plan financier prévisionnel dédié lorsqu’il sera créé.
+
+Il sert à répondre à une question distincte :
+
+**que faut-il faire maintenant, dans quel ordre, par quels agents, selon quelles dépendances, dans quelle fenêtre de temps, avec quelle discipline de gouvernance, et avec quelles alternatives si la convergence tarde, pour faire progresser MayiMayo de manière cohérente, disciplinée et défendable ?**
+
+La feuille de route n’a pas vocation à devenir :
+- un journal d’exécution détaillé ;
+- une to-do list infinie ;
+- un doublon de l’état canonique ;
+- un registre de contacts ;
+- un business plan complet ;
+- un dossier bancaire complet prématuré ;
+- un plan financier détaillé ligne par ligne ;
+- une copie du futur `Plan_Financier_Previsionnel_MayiMayo`.
+
+Elle doit rester :
+- lisible ;
+- directrice ;
+- séquencée ;
+- inter-agents ;
+- orientée décision ;
+- pilotée dans le temps ;
+- révisable quand le projet franchit un seuil réel.
+
+Le projet est désormais dans une logique de **qualification crédible du site pilote, démonstration de finançabilité plausible, préparation du Comité de Validation de Diagnostic STEP, puis arbitrage de suite avant l’échéance personnelle critique**.
+
+Le document doit donc maintenir simultanément sept disciplines :
+- ne pas sur-vendre une convergence qui n’existe pas encore ;
+- ne pas laisser le front site rester dans une abstraction de prospection ;
+- ne pas laisser la lecture économique rester décorative ;
+- ne pas ouvrir un chantier bancaire lourd avant d’avoir une finançabilité crédible de phase 1 ;
+- ne pas laisser la temporalité dériver sans jalons, points de bascule et décisions explicites ;
+- ne pas traiter le prix machine FOB comme s’il équivalait au coût réel de lancement ;
+- ne pas traiter l’approvisionnement comme une simple recherche de traiteur, mais comme une architecture standardisée, redondante et substituable.
+
+L’approvisionnement doit être lu comme une brique stratégique complète, pas comme un simple sujet de prix.  
+Le front machine doit être lu comme un front déjà bien avancé, mais encore conditionné par le site, le support local, le coût réel importé et le montage économique.  
+Le front site doit être lu comme le nœud principal du projet à ce stade.  
+Le front financement doit être lu comme un chantier de démonstration de plausibilité, non comme une levée de fonds déjà mûre.  
+Le front STEP doit être lu comme un filtre de crédibilité et un levier temporel potentiel, non comme une garantie automatique.  
+Le levier formation doit être lu comme une piste secondaire tant qu’il n’apporte pas de solution réellement plus forte que STEP.
+
+---
+
+## 2. Rôle du document et règles de lecture
+
+### 2.1 Rôle exact
+
+La feuille de route sert à :
+- expliciter la phase active du projet ;
+- nommer les priorités globales ;
+- distribuer les mandats de travail par agent ;
+- faire apparaître les dépendances entre briques ;
+- indiquer les points de blocage structurants ;
+- définir ce qui doit être obtenu pour passer à l’étape suivante ;
+- rendre visible la logique de convergence entre terrain, architecture machine, architecture d’approvisionnement, économie unitaire et finançabilité ;
+- rendre visible la contrainte temporelle et les points de bascule ;
+- éviter la dérive entre séquence logique idéale et séquence réellement tenable ;
+- porter une couche légère de gouvernance hebdomadaire centrée sur le pilotage global ;
+- orienter la création du document financier prévisionnel sans absorber son détail ;
+- expliciter les sous-goals nécessaires sur le coût réel de la machine importée, la standardisation de l’approvisionnement et la pré-finançabilité Crédal.
+
+### 2.2 Ce que le document peut contenir
+
+Le document peut contenir :
+- des objectifs de phase ;
+- des priorités inter-agents ;
+- des séquences logiques de progression ;
+- des livrables attendus ;
+- des critères de sortie de phase ;
+- des dépendances structurantes ;
+- des points de vigilance ;
+- des arbitrages à préparer ;
+- une logique de finançabilité de phase, tant qu’elle reste stratégique ;
+- une lecture de l’architecture approvisionnement, tant qu’elle reste stratégique ;
+- des sous-goals temporels ;
+- des conditions de bascule ;
+- des alternatives si une fenêtre ne tient pas ;
+- une couche courte de rapport hebdomadaire de gouvernance globale ;
+- la mention de standards pilotes actifs lorsqu’ils orientent l’action ;
+- les conséquences opérationnelles des hypothèses économiques actives.
+
+### 2.3 Ce que le document ne doit pas contenir
+
+Le document ne doit pas contenir :
+- le détail intégral des échanges avec les contacts ;
+- l’ensemble du raisonnement historique ;
+- des développements théoriques relevant de l’overview ;
+- des règles système relevant du protocole ;
+- des vérités canoniques non stabilisées ailleurs ;
+- des micro-tâches trop fines à faible valeur stratégique ;
+- un business plan détaillé ligne par ligne ;
+- un dossier bancaire complet ;
+- une répétition détaillée des fiches du registre central ;
+- une promesse implicite que le calendrier externe se déroulera comme annoncé ;
+- un faux pilotage hebdomadaire uniforme imposé à tous les agents alors que les fronts n’avancent pas au même rythme ;
+- les scénarios financiers détaillés qui doivent être portés dans `Plan_Financier_Previsionnel_MayiMayo`.
+
+### 2.4 Règle de lecture
+
+La bonne lecture est la suivante :
+- `Project_Overview_MayiMayo` dit ce qu’est le projet ;
+- `Etat_canonique_MayiMayo` dit ce qui est actuellement vrai, hypothétique, décidé, suspendu ou rejeté ;
+- `Registre_Central_De_Suivi_Des_Contacts` dit où en sont les dossiers vivants, les comparaisons actives et les prochaines actions ;
+- `Plan_Financier_Previsionnel_MayiMayo`, lorsqu’il sera créé, portera le détail chiffré des scénarios économiques ;
+- la présente feuille de route dit ce qu’il faut pousser maintenant, dans quel ordre logique, dans quelle fenêtre temporelle, avec quelle discipline de convergence et avec quelle gouvernance centrale.
+
+---
+
+## 3. Phase active du projet
+
+### 3.1 Nom de la phase
+
+**Validation du site pilote, démonstration de finançabilité plausible, préparation du CVD STEP, standardisation du pilote, et mise sous contrainte temporelle du projet**
+
+### 3.2 But principal de la phase
+
+Obtenir un niveau de convergence suffisant entre :
+- un site pilote réellement crédible ;
+- une à trois alternatives de site également crédibles ;
+- une architecture machine défendable ;
+- une lecture du coût réel de la machine importée ;
+- une logique d’approvisionnement crédible, standardisée et substituable ;
+- une première lecture économique suffisamment robuste ;
+- un document financier prévisionnel de phase 1 ;
+- une lecture de finançabilité plausible, idéalement via un retour positif ou favorablement conditionnel de Crédal ;
+- un dossier CVD suffisamment solide pour STEP ;
+- et une capacité de décision claire avant l’échéance personnelle critique.
+
+### 3.3 Logique de la phase
+
+La phase actuelle ne vise pas encore le déploiement.  
+Elle vise à réduire le risque d’erreur stratégique en forçant une convergence minimale entre les briques essentielles du système.
+
+Le projet doit désormais passer :
+- d’une intuition structurée ;
+- à un pilote crédible sur le terrain ;
+- puis d’un pilote crédible ;
+- à un pilote défendable devant STEP et lisible par un financeur.
+
+Sur le front site, la phase doit être lue selon une triple logique :
+- qualification réelle des pistes ;
+- apprentissage terrain à partir des retours utiles, y compris négatifs ;
+- élimination progressive des faux signaux de chaleur relationnelle qui ne débouchent pas sur un vrai site fort.
+
+Sur le front machine, la phase doit être lue selon une triple logique :
+- maintien d’une hiérarchie décisionnelle propre ;
+- stabilisation documentaire du noyau machine déjà identifié ;
+- finalisation de la lecture de coût réel de la piste Vendlife, en distinguant prix FOB, transport, import, dédouanement, livraison finale, terminal, connectivité, mise en service, provision incident initiale et trésorerie de départ.
+
+Sur le front approvisionnement, la phase doit être lue selon une triple logique :
+- comparaison sérieuse du marché direct désormais réellement actif ;
+- hiérarchisation explicite des options qui changent réellement la marge, la logistique et la gouvernance du pilote ;
+- structuration d’une architecture d’approvisionnement standardisée, redondante et substituable, afin de ne pas dépendre d’un seul traiteur.
+
+Sur le front finance, la phase doit être lue selon une triple logique :
+- transformer les ancrages existants en lecture économique exploitable ;
+- produire des prévisions et un plan financier présentables ;
+- obtenir une première validation de finançabilité crédible, sans ouvrir trop tôt un chantier bancaire complet.
+
+Sur le front STEP, la phase doit être lue selon une double logique :
+- préparer un CVD crédible ;
+- et démontrer que le projet est assez mûr pour entrer utilement en précréation.
+
+Sur le front temporalité, la phase doit être lue selon une double logique :
+- traiter STEP comme levier temporel principal de travail ;
+- maintenir la formation comme piste secondaire tant qu’elle n’apporte pas une meilleure réponse concrète.
+
+### 3.4 Pourquoi cette phase existe
+
+Parce que le projet a déjà dépassé le stade de l’idée abstraite, mais n’a pas encore atteint le seuil où :
+- un site pilote est validé ;
+- une finançabilité plausible est démontrée ;
+- un comité STEP peut valider sereinement le projet ;
+- l’approvisionnement est suffisamment standardisé pour être gouvernable ;
+- le coût réel de lancement est suffisamment distingué du prix fournisseur brut ;
+- et la temporalité personnelle est suffisamment absorbée dans la séquence de pilotage.
+
+### 3.5 Risque principal de la phase
+
+Construire un dossier apparemment cohérent, mais fondé sur :
+- un terrain encore trop faible ;
+- une lecture économique encore trop théorique ;
+- une finançabilité non démontrée ;
+- un coût machine sous-estimé parce que lu au niveau FOB seulement ;
+- une dépendance excessive à un seul traiteur ;
+- ou une dépendance excessive à une hypothèse STEP non suffisamment préparée.
+
+### 3.6 Erreur principale à éviter dans cette phase
+
+Passer au comité STEP avec :
+- une bonne motivation ;
+- une idée intéressante ;
+- mais un besoin terrain encore trop flou ;
+- un site encore trop faible ;
+- une finançabilité encore trop décorative ;
+- un plan financier sans distinction entre scénario bas et scénario central ;
+- et une architecture d’approvisionnement non substituable.
+
+### 3.7 Contrainte temporelle structurante
+
+Le projet est piloté sous une contrainte calendaire explicite.
+
+Cette contrainte repose sur :
+- une date d’arrêt des allocations de chômage fixée au **01/10/2026** ;
+- un prochain **CVD visé le 15/07/2026** ;
+- une nécessité de produire avant ce comité une convergence minimale site + économie + finançabilité ;
+- et une nécessité de disposer avant septembre-début octobre d’une décision rationnelle sur la suite.
+
+### 3.8 Jalons externes connus
+
+À ce stade, les jalons externes connus sont les suivants :
+- phase de diagnostic STEP en cours ;
+- **15/07/2026** : Comité de Validation de Diagnostic visé ;
+- envoi demandé par STEP au plus tard une semaine avant le comité :
+  - présentation PPT ;
+  - BMC ;
+  - SWOT ;
+  - plan d’action ;
+- demande complémentaire formulée par l’accompagnatrice :
+  - prévisions ;
+  - plan financier ;
+- **mi-septembre 2026** : prochaine rentrée annoncée pour la formation IFAPME *Entrepreneur e-commerce* ;
+- **01/10/2026** : date d’arrêt connue des allocations de chômage.
+
+### 3.9 Règle de lecture du rail STEP
+
+Le rail STEP ne doit pas être lu comme une promesse ferme d’accompagnement.  
+Il doit être lu comme :
+- un filtre de crédibilité ;
+- un accélérateur potentiel ;
+- un appui de structuration ;
+- et, selon l’information orale reçue, un levier temporel potentiellement majeur si le projet est validé par le comité puis entre en accompagnement.
+
+Cette dernière lecture reste structurante, mais n’est pas encore confirmée par une formalisation écrite intégrée au système.
+
+### 3.10 Règle de lecture du levier formation
+
+Le levier formation ne doit plus piloter la stratégie du projet.  
+Il doit être lu comme :
+- une piste administrative potentiellement utile ;
+- une marge de manœuvre secondaire ;
+- mais non comme le rail principal de sécurisation temporelle.
+
+### 3.11 Standard pilote d’approvisionnement actif
+
+Le standard pilote de travail actuellement retenu pour guider la structuration opérationnelle est le suivant :
+- **3 recettes standard** ;
+- **2 livraisons par semaine** ;
+- **mardi après-midi** ;
+- **vendredi après-midi** ;
+- **72 plats par livraison** ;
+- **24 plats par recette**.
+
+Ce standard n’est pas une vérité opérationnelle définitive.  
+Il constitue un cadre actif de modélisation et de discussion avec les traiteurs, destiné à :
+- mesurer la rotation réelle ;
+- ajuster les volumes selon les ventes ;
+- comparer les partenaires sur une base commune ;
+- réduire le coût de substitution entre traiteurs ;
+- et éviter une variation excessive de recettes au démarrage.
+
+### 3.12 Logique de montée en charge du standard pilote
+
+La montée en charge doit être lue selon une logique prudente :
+- passage à 84 ou 96 plats par livraison si rupture rapide ;
+- maintien ou réduction si invendus ;
+- augmentation ciblée d’une recette dominante si la demande se concentre ;
+- densification plus forte uniquement si le format réel, la capacité utile machine et la rotation le permettent.
+
+### 3.13 Objectif principal avant le CVD du 15/07/2026
+
+**Avant le 15/07/2026, MayiMayo doit atteindre un niveau de maturité suffisant pour soutenir un passage CVD crédible, avec au minimum :**
+- un site pilote crédible ou une voie d’accès très forte vers un site pilote ;
+- une à trois alternatives crédibles ;
+- une lecture machine propre et resserrée ;
+- une lecture de coût réel Vendlife suffisamment avancée ;
+- une architecture d’approvisionnement lisible ;
+- un standard pilote défendable ;
+- des prévisions cohérentes ;
+- un plan financier de phase 1 ;
+- une logique de finançabilité plausible, idéalement appuyée par un retour Crédal.
+
+### 3.14 Objectif principal avant septembre-début octobre 2026
+
+**Avant septembre-début octobre 2026, MayiMayo doit être en mesure de choisir explicitement entre :**
+- poursuite vers pilote défendable ;
+- report structuré ;
+- reconfiguration ;
+- ou arrêt de certaines hypothèses insuffisantes.
+
+---
+
+## 4. Critères d’entrée dans la phase actuelle
+
+### 4.1 Éléments déjà acquis qui justifient l’entrée dans cette phase
+
+- la thèse centrale du projet est formulée ;
+- le système documentaire de base est en place ;
+- le projet a clarifié sa nature, partenariale et modulaire ;
+- le projet a dépassé la lecture naïve “machine seule” ;
+- la comparaison machine est désormais active et exploitable ;
+- **Vendlife reste la piste machine la plus attractive en intérêt direct**, avec comme référence active la **HYJ-FH120 double microwave ovens** ;
+- le prix fournisseur actuellement retenu pour la piste Vendlife est **7 490 USD FOB** ;
+- un coût de shipping vers le port d’Antwerp a été communiqué à **350 USD**, sans que cela constitue le coût total rendu exploitable ;
+- Provending reste un benchmark très fort ;
+- Bicom reste la référence européenne structurée la plus rassurante ;
+- la couche locale d’installation et de maintenance est désormais reconnue comme sous-problème stratégique de premier rang ;
+- la comparaison approvisionnement direct est désormais active et exploitable ;
+- **Maxime Traiteur** et **Alice Traiteur** constituent les deux bases comparatives directes principales ;
+- **EM Traiteur** reste une piste complémentaire active ;
+- **Distrifood** ne fait plus partie du cadre actif du projet ;
+- un portefeuille de sites existe, même si aucun pilote n’est validé ;
+- Challenge Handling et JOST émergent comme bons candidats structurels ;
+- Terre ASBL / Autre Terre ONG constitue une hypothèse site active à qualifier, fondée sur un besoin fortement plausible mais encore non validé sur place ;
+- la nécessité de sortir de la dépendance au canal email est reconnue ;
+- le premier entretien individuel STEP a clarifié le niveau d’exigence du comité ;
+- un CVD est désormais visé ;
+- STEP a demandé un PPT CVD, un BMC, une SWOT, un plan d’action, ainsi que des prévisions et un plan financier ;
+- la date d’arrêt des allocations au 01/10/2026 est intégrée comme contrainte structurante ;
+- la piste IFAPME a été clarifiée comme utile mais secondaire ;
+- il existe une hypothèse active selon laquelle la validation du projet par STEP puis l’entrée en accompagnement pourraient geler les allocations pendant la période d’accompagnement ;
+- la lecture économique récente montre que **15k ne couvre que l’hypothèse basse** et que le scénario central dépasse ce niveau ;
+- la base de travail financière actuelle s’oriente vers un **site type de 600 ETP** ;
+- les scénarios de présence active testés sont **75 %, 80 % et 85 %** ;
+- les scénarios de conversion retenus pour la modélisation sont **4 %, 6 % et 9 %** ;
+- les seuils stratégiques de lecture retenus sont **20 ventes / jour**, **25 ventes / jour** et **40 ventes / jour**.
+
+### 4.2 Éléments encore insuffisants mais compatibles avec la phase
+
+- aucun site pilote n’est encore validé ;
+- **aucun site fort n’existe à ce stade** ;
+- aucune lecture de finançabilité crédible n’est encore obtenue ;
+- aucun retour Crédal n’existe encore ;
+- les prévisions et le plan financier ne sont pas encore produits ;
+- le document `Plan_Financier_Previsionnel_MayiMayo` n’est pas encore créé ;
+- la lecture économique reste encore trop partielle pour être traitée comme base de financement ferme ;
+- le scénario volume réel reste ouvert ;
+- le pricing final acceptable reste ouvert ;
+- l’enveloppe packaging finale reste ouverte ;
+- l’hypothèse de format plat **20 × 15 × 4,5 cm** reste à confirmer ;
+- la capacité utile réelle de la machine doit encore être confirmée en lien avec le format contenant, la rotation et la fréquence de réassort ;
+- la tension de trésorerie de phase 1 n’est pas encore correctement cadrée ;
+- le coût réel rendu exploitable de la piste Vendlife n’est pas encore stabilisé ;
+- la livraison directe éventuelle jusqu’à Liège n’est pas encore confirmée ;
+- la gestion réelle du dédouanement, de la livraison finale, du terminal, de la connectivité et de la mise en service reste ouverte ;
+- aucune confirmation écrite de la portée exacte du levier STEP sur les allocations n’est encore intégrée au système.
+
+---
+
+## 5. Critères de sortie de la phase actuelle
+
+La phase actuelle ne doit être considérée comme suffisamment aboutie que si plusieurs conditions de sortie sont réunies.
+
+### 5.1 Condition de sortie, site
+
+Le projet doit disposer d’au moins :
+- **un site pilote crédible** ;
+- et **une à trois alternatives crédibles**.
+
+Un site est considéré comme crédible s’il réunit au minimum :
+- un besoin plausible ou confirmé ;
+- un point d’entrée réel ;
+- un décideur identifié ou un circuit de décision lisible ;
+- un emplacement plausible ;
+- une absence de contradiction majeure avec l’implantation du service ;
+- une première lecture du contexte d’usage.
+
+### 5.2 Condition de sortie, machine
+
+Le projet doit disposer :
+- d’un noyau machine final très resserré ;
+- d’une lecture claire des compromis Europe / international ;
+- d’une lecture crédible du coût d’entrée, du débit, du froid, du support et de la couche locale ;
+- d’une lecture claire des options réellement actives, maintenues en veille et écartées ;
+- d’une lecture du coût réel de la piste Vendlife dépassant le simple prix FOB ;
+- d’une clarification suffisante sur la livraison, l’import, le dédouanement, le terminal, la connectivité et la mise en service ;
+- d’une première lecture de la capacité utile en lien avec le format réel des plats.
+
+### 5.3 Condition de sortie, approvisionnement
+
+Le projet doit disposer :
+- d’au moins une piste directe crédible ;
+- d’une hiérarchie lisible entre les options directes déjà ouvertes ;
+- d’une compréhension des contraintes logistiques, de paiement, de cadence et de packaging ;
+- d’une première lecture de ce que changent réellement les différentes options sur la marge et la gouvernance ;
+- d’une première version du cadre standard de collaboration traiteur ;
+- d’une lecture claire de la redondance minimale visée ;
+- d’une première compréhension de la substituabilité entre partenaires ;
+- d’un standard pilote à 3 recettes utilisable comme base de discussion.
+
+### 5.4 Condition de sortie, économie
+
+Le projet doit disposer :
+- d’un premier modèle prudent, central et plus favorable ;
+- d’une lecture claire de la marge brute unitaire ;
+- d’un seuil de viabilité approximatif mais défendable ;
+- d’une première lecture du seuil minimum de rentabilité ;
+- d’une première lecture du seuil maximum de service soutenable ;
+- d’une première lecture des besoins financiers de phase 1 ;
+- d’une distinction claire entre scénario bas, scénario central et scénario plus favorable ;
+- d’une distinction claire entre coût fournisseur, coût réel de lancement et trésorerie de départ.
+
+### 5.5 Condition de sortie, finançabilité
+
+Le projet doit disposer :
+- d’une logique de financement de phase 1 compatible avec le niveau réel de risque ;
+- d’une première lecture claire du besoin en actif et du besoin de trésorerie ;
+- d’une comparaison lisible entre achat comptant, leasing, location financière ou structure hybride ;
+- d’une lecture claire du fait que **15k ne couvre que l’hypothèse basse** ;
+- d’une estimation du besoin central réel à discuter avec Crédal ;
+- et idéalement d’un **retour de finançabilité crédible**, positif ou favorablement conditionnel, côté Crédal.
+
+### 5.6 Condition de sortie, dossier STEP
+
+Le projet doit disposer d’un socle suffisamment solide pour présenter :
+- le problème traité ;
+- le modèle visé ;
+- les briques critiques ;
+- le besoin terrain ;
+- la logique de pilote ;
+- la logique économique ;
+- la logique de finançabilité ;
+- la discipline de prospection ;
+- le standard pilote d’approvisionnement ;
+- le coût réel de lancement à clarifier ;
+- et l’état réel d’avancement, sans survente.
+
+### 5.7 Condition de sortie, document financier dédié
+
+Le projet doit disposer d’un document séparé de plan financier prévisionnel de phase 1.
+
+Ce document doit être fondé sur :
+- le site type 600 ETP ;
+- les scénarios de présence active ;
+- les scénarios d’achat ;
+- l’investissement initial détaillé ;
+- les charges mensuelles corrigées ;
+- les seuils de ventes ;
+- la capacité utile ;
+- la cadence de réassort ;
+- et la lecture de finançabilité Crédal.
+
+### 5.8 Condition de sortie, cohérence d’ensemble
+
+Les briques site, machine, approvisionnement, économie et finançabilité doivent pouvoir être lues ensemble sans contradiction majeure.
+
+### 5.9 Condition de sortie, temporalité
+
+Le projet doit disposer d’une lecture claire de ce qui relève :
+- du levier STEP ;
+- du levier formation ;
+- et de ce qui ne doit plus être traité comme solution centrale.
+
+---
+
+## 6. Priorités globales actives
+
+### 6.1 Priorité globale n°1
+
+Faire émerger **un site pilote crédible** et **une à trois alternatives crédibles**.
+
+À ce stade :
+- aucun site fort n’existe ;
+- Ethias est négatif mais en veille plutôt que clôturé dur ;
+- Swissport LGG doit être requalifié avec un canal de contact plus fiable ;
+- Forem / Val Benoît ne doit plus être lu comme piste chaude tant que le contact nominatif n’est pas reconstruit ;
+- Terre ASBL / Autre Terre ONG est une hypothèse active sérieuse à qualifier ;
+- Challenge Handling et JOST doivent être lus comme candidats structurels à pousser ;
+- le front site constitue le principal angle mort du projet.
+
+### 6.2 Priorité globale n°2
+
+Transformer la lecture économique en première zone de vérité exploitable et produire :
+- des prévisions ;
+- un plan financier ;
+- une logique de seuils ;
+- une lecture des besoins de phase 1 ;
+- une base défendable pour STEP et Crédal.
+
+### 6.3 Priorité globale n°3
+
+Obtenir une **lecture de finançabilité plausible**, idéalement via un retour positif ou favorablement conditionnel de **Crédal**, sans exiger à ce stade un financement déjà versé.
+
+La demande Crédal ne doit pas être ouverte sur un montant artificiellement compressé.  
+Elle doit intégrer la distinction suivante :
+- **15k** couvre uniquement une hypothèse basse ;
+- le scénario central dépasse ce niveau ;
+- le besoin réel de phase 1 doit donc être discuté proprement.
+
+### 6.4 Priorité globale n°4
+
+Construire le socle du **CVD STEP** :
+- PPT ;
+- BMC ;
+- SWOT ;
+- plan d’action ;
+- articulation claire avec les prévisions et le plan financier.
+
+### 6.5 Priorité globale n°5
+
+Maintenir le front machine à un niveau décisionnel propre, sans le rouvrir inutilement.
+
+Le groupe de tête reste :
+- **Vendlife** comme option numéro 1 en intérêt direct ;
+- **Provending** comme benchmark très fort ;
+- **Bicom** comme référence européenne la plus rassurante.
+
+La priorité machine actuelle n’est plus de multiplier les pistes.  
+Elle est de finaliser la lecture de coût réel de la piste Vendlife et de qualifier la couche locale de mise en service / maintenance.
+
+### 6.6 Priorité globale n°6
+
+Maintenir le front approvisionnement à un niveau de comparaison utile, sans dispersion excessive.
+
+À ce stade :
+- **Maxime Traiteur** est l’option directe numéro 1 ;
+- **Alice Traiteur** est l’option directe numéro 2 ;
+- **EM Traiteur** reste une piste complémentaire active ;
+- le reste ne doit être réactivé que si cela améliore réellement la compréhension du modèle.
+
+La priorité n’est plus seulement de comparer des prix.  
+Elle est de produire :
+- une base comparative robuste ;
+- une architecture d’approvisionnement gouvernable ;
+- un cadre standardisé de collaboration ;
+- et une lecture principal / relais / secours.
+
+### 6.7 Priorité globale n°7
+
+Finaliser la lecture du coût réel de la piste Vendlife, en distinguant :
+- prix FOB ;
+- transport ;
+- import ;
+- dédouanement ;
+- livraison finale éventuelle jusqu’à Liège ;
+- terminal ;
+- connectivité ;
+- mise en service ;
+- provision incident initiale ;
+- trésorerie de départ.
+
+### 6.8 Priorité globale n°8
+
+Structurer une offre standardisée de collaboration traiteur, afin de rendre l’approvisionnement :
+- redondant ;
+- standardisé ;
+- substituable ;
+- compatible avec le pilote ;
+- sans surcomplexifier le démarrage.
+
+### 6.9 Priorité globale n°9
+
+Produire un document séparé de plan financier prévisionnel de phase 1.
+
+Ce document ne doit pas être absorbé par la feuille de route.  
+La feuille de route doit seulement en fixer la nécessité, le rôle et les dépendances.
+
+### 6.10 Priorité globale n°10
+
+Sortir durablement de la dépendance tactique à l’email et installer une discipline de prospection plus active.
+
+### 6.11 Priorité globale n°11
+
+Réaligner les documents actifs sur l’état réel du projet, notamment :
+- la centralité du front site ;
+- la centralité nouvelle du CVD ;
+- la priorité de finançabilité avant comité ;
+- la distinction entre coût FOB et coût réel ;
+- la standardisation de l’approvisionnement ;
+- la rétrogradation du levier formation ;
+- et la lecture STEP comme filtre de crédibilité et levier temporel potentiel.
+
+---
+
+## 7. Temporalité structurante et sous-goals
+
+### 7.1 Règle de pilotage temporel
+
+Chaque sous-goal doit être lu selon quatre questions :
+1. qu’est-ce qui doit être obtenu dans la fenêtre ;
+2. quel niveau minimal de réussite suffit ;
+3. quel signal montre que la fenêtre dérape ;
+4. quelle alternative doit être activée si la convergence n’arrive pas.
+
+### 7.2 Sous-goal n°1, maintenant à mi-juin 2026
+
+#### But
+Faire émerger une base crédible de terrain, une base économique présentable et une clarification machine suffisante pour ne pas construire le plan financier sur une illusion de coût bas.
+
+#### Conditions minimales de réussite
+- au moins une piste site nettement plus qualifiée ;
+- une hiérarchie site plus claire ;
+- une base de prévisions exploitable ;
+- une structure de plan financier de phase 1 ;
+- une première lecture claire de ce qu’il faudra présenter à Crédal ;
+- une demande complémentaire active ou relancée auprès d’Amy / Vendlife sur livraison directe, dédouanement, terminal, connectivité et dimensions emballées ;
+- une première structure du cadre de collaboration traiteur.
+
+#### Signal de retard
+- aucun progrès réel sur le front site ;
+- aucune matérialisation économique claire ;
+- machine et approvisionnement encore mieux cadrés que le terrain ;
+- impossibilité à articuler le besoin, le site et la finançabilité ;
+- coût Vendlife encore lu seulement en FOB ;
+- approvisionnement encore pensé comme liste de traiteurs et non comme architecture de continuité.
+
+#### Alternative si insuffisant
+Réduire la largeur des fronts secondaires et concentrer l’effort sur :
+- qualification terrain ;
+- économie utile ;
+- coût réel machine ;
+- standard pilote approvisionnement ;
+- et structuration du CVD.
+
+### 7.3 Sous-goal n°2, mi-juin à début juillet 2026
+
+#### But
+Transformer le projet en dossier CVD crédible et en dossier de finançabilité plausible.
+
+#### Conditions minimales de réussite
+- un site pilote crédible ou une voie d’accès très forte ;
+- une à trois alternatives crédibles ;
+- prévisions cohérentes ;
+- plan financier cohérent ;
+- prise de contact utile avec Crédal ;
+- lecture de finançabilité mieux formalisée ;
+- coût réel Vendlife cadré au moins par postes ;
+- standard pilote 3 recettes intégré dans les hypothèses économiques.
+
+#### Signal de retard
+- site encore trop vague ;
+- chiffres encore décoratifs ;
+- absence d’ouverture finançabilité ;
+- dossier CVD encore seulement narratif ;
+- plan financier sans distinction bas / central ;
+- absence de lecture du besoin central réel.
+
+#### Alternative si insuffisant
+Recadrer le passage CVD autour d’un diagnostic lucide, sans survente, tout en priorisant ce qui manque réellement.
+
+### 7.4 Sous-goal n°3, une semaine avant le CVD
+
+#### But
+Disposer d’un pack propre, cohérent et défendable.
+
+#### Conditions minimales de réussite
+- PPT CVD finalisé ;
+- BMC finalisé ;
+- SWOT finalisée ;
+- plan d’action finalisé ;
+- prévisions finalisées ;
+- plan financier finalisé ;
+- cohérence entre oral, écrit, terrain et chiffres ;
+- lecture claire de la stratégie site → Crédal → STEP ;
+- standard pilote cohérent avec la capacité machine et la cadence d’approvisionnement.
+
+#### Signal de retard
+- support oral déconnecté des hypothèses économiques ;
+- plan d’action non séquencé ;
+- BMC trop abstrait ;
+- SWOT cosmétique ;
+- prévisions non reliées au site et au modèle ;
+- plan financier sans lecture de besoin réel ;
+- coût machine sous-estimé.
+
+#### Alternative si insuffisant
+Simplifier le dossier, mais rendre chaque bloc plus vrai et plus défendable.
+
+### 7.5 Sous-goal n°4, CVD du 15/07/2026
+
+#### But
+Passer le comité avec un projet crédible, motivé, intéressant, fondé sur un besoin plus lisible, un terrain crédible et une finançabilité plausible.
+
+#### Conditions minimales de réussite
+- narration claire ;
+- système à interconnexion compris ;
+- besoin terrain lisible ;
+- site crédible ;
+- logique machine et approvisionnement lisibles ;
+- coût réel de lancement correctement distingué du prix machine ;
+- finançabilité plausible ;
+- plan d’action réaliste.
+
+#### Signal de retard
+- le projet repose encore trop sur la qualité de l’idée et de la motivation ;
+- le comité ne peut pas voir comment le pilote devient réel ;
+- le terrain reste trop théorique ;
+- les chiffres ne soutiennent pas la narration ;
+- le projet semble finançable uniquement parce que le besoin réel a été compressé.
+
+#### Alternative si le comité reste hésitant
+Utiliser le retour comme diagnostic d’écart structuré, puis reconfigurer la séquence sans se raconter qu’un simple passage vaut validation.
+
+### 7.6 Sous-goal n°5, après comité jusqu’à septembre-début octobre 2026
+
+#### But
+Transformer soit une validation STEP en accélération utile, soit un écart de validation en reconfiguration explicite.
+
+#### Conditions minimales de réussite
+- décision claire sur la suite ;
+- clarification de ce que change réellement STEP ;
+- clarification de ce que change réellement l’absence de validation ;
+- maintien d’une trajectoire cohérente avant le 01/10/2026.
+
+#### Signal de retard
+- attente passive ;
+- absence de décision explicite ;
+- maintien d’une narration inchangée malgré un retour comité insuffisant.
+
+#### Alternative si la convergence n’est pas atteinte
+Formaliser explicitement :
+- un report structuré ;
+- une reconfiguration ;
+- un recentrage ;
+- ou une bascule tactique plus forte sur le front site.
+
+---
+
+## 8. Séquence logique de progression
+
+### 8.1 Étape logique actuelle
+
+Réduire simultanément l’incertitude sur :
+- les sites, par qualification réelle ;
+- l’économie, par prévisions et plan financier ;
+- la finançabilité, par préparation d’un premier dossier Crédal ;
+- les machines, par maintien d’un noyau décisionnel propre et clarification du coût réel Vendlife ;
+- l’approvisionnement, par comparaison active du marché direct et standardisation du pilote ;
+- la prospection, par sortie du canal email seul ;
+- la temporalité, par reclassification du levier formation et cadrage du levier STEP.
+
+### 8.2 Étape logique suivante
+
+Transformer cette réduction d’incertitude en première convergence :
+- terrain ;
+- coût machine réel ;
+- standard approvisionnement ;
+- chiffres ;
+- finançabilité ;
+- récit CVD.
+
+### 8.3 Étape logique intermédiaire explicite
+
+Avant toute logique bancaire lourde, structurer une lecture claire de la finançabilité du pilote, c’est-à-dire :
+- ce qu’il coûterait réellement ;
+- ce qu’il doit vendre pour tenir ;
+- quelle architecture machine reste soutenable ;
+- quelle architecture d’approvisionnement reste gouvernable ;
+- quel site mérite réellement d’absorber l’effort pilote ;
+- quel montant relève d’un scénario bas ;
+- quel montant relève du scénario central ;
+- et quel niveau de crédibilité est suffisant pour Crédal et STEP.
+
+### 8.4 Étape logique après validation de la précédente
+
+Passer le comité STEP avec un projet crédible, puis seulement :
+- approfondir la suite de financement ;
+- et préparer le déploiement pilote si la convergence se confirme.
+
+### 8.5 Lecture de séquence
+
+La séquence ne doit pas être lue comme :
+site puis machine puis approvisionnement puis économie puis financement de manière linéaire.
+
+La bonne lecture est :
+- avance parallèle contrôlée ;
+- primauté terrain ;
+- finalisation du coût réel machine ;
+- standardisation du pilote d’approvisionnement ;
+- formalisation économique ;
+- démonstration de finançabilité ;
+- dossier CVD ;
+- puis arbitrage de suite.
+
+---
+
+## 9. Dépendances structurantes inter-agents
+
+### 9.1 Dépendances autour du site
+
+- la valeur d’un site dépend de la réalité du besoin, du décideur, du contexte d’usage et de la compatibilité avec une solution machine ;
+- la lecture économique dépend fortement de la qualité du site ;
+- la finançabilité dépend directement de la qualité du site ;
+- le dossier STEP dépend d’une lecture crédible du terrain ;
+- en l’état, l’absence de site fort ralentit toutes les autres briques.
+
+### 9.2 Dépendances autour de la machine
+
+- la machine ne peut pas être arbitrée proprement sans hypothèse réaliste de site ;
+- le coût machine conditionne fortement la lecture économique ;
+- la piste Vendlife ne doit pas être lue seulement au prix **7 490 USD FOB** ;
+- la lecture d’une solution internationale dépend explicitement de la couche locale d’installation et de maintenance ;
+- le mode de financement machine ne peut pas être comparé proprement sans lecture claire du coût total initial et du risque opérationnel ;
+- la capacité utile doit être lue en lien avec le format de contenant, la rotation réelle et la fréquence de réassort.
+
+### 9.3 Dépendance active Amy / Vendlife
+
+Le dossier Vendlife dépend d’une réponse complémentaire ou d’une clarification sur :
+- livraison directe éventuelle jusqu’à Liège ;
+- coût additionnel de cette livraison ;
+- gestion ou non du dédouanement dans cette configuration ;
+- coût réel terminal / Nayax ;
+- coût réel ou périmètre de connectivité machine ;
+- CBM / RT exact de la machine emballée ;
+- conditions pratiques de mise en service ;
+- éléments nécessaires à l’import et à l’installation.
+
+Tant que ces points ne sont pas clarifiés, le coût Vendlife doit être traité comme **coût fournisseur partiel**, non comme coût complet de lancement.
+
+### 9.4 Dépendances autour de l’approvisionnement
+
+- la pertinence d’un fournisseur dépend du site, du rythme de réassort, du type de machine et du prix final soutenable ;
+- l’approvisionnement influence directement la marge unitaire ;
+- les conditions de paiement influencent la tension de trésorerie du pilote ;
+- la structure logistique influence les pertes, la fréquence de réassort et donc la viabilité réelle ;
+- la standardisation des recettes, formats et cadences influence le coût de substitution entre traiteurs ;
+- le cadre principal / relais / secours dépend de la capacité à aligner les partenaires sur un cahier des charges commun.
+
+### 9.5 Dépendances autour de l’économie unitaire
+
+- l’économie unitaire dépend du triptyque site, machine, approvisionnement ;
+- elle ne peut pas être stabilisée sans hypothèses minimales crédibles sur les volumes, les prix et les cadences ;
+- elle dépend aussi du coût réel de la couche locale de support machine ;
+- elle dépend du coût réel importé de la machine ;
+- elle dépend des pertes et de la fréquence réelle de réassort ;
+- elle dépend enfin du mode de financement retenu si celui-ci modifie significativement la tension de trésorerie.
+
+### 9.6 Dépendances autour de la finançabilité
+
+- la finançabilité ne doit pas être travaillée comme un bloc autonome ;
+- elle dépend du site, du CAPEX, de la marge, du volume plausible et du niveau de risque partenarial ;
+- elle dépend du mode de financement machine ;
+- elle dépend aussi des conditions de paiement du partenaire approvisionnement ;
+- elle dépend enfin de la qualité des prévisions produites ;
+- elle doit distinguer clairement besoin minimal et besoin central réel.
+
+### 9.7 Dépendances autour du dossier STEP
+
+- le dossier STEP dépend d’une cohérence d’ensemble suffisante ;
+- il ne dépend pas d’une perfection finale ;
+- il sera fragilisé si le besoin terrain reste trop faible ;
+- il sera fragilisé si la finançabilité reste trop théorique ;
+- il sera fragilisé si les documents économiques ne soutiennent pas le récit oral ;
+- il sera fragilisé si le standard pilote semble arbitraire ou déconnecté de la capacité machine et du site.
+
+### 9.8 Dépendances autour du levier formation
+
+- le levier formation dépend du calendrier réel d’entrée ;
+- il dépend de la qualification administrative exacte du dispositif ;
+- il ne doit plus structurer seul la stratégie du projet.
+
+---
+
+## 10. Mandats actifs par agent
+
+### 10.0 Règle générale de rythme des agents
+
+Les agents n’avancent pas tous au même rythme.
+
+Le système ne leur impose pas des objectifs hebdomadaires symétriques de manière permanente.  
+Le bon modèle est :
+- mission permanente ;
+- objectif long terme ;
+- objectif moyen terme de phase ;
+- état actuel du front ;
+- niveau d’intensité actuel ;
+- et, seulement si utile, fenêtre prioritaire de court terme.
+
+La fonction de cohérence du `Registre_Central_De_Suivi_Des_Contacts` est absorbée par le **Chief_Structuration_Agent**.
+
+---
+
+## 10.1 Chief_Structuration_Agent
+
+### Mission permanente
+Assurer la cohérence du système MayiMayo :
+- entre les agents ;
+- entre les documents ;
+- entre la narration du projet ;
+- et entre la progression réelle et la progression racontée.
+
+### Objectif long terme
+Maintenir une gouvernance claire, un système documentaire robuste, une cohérence inter-agents et une capacité durable de pilotage évolutif du projet.
+
+### Objectif moyen terme de phase
+Transformer les avancées parallèles en trajectoire lisible et rendre le projet présentable devant STEP et lisible pour un tiers financeur.
+
+### État actuel du front
+Front très actif. Le besoin n’est plus seulement documentaire ; il est désormais organisationnel, narratif, économique et temporel.
+
+### Niveau d’intensité actuel
+**Très élevé**
+
+### Rôle dans la phase actuelle
+- réaligner les documents noyaux ;
+- structurer le socle CVD ;
+- porter la cohérence du registre ;
+- éviter les contradictions entre terrain, chiffres et récit ;
+- veiller à ce que les nouvelles informations soient réparties dans les bons documents ;
+- éviter que le plan financier détaillé soit absorbé par la feuille de route ou l’overview.
+
+### Livrables attendus
+- feuille de route cohérente ;
+- état canonique réaligné ;
+- socle documentaire compatible avec STEP ;
+- articulation propre entre CVD, prévisions, plan financier et lecture stratégique ;
+- rapport hebdomadaire de gouvernance globale ;
+- cadrage de création de `Plan_Financier_Previsionnel_MayiMayo`.
+
+### Fenêtre actuelle prioritaire
+D’ici début juillet :
+- stabiliser la narration CVD ;
+- maintenir l’alignement inter-documents ;
+- s’assurer que le projet raconte le bon ordre logique : site, finançabilité plausible, puis comité STEP ;
+- s’assurer que le standard pilote, la lecture coût réel machine et le plan financier restent cohérents entre eux.
+
+### Signal de retard
+- documents core en décalage ;
+- narration plus avancée que le terrain ;
+- chiffres plus avancés que les hypothèses réelles ;
+- rapport hebdomadaire absent ou décoratif ;
+- plan financier absorbé de manière confuse dans les mauvais documents.
+
+### Bascule si retard confirmé
+Réduire la complexité narrative et recentrer le système sur :
+- phase ;
+- priorités ;
+- livrables ;
+- arbitrages ;
+- décisions possibles.
+
+---
+
+## 10.2 Sites_Projet_Logistique
+
+### Mission permanente
+Qualifier, développer et entretenir le front site.
+
+### Objectif long terme
+Établir un site pilote viable, puis constituer un portefeuille de sites alternatifs ou suivants, avec relations actives et gouvernables.
+
+### Objectif moyen terme de phase
+Faire émerger :
+- un site pilote crédible ;
+- une à trois alternatives crédibles ;
+- et une méthode de qualification plus robuste que l’email seul.
+
+### État actuel du front
+Front très incertain, encore en chantier large. C’est le front le plus critique du projet.
+
+### Niveau d’intensité actuel
+**Très élevé**
+
+### Rôle dans la phase actuelle
+Faire passer le front site d’une logique de prospection large à une logique de qualification réelle et de conversion.
+
+### Livrables attendus
+- hiérarchisation claire des sites ;
+- identification ou resserrement des décideurs ;
+- lecture du besoin réel ou plausible ;
+- première shortlist de sites réellement crédibles ;
+- premières hypothèses exploitables sur les volumes plausibles, les créneaux de consommation et la tolérance au prix ;
+- clarification nette entre pistes faibles, pistes d’apprentissage et pistes vraiment fortes ;
+- qualification spécifique de Terre ASBL / Autre Terre ONG si cette piste reste active ;
+- requalification de Swissport LGG via un canal valide ;
+- clarification de la place de Challenge Handling et JOST dans le portefeuille de sites.
+
+### Fenêtre actuelle prioritaire
+D’ici fin juin :
+- pousser Challenge Handling et JOST ;
+- qualifier Terre ASBL / Autre Terre ONG si l’accès terrain devient possible ;
+- requalifier Swissport LGG par le bon contact ;
+- tester activement l’appel et d’autres canaux ;
+- faire émerger au moins une voie d’accès site forte.
+
+### Signal de retard
+- aucun progrès au-delà de l’email ;
+- aucune piste mieux qualifiée ;
+- aucune remontée terrain exploitable ;
+- maintien artificiel de pistes sans signal utile ;
+- confusion entre site d’apprentissage et site pilote prioritaire.
+
+### Bascule si retard confirmé
+Abandon du mode dominant email-first. Activation renforcée de :
+- appels ;
+- introductions réseau ;
+- relais écosystème ;
+- portes d’entrée institutionnelles ;
+- contacts via opérations, RH, facility ou direction de site.
+
+---
+
+## 10.3 Supply_Chain_Agent
+
+### Mission permanente
+Construire et piloter la brique approvisionnement.
+
+### Objectif long terme
+Établir l’architecture d’approvisionnement principale, avec sous-traitants crédibles, gouvernables et compatibles avec le pilote.
+
+### Objectif moyen terme de phase
+Maintenir une comparaison resserrée, utile à la décision économique et logistique, tout en transformant la recherche fournisseur en architecture d’approvisionnement standardisée et substituable.
+
+### État actuel du front
+Très bonne progression. Deux options fortes émergent déjà, avec une troisième piste complémentaire.
+
+### Niveau d’intensité actuel
+**Moyen à élevé**
+
+### Rôle dans la phase actuelle
+Faire en sorte que le front approvisionnement nourrisse réellement :
+- la lecture économique ;
+- la lecture logistique ;
+- le dossier CVD ;
+- le standard pilote ;
+- la capacité de substitution entre partenaires.
+
+### Livrables attendus
+- hiérarchie lisible des options directes ;
+- lecture claire des zones de prix ;
+- signaux logistiques comparables ;
+- premières lectures de cadence, packaging, paiement, profondeur logistique et risque de dépendance ;
+- cadre standard de collaboration traiteur MayiMayo ;
+- architecture cible principal / relais / secours ;
+- lecture de la substituabilité réelle entre traiteurs ;
+- lecture du coût de non-flexibilité ;
+- cadrage du standard 3 recettes, 2 livraisons / semaine, 72 plats / livraison ;
+- lecture du lien entre packaging, capacité machine et rotation.
+
+### Fenêtre actuelle prioritaire
+D’ici fin juin :
+- consolider Maxime et Alice ;
+- clarifier EM Traiteur ;
+- formaliser une première version du cadre standard traiteur ;
+- donner à la finance et à STEP une lecture simple de la brique approvisionnement.
+
+### Signal de retard
+- approvisionnement encore lu comme liste de traiteurs ;
+- absence de hiérarchie claire ;
+- pas de traduction économique exploitable ;
+- aucun cadre standard de collaboration ;
+- aucune lecture de redondance principal / relais / secours.
+
+### Bascule si retard confirmé
+Réduire la largeur du front et concentrer l’analyse sur :
+- Maxime ;
+- Alice ;
+- EM Traiteur si réponse exploitable ;
+- et uniquement d’éventuels challengers à vraie valeur comparative.
+
+---
+
+## 10.4 Machine_Systems_Agent
+
+### Mission permanente
+Construire et piloter la brique machine.
+
+### Objectif long terme
+Établir un fournisseur machine principal, des alternatives crédibles, et une relation suffisamment solide pour sécuriser le pilote.
+
+### Objectif moyen terme de phase
+Maintenir le benchmark machine à un niveau décisionnel propre, sans dispersion inutile, et finaliser la lecture de coût réel de la piste Vendlife.
+
+### État actuel du front
+Très bonne progression. Un candidat se détache nettement, mais la validation finale dépend encore du site, du support local, du coût réel importé et de l’économie.
+
+### Niveau d’intensité actuel
+**Moyen à élevé**
+
+### Rôle dans la phase actuelle
+Transformer le benchmark machine en lecture de décision stabilisée, pas en chantier principal.
+
+### Livrables attendus
+- lecture claire du trio de tête ;
+- compréhension du support, de l’installation et de la maintenance ;
+- lecture de la capacité utile et du débit ;
+- première lecture propre des options de financement machine si disponibles ;
+- clarification de la couche locale pour les options internationales ;
+- lecture de coût réel de la piste Vendlife :
+  - FOB ;
+  - shipping ;
+  - port ;
+  - dédouanement ;
+  - livraison finale ;
+  - terminal ;
+  - connectivité ;
+  - mise en service ;
+  - provision incident initiale ;
+- clarification avec Amy / Vendlife sur les points ouverts ;
+- qualification de la couche locale HB Services, WFresh et Duo Cool si ces pistes restent actives.
+
+### Fenêtre actuelle prioritaire
+D’ici fin juin :
+- stabiliser le noyau machine actif ;
+- documenter proprement Vendlife, Provending et Bicom ;
+- ne pas rouvrir artificiellement des comparaisons déjà refroidies ;
+- obtenir ou relancer les informations manquantes sur le coût réel Vendlife.
+
+### Signal de retard
+- trio de tête encore mal documenté ;
+- lecture couche locale encore décorative ;
+- finance encore incapable de lire le vrai coût initial ;
+- coût Vendlife encore réduit à 7 490 USD FOB ;
+- absence de réponse sur livraison finale, dédouanement, terminal ou connectivité.
+
+### Bascule si retard confirmé
+Resserrer le front machine à :
+- Vendlife ;
+- Provending ;
+- Bicom ;
+avec Magex en repère haut de coût et le reste en veille.
+
+---
+
+## 10.5 Finance_And_Unit_Economics_Agent
+
+### Mission permanente
+Construire la lecture économique et la logique de financement du projet.
+
+### Objectif long terme
+Établir une économie de business défendable et une architecture de financement réaliste et soutenable.
+
+### Objectif moyen terme de phase
+Transformer les signaux partiels existants en :
+- prévisions ;
+- plan financier ;
+- lecture de finançabilité plausible ;
+- et base crédible de dialogue avec Crédal et STEP.
+
+### État actuel du front
+Front très actif, devenu central.
+
+### Niveau d’intensité actuel
+**Très élevé**
+
+### Rôle dans la phase actuelle
+Établir une première zone de vérité sur :
+- la viabilité économique du pilote ;
+- les besoins de phase 1 ;
+- et la finançabilité plausible du projet.
+
+### Livrables attendus
+- scénarios prudent, central et plus favorable ;
+- lecture de marge brute unitaire ;
+- lecture des seuils de viabilité ;
+- première lecture du coût total de démarrage ;
+- comparaison économique achat comptant versus leasing versus location financière versus structure hybride ;
+- lecture de la tension de trésorerie ;
+- prévisions ;
+- plan financier ;
+- création ou cadrage de `Plan_Financier_Previsionnel_MayiMayo` ;
+- base pour dialogue Crédal ;
+- base économique pour STEP ;
+- lecture explicite du fait que 15k ne couvre que l’hypothèse basse ;
+- lecture du besoin central réel ;
+- modélisation sur base site type 600 ETP ;
+- scénarios de présence 75 %, 80 %, 85 % ;
+- scénarios de conversion 4 %, 6 %, 9 % ;
+- seuils 20, 25 et 40 ventes / jour ;
+- articulation entre capacité utile, ventes, réassort et trésorerie.
+
+### Fenêtre actuelle prioritaire
+D’ici début juillet :
+- produire une première lecture de finançabilité exploitable ;
+- préparer le dossier économique complémentaire demandé par STEP ;
+- ouvrir ou structurer le front Crédal ;
+- produire une première version du plan financier prévisionnel de phase 1.
+
+### Signal de retard
+- scénarios encore trop vagues ;
+- absence de distinction entre actif, trésorerie de lancement et amortisseur de départ ;
+- prévisions décoratives ;
+- plan financier non relié au terrain ;
+- scénario central compressé artificiellement dans 15k ;
+- absence de dialogue ou de cadrage Crédal.
+
+### Bascule si retard confirmé
+Réduire la lecture financière à un noyau minimal solide :
+- CAPEX machine ;
+- coût produit ;
+- marge brute unitaire ;
+- volume cible ;
+- tensions cash ;
+- structures de financement possibles ;
+- besoin bas ;
+- besoin central ;
+- et critères de finançabilité minimale.
+
+---
+
+## 11. Gouvernance hebdomadaire centrale
+
+### 11.1 Principe
+
+Le système ne fixe pas, à ce stade, des objectifs hebdomadaires obligatoires pour chaque agent de manière uniforme.
+
+La gouvernance hebdomadaire utile est centrée sur le **Chief_Structuration_Agent**, avec une fonction de rapport de pilotage global.
+
+### 11.2 Rôle du rapport hebdomadaire
+
+Le rapport hebdomadaire sert à vérifier :
+- si le projet avance réellement ;
+- si les bons fronts avancent ;
+- si un front bouge beaucoup mais sans créer de convergence utile ;
+- s’il existe une autre combinaison d’actions plus efficace ;
+- s’il existe un oubli structurant ;
+- si le système documentaire reflète encore correctement l’état réel ;
+- si le plan financier, le CVD, le site, la machine et l’approvisionnement convergent réellement.
+
+### 11.3 Contenu minimal du rapport hebdomadaire
+
+Le rapport hebdomadaire du Chief_Structuration_Agent doit contenir :
+- les fronts ayant réellement progressé ;
+- les fronts stagnants ;
+- les fronts sur-investis par rapport à leur utilité immédiate ;
+- les fronts sous-travaillés ;
+- les oublis ou angles morts potentiels ;
+- les réallocations ou ajustements à proposer ;
+- les divergences documentaires à corriger ;
+- les points de bascule ou arbitrages rapprochés ;
+- l’état de convergence site × machine × approvisionnement × économie ;
+- l’état du risque 15k bas versus scénario central.
+
+### 11.4 Ce que le rapport ne doit pas devenir
+
+Le rapport ne doit pas devenir :
+- un journal exhaustif ;
+- une répétition du registre central ;
+- un compte-rendu narratif de tout ce qui a été dit ;
+- une pseudo-réunion hebdomadaire pour tous les agents sans utilité réelle.
+
+---
+
+## 12. Rail transverse STEP et discipline de prospection
+
+### 12.1 Rail transverse STEP
+
+STEP doit être lu comme :
+- un cadre d’accompagnement potentiel ;
+- un filtre de maturité ;
+- un test de crédibilité ;
+- un accélérateur possible ;
+- mais pas comme une garantie de rythme.
+
+### 12.2 Ce que le rail STEP doit produire
+
+Avant le CVD, ce rail doit produire si possible :
+- une lecture de maturité du projet ;
+- un ordre de priorité externe ;
+- un pack documentaire cohérent ;
+- une narration de projet crédible ;
+- une base de validation ou de recadrage.
+
+### 12.3 Ce que le rail STEP ne doit pas devenir
+
+- un substitut à la qualification réelle ;
+- une excuse d’attente passive ;
+- un écran administratif qui donne l’impression d’avancer sans convergence réelle.
+
+### 12.4 Changement de tactique de prospection
+
+Le projet reconnaît désormais explicitement que le canal email seul produit trop peu de retours utiles.
+
+### 12.5 Décision active de prospection
+
+La prospection site ne peut plus reposer principalement sur l’email.
+
+### 12.6 Canaux à activer ou tester
+
+Les canaux suivants doivent être testés, seuls ou combinés :
+- appels ;
+- introductions réseau ;
+- portes d’entrée institutionnelles ;
+- relais écosystème ;
+- standard orienté vers RH, opérations, facility, direction de site ;
+- contacts latéraux permettant d’atteindre le décideur réel.
+
+### 12.7 Condition de validation tactique
+
+Avant le comité, le projet doit être capable d’identifier :
+- quels canaux produisent du signal utile ;
+- quels canaux produisent seulement du bruit ;
+- et quelle combinaison mérite de devenir la nouvelle discipline de prospection site.
+
+---
+
+## 13. Points de synchronisation inter-agents
+
+### 13.1 Synchronisation site × économie
+
+La valeur économique d’un site ne dépend pas uniquement de sa taille.  
+Elle dépend aussi :
+- de la densité utile réellement mobilisable ;
+- des horaires et pauses ;
+- du niveau de friction pour acheter ;
+- de la fréquence probable de consommation ;
+- de la tolérance prix.
+
+### 13.2 Synchronisation site × machine
+
+Le dimensionnement machine ne peut pas être lu indépendamment :
+- du volume plausible ;
+- du type de site ;
+- de la logique d’usage réelle ;
+- du pic d’usage ;
+- et du débit acceptable.
+
+### 13.3 Synchronisation site × approvisionnement
+
+Le type de site conditionne :
+- la fréquence probable de réassort ;
+- la tolérance au prix ;
+- la pertinence de certaines gammes ;
+- et la soutenabilité de certaines cadences logistiques.
+
+### 13.4 Synchronisation machine × approvisionnement
+
+Le couple machine × approvisionnement doit être relu ensemble sur :
+- compatibilité packaging ;
+- comportement au froid ;
+- mode de chauffe ;
+- stabilité de gamme ;
+- exposition au blocage opérationnel ;
+- lisibilité du réassort ;
+- capacité utile réelle avec le format de contenant retenu.
+
+L’hypothèse de format **20 × 15 × 4,5 cm** doit être traitée comme une hypothèse active, non comme une validation.  
+Elle doit servir à tester la capacité utile réelle, pas à remplacer une confirmation machine.
+
+### 13.5 Synchronisation approvisionnement × économie
+
+La logique 3 recettes, 2 livraisons / semaine, 72 plats / livraison doit être traduite dans :
+- le coût d’achat ;
+- la marge ;
+- les invendus ;
+- la fréquence de rotation ;
+- la trésorerie ;
+- la capacité de montée en charge.
+
+### 13.6 Synchronisation économie × finançabilité
+
+Une lecture économique utile ne suffit pas si elle n’est pas traduisible en lecture de finançabilité.  
+Le projet doit pouvoir expliquer non seulement ce qui pourrait marcher, mais aussi pourquoi un financeur pourrait considérer le montage comme plausible.
+
+### 13.7 Synchronisation machine × finance
+
+La finance ne peut pas produire un plan crédible si le coût machine reste au niveau du prix FOB.  
+La lecture économique doit intégrer :
+- import ;
+- transport ;
+- terminal ;
+- connectivité ;
+- mise en service ;
+- provision incident ;
+- trésorerie de départ.
+
+### 13.8 Synchronisation narration × réalité
+
+Le récit CVD ne doit jamais être plus avancé que :
+- le terrain ;
+- les chiffres ;
+- ou la finançabilité réelle.
+
+---
+
+## 14. Blocages structurants
+
+### 14.1 Blocage principal
+
+Aucun site fort n’existe encore.
+
+### 14.2 Blocage économique
+
+La lecture économique n’est pas encore assez formalisée pour soutenir seule un comité ou un échange de finançabilité.
+
+### 14.3 Blocage de finançabilité
+
+Aucun retour Crédal ou équivalent n’existe encore pour appuyer la plausibilité du montage.
+
+### 14.4 Blocage documentaire immédiat
+
+Le pack CVD et les documents économiques complémentaires ne sont pas encore produits.
+
+### 14.5 Blocage méthodologique
+
+Le projet doit encore transformer sa prospection en système plus actif que l’email-first.
+
+### 14.6 Blocage temporel
+
+La fenêtre avant le 15/07/2026 est structurante et la fenêtre avant le 01/10/2026 reste dure.
+
+### 14.7 Blocage de confirmation STEP
+
+Le potentiel effet de gel des allocations via STEP reste structurant, mais encore insuffisamment confirmé par écrit.
+
+### 14.8 Blocage machine importée
+
+La piste Vendlife est attractive, mais son coût réel rendu exploitable n’est pas encore complètement stabilisé.
+
+Les inconnues critiques concernent notamment :
+- livraison directe Liège ;
+- dédouanement ;
+- livraison finale ;
+- terminal ;
+- connectivité ;
+- mise en service ;
+- CBM / RT emballé ;
+- provision incident initiale.
+
+### 14.9 Blocage approvisionnement standardisé
+
+L’architecture d’approvisionnement n’est pas encore suffisamment standardisée.
+
+Le projet ne dispose pas encore d’un cadre formalisé permettant de comparer et substituer proprement :
+- un traiteur principal ;
+- un traiteur relais ;
+- un traiteur de secours.
+
+### 14.10 Blocage plan financier dédié
+
+Le document `Plan_Financier_Previsionnel_MayiMayo` doit encore être créé.  
+Sans ce document, les scénarios financiers risquent de rester dispersés entre conversations, feuille de route, état canonique et supports STEP.
+
+---
+
+## 15. Variables critiques
+
+Les variables critiques de la phase sont les suivantes :
+- qualité réelle du site pilote ;
+- qualité des alternatives de site ;
+- niveau de besoin observable ;
+- tolérance prix ;
+- volume quotidien plausible ;
+- site type de référence 600 ETP ;
+- présence active réelle ;
+- scénarios de présence 75 %, 80 %, 85 % ;
+- scénarios de conversion 4 %, 6 %, 9 % ;
+- seuils 20, 25 et 40 ventes / jour ;
+- marge brute unitaire ;
+- coût machine réellement retenu ;
+- distinction prix FOB / coût réel de lancement ;
+- coût réel de la couche locale machine ;
+- coût terminal ;
+- coût connectivité ;
+- contraintes packaging ;
+- capacité utile réelle ;
+- cadence de réassort ;
+- standard 3 recettes ;
+- conditions de paiement fournisseur ;
+- besoin en trésorerie de phase 1 ;
+- structure de financement machine ;
+- besoin bas versus besoin central ;
+- retour de finançabilité Crédal ;
+- niveau réel d’exigence du comité STEP ;
+- confirmation ou non de la portée réelle du levier STEP sur les allocations.
+
+---
+
+## 16. Arbitrages à préparer
+
+### 16.1 Arbitrage à préparer, site
+
+À partir de quel seuil une piste site devient-elle :
+- simple piste ;
+- alternative crédible ;
+- site fort ;
+- ou site pilote défendable ?
+
+### 16.2 Arbitrage à préparer, finançabilité
+
+Quel niveau de retour Crédal suffit pour considérer que la finançabilité est crédible à ce stade ?
+
+### 16.3 Arbitrage à préparer, CVD
+
+Jusqu’où pousser le cadrage avant le comité, et à partir de quel point un manque doit être montré comme angle mort lucide plutôt que masqué ?
+
+### 16.4 Arbitrage à préparer, machine
+
+À quel moment considérer que le trio machine est suffisamment stable pour ne plus reconsommer d’énergie exploratoire inutile ?
+
+### 16.5 Arbitrage à préparer, coût Vendlife
+
+À quel seuil le coût réel Vendlife reste-t-il suffisamment attractif par rapport à Provending et Bicom ?
+
+Cet arbitrage ne doit pas comparer uniquement les prix affichés.  
+Il doit comparer :
+- coût complet de lancement ;
+- support ;
+- maintenance ;
+- risque import ;
+- capacité utile ;
+- délai ;
+- compatibilité terrain ;
+- et finançabilité.
+
+### 16.6 Arbitrage à préparer, approvisionnement
+
+Jusqu’où approfondir les options directes avant que cela n’apporte plus de valeur réelle au pilote ?
+
+### 16.7 Arbitrage à préparer, standardisation traiteur
+
+Jusqu’où standardiser l’offre traiteur pour rendre les partenaires substituables, sans dégrader la désirabilité produit ?
+
+### 16.8 Arbitrage à préparer, volume pilote
+
+Quel volume de départ est le plus cohérent :
+- 72 plats / livraison ;
+- 84 plats / livraison ;
+- 96 plats / livraison ;
+- ou une montée progressive selon les ruptures et les invendus ?
+
+### 16.9 Arbitrage à préparer, financement
+
+Faut-il présenter à Crédal :
+- un besoin minimal ;
+- un besoin central ;
+- ou une fourchette bas / central avec marge de sécurité ?
+
+La lecture actuelle indique que le minimum à 15k ne doit pas être confondu avec le besoin central.
+
+### 16.10 Arbitrage à préparer, tactique commerciale
+
+Quel mix de prospection doit remplacer l’email-first, et à partir de quel moment une méthode doit être considérée comme insuffisante ?
+
+### 16.11 Arbitrage à préparer, levier formation
+
+Le levier formation peut-il encore produire une marge de manœuvre utile, ou doit-il être reclassé comme piste secondaire insuffisante pour le calendrier réel du projet ?
+
+### 16.12 Arbitrage à préparer, point de décision avant octobre
+
+À quel seuil exact le projet doit-il être relu comme :
+- prêt à pousser vers pilote ;
+- à reporter ;
+- à reconfigurer ;
+- ou à recentrer ?
+
+---
+
+## 17. Zone hors priorité actuelle
+
+### 17.1 Ce qui est volontairement hors focus dans la phase actuelle
+
+- déploiement multi-sites ;
+- scale agressif ;
+- optimisation fine du branding final ;
+- micro-optimisations produit non nécessaires au pilote ;
+- architecture juridique définitive post-pilote ;
+- chantier bancaire complet ;
+- sophistication fiscale prématurée ;
+- industrialisation complète de l’exploitation ;
+- recherche illimitée de nouveaux fournisseurs machine ;
+- recherche illimitée de nouveaux traiteurs hors valeur comparative réelle.
+
+### 17.2 Ce qui est suspendu sans être rejeté
+
+- internalisation plus forte de la restauration ;
+- déploiement multi-machines immédiat ;
+- sophistication trop rapide du modèle d’exploitation ;
+- narration centrée sur un site unique ;
+- dépendance à un seul partenaire structurant ;
+- usage d’une phase de livraison aux entreprises comme tactique amont, sauf cadrage strict et utilité directe pour la qualification du modèle principal.
+
+### 17.3 Ce qui sera traité dans une phase ultérieure seulement
+
+- financement détaillé complet au-delà de la phase 1 ;
+- réplication ;
+- industrialisation du modèle ;
+- gouvernance élargie de partenariats longue durée ;
+- éventuelle extension vers d’autres segments de sites ;
+- structuration juridique ou capitalistique plus large ;
+- optimisation fine du mix recettes après données réelles de vente.
+
+---
+
+## 18. Conditions de révision de la feuille de route
+
+La feuille de route doit être révisée lorsqu’un changement réel modifie le séquencement stratégique du projet.
+
+### 18.1 Déclencheurs de révision
+
+Révision requise notamment en cas de :
+- qualification réelle d’un site pilote ;
+- émergence d’un site fort ;
+- obtention d’un socle de une à trois alternatives crédibles ;
+- retour de finançabilité crédible de Crédal ;
+- évolution forte de la lecture économique ;
+- production finalisée du pack CVD ;
+- création ou finalisation du `Plan_Financier_Previsionnel_MayiMayo` ;
+- clarification substantielle du coût réel Vendlife ;
+- confirmation ou rejet de la livraison directe jusqu’à Liège ;
+- confirmation d’une architecture locale de support machine ;
+- validation ou rejet du projet par le comité STEP ;
+- confirmation écrite ou infirmation de la portée réelle du levier STEP sur les allocations ;
+- validation claire d’un canal de prospection alternatif à l’email ;
+- nécessité de basculer officiellement vers poursuite pilote, report ou reconfiguration.
+
+### 18.2 Révision non requise
+
+Une révision n’est pas nécessaire pour :
+- une simple mise à jour locale de contact ;
+- un retour isolé qui ne change pas la stratégie ;
+- un enrichissement de registre sans effet sur la séquence globale ;
+- une progression locale qui n’affecte ni la phase, ni les priorités, ni les sous-goals ;
+- un ajout chiffré mineur qui appartient uniquement au futur document financier.
+
+---
+
+## 19. Règle de discipline d’usage
+
+Cette feuille de route doit rester :
+- directrice ;
+- synthétique ;
+- lisible par tous les agents ;
+- orientée progression ;
+- et pilotable dans le temps.
+
+Elle ne doit pas devenir :
+- un doublon du registre central ;
+- un journal d’exécution ;
+- une archive narrative ;
+- une accumulation de formulations vagues ;
+- une simulation de contrôle qui masque l’absence de décision ;
+- un plan financier détaillé déguisé.
+
+Chaque mise à jour doit améliorer au moins un des points suivants :
+- clarté de la phase ;
+- lisibilité des priorités ;
+- compréhension des dépendances ;
+- coordination inter-agents ;
+- articulation entre logique et temporalité ;
+- capacité à décider de la suite ;
+- capacité à piloter sans dérive ni stagnation silencieuse ;
+- capacité à distinguer coût fournisseur, coût réel de lancement et besoin de financement ;
+- capacité à distinguer traiteur intéressant et architecture d’approvisionnement gouvernable.
+
+---
+
+## 20. Clause de complétion progressive
+
+Le présent document reste un document de pilotage structuré, conçu pour être complété progressivement par les agents spécialisés, chacun dans sa zone de compétence, en cohérence avec :
+- le protocole système ;
+- l’état canonique ;
+- l’overview ;
+- les registres opérationnels actifs ;
+- le futur `Plan_Financier_Previsionnel_MayiMayo`.
+
+La complétion ne doit pas transformer le document en agrégat non structuré.  
+Chaque agent doit compléter les sections pertinentes sans casser :
+- la lisibilité globale ;
+- la hiérarchie des priorités ;
+- la cohérence inter-agents ;
+- la discipline temporelle ;
+- et la capacité à arbitrer.
+
+---
+
+# Document Metadata & Changelog
+
+Changelog:
+  - 1.9.0 (2026-06-05, Chief_Structuration_Agent): Mise à jour structurante compatible de la feuille de route pour intégrer les conséquences opérationnelles du travail récent sur la piste Vendlife, l’architecture d’approvisionnement et le plan financier prévisionnel. Ajout explicite du sous-goal de coût réel machine importée, de la dépendance Amy / Vendlife, du standard pilote 3 recettes avec 2 livraisons par semaine et 72 plats par livraison, de la logique d’approvisionnement principal / relais / secours, de la nécessité de créer un document séparé `Plan_Financier_Previsionnel_MayiMayo`, de la lecture 15k comme scénario bas uniquement, du site type 600 ETP, des scénarios présence / conversion et des seuils 20 / 25 / 40 ventes par jour. Renforcement des mandats Machine, Supply Chain et Finance, des blocages, variables critiques, synchronisations et arbitrages associés.
+  - 1.8.0 (2026-05-21, Chief_Structuration_Agent): Mise à jour complète de la feuille de route avec recalibrage majeur de la phase active autour de la séquence désormais prioritaire : site pilote crédible, finançabilité plausible, puis passage devant STEP. Intégration explicite du CVD visé le 15 juillet 2026, de la demande STEP de PPT, BMC, SWOT, plan d’action, prévisions et plan financier, recentrage des priorités globales sur le front site, la production des documents économiques et l’ouverture du front Crédal, rétrogradation du levier formation au rang de piste secondaire, intégration de STEP comme filtre de crédibilité et levier temporel potentiel, et mise à jour complète des sous-goals, des mandats agents, des blocages, des variables critiques et des arbitrages à préparer.
+  - 1.7.0 (2026-04-22, Chief_Structuration_Agent): Mise à jour complète de la feuille de route avec absorption de la fonction Contact_Manager_Agent par le Chief_Structuration_Agent, ajout d’une couche de gouvernance hebdomadaire centrale, intégration explicite du modèle mission permanente / objectif long terme / objectif moyen terme / état du front / intensité par agent, recalibrage du front site autour de l’absence de réponse Swissport LGG et de la perte de la porte d’entrée chaude Forem / Val Benoît, intégration explicite du test de prospection par appels, sortie de Distrifood du cadre actif, recentrage de l’approvisionnement sur Maxime, Alice et EM Traiteur, mise à jour de la référence machine Vendlife vers la HYJ-FH120 double microwave ovens avec prix unitaire FOB à 7 490 USD, intégration du levier IFAPME / Forem, ajout du contact avec Ilona Wieczorek, prise en compte du stage anticipé possible mais d’un démarrage de formation en début / mi-septembre, et renforcement de la lecture temporelle au regard de l’arrêt des allocations au 01/10/2026.
+  - 1.6.0 (2026-04-18, Chief_Structuration_Agent): Réécriture complète consolidée de la feuille de route stratégique MayiMayo.
+  - 1.2.0 (2026-04-18, Machine_Systems_Agent): Mise à jour complète de la feuille de route avec renforcement structurant de la brique machine. Recalibrage des priorités globales, des critères de sortie, du mandat Machine_Systems_Agent, des points de synchronisation, des blocages structurants, des variables critiques et des arbitrages à préparer. Intégration explicite de la question de la couche locale d’installation et maintenance comme sous-problème stratégique de premier plan.
+  - 1.1.0 (2026-04-15, Sites_Projet_Logistique): Mise à jour ciblée de la feuille de route sans refonte de structure. Recalibrage du front site autour d’une double logique qualification réelle + apprentissage terrain ; intégration explicite des portes d’entrée écosystème ; sortie d’Ethias du centre de gravité des pistes actives ; renforcement de Forem / Val Benoît comme piste institutionnelle chaude ; ajustement des priorités, du mandat site, des blocages et des critères de révision.
+  - 1.0.0 (2026-04-14, Chief_Structuration_Agent): Initialisation de la feuille de route stratégique MayiMayo et première complétion de référence. Ajout de la phase active, des priorités globales, de la séquence logique, des dépendances inter-agents, des mandats actifs par agent, des points de synchronisation, des blocages structurants, des variables critiques, des arbitrages à préparer et de la zone hors priorité actuelle.
+
+Breaking Changes:
+  - Aucun. Révision compatible de la feuille de route sans changement de rôle du document.
+
+---
+Fin du document
+---
