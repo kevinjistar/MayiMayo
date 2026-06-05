@@ -1,0 +1,1292 @@
+---
+Document: Etat_canonique_MayiMayo
+Version: 1.5.0
+Date: 2026-06-05
+
+Maintainers:
+  - Kevin NEES [Captain] (authority)
+  - Chief_Structuration_Agent
+  - Sites_Projet_Logistique
+  - Supply_Chain_Agent
+  - Finance_And_Unit_Economics_Agent
+  - Machine_Systems_Agent
+
+Document Role: Canonical Project State
+Update Policy: Human-authorized agent modification only
+Document Status: Canonical Reference
+Scope: Core Project State
+Supersedes: 1.4.0
+Dependencies:
+  - Protocole_Systeme_MayiMayo
+  - Project_Overview_MayiMayo
+  - Feuille_De_Route_MayiMayo
+  - Registre_Central_De_Suivi_Des_Contacts
+  - Plan_Financier_Previsionnel_MayiMayo
+---
+
+# État canonique du projet MayiMayo
+
+## 1. Préambule
+
+Ce document centralise l’état actuel valide du projet MayiMayo.
+
+Il n’a pas pour rôle :
+- d’explorer librement ;
+- de détailler l’ensemble du raisonnement historique ;
+- ni de remplacer le document d’overview.
+
+Il a pour rôle :
+- de dire ce qui est actuellement considéré comme vrai ;
+- de distinguer clairement le confirmé du probable ;
+- de conserver la trace des décisions actives ;
+- d’indiquer les inconnues critiques ;
+- d’empêcher la coexistence de plusieurs réalités implicites.
+
+Le document doit rester plus stable qu’une conversation, mais plus réactif que l’overview.
+
+---
+
+## 2. Règle de lecture
+
+Les éléments de ce document doivent être interprétés selon cinq statuts.
+
+### 2.1 Confirmé
+Élément considéré comme suffisamment établi pour orienter le projet.
+
+### 2.2 Hypothèse active
+Élément plausible, structurant, mais non encore validé définitivement.
+
+### 2.3 Décision active
+Choix actuellement retenu pour orienter les travaux.
+
+### 2.4 Suspendu
+Piste non rejetée définitivement, mais non activement poursuivie.
+
+### 2.5 Rejeté
+Piste explicitement écartée à ce stade.
+
+---
+
+## 3. État général du projet
+
+### 3.1 Statut global
+**Hypothèse active**
+
+MayiMayo est actuellement en phase de cadrage structuré avancé.
+
+Le projet n’est pas en phase de lancement opérationnel.  
+Le projet n’est pas encore en phase bancaire complète.  
+Le projet n’est pas encore validé par un site pilote.  
+Le projet n’est pas encore validé par le comité STEP.
+
+La phase actuelle est une phase de :
+- qualification du modèle ;
+- clarification de la chaîne de valeur ;
+- structuration documentaire ;
+- test de viabilité du montage partenarial ;
+- comparaison active des options machine et approvisionnement ;
+- qualification de sites ;
+- clarification de la pré-finançabilité du pilote ;
+- préparation du passage en **Comité de Validation de Diagnostic** chez STEP ;
+- préparation de documents complémentaires demandés par STEP, dont des **prévisions** et un **plan financier** ;
+- création recommandée d’un document dédié `Plan_Financier_Previsionnel_MayiMayo` ;
+- clarification de la contrainte temporelle personnelle ;
+- relecture de la piste formation comme levier désormais secondaire.
+
+### 3.2 Niveau de maturité
+**Confirmé**
+
+Le projet a dépassé le stade de l’idée abstraite.
+
+Il dispose désormais :
+- d’une thèse centrale formulée ;
+- d’un protocole système ;
+- d’un overview projet ;
+- d’un état canonique ;
+- d’un registre central de suivi des contacts structuré ;
+- d’une feuille de route stratégique active ;
+- d’une lecture plus mature des partenaires techniques, alimentaires et des contraintes de site ;
+- d’une première comparaison machine réellement exploitable ;
+- d’une base comparative directe plus solide sur l’approvisionnement ;
+- d’une lecture plus robuste des contraintes unitaires du modèle ;
+- d’une lecture plus explicite des angles morts majeurs, du timing et de la pré-finançabilité du pilote ;
+- d’une première clarification concrète du rôle de STEP dans la temporalité réelle du projet ;
+- d’un cadrage économique plus précis distinguant le coût fournisseur brut du coût réel de lancement.
+
+---
+
+## 4. Documents noyaux et références opérationnelles
+
+### 4.1 Protocole du système
+**Confirmé**
+
+`Protocole_Systeme_MayiMayo` existe en version de référence `1.1.0`.
+
+### 4.2 Overview du projet
+**Confirmé**
+
+`Project_Overview_MayiMayo` existe en version de référence `1.1.0`.
+
+### 4.3 État canonique
+**Confirmé**
+
+Le présent document constitue la référence canonique de l’état actuel du projet.
+
+### 4.4 Références opérationnelles actives
+**Confirmé**
+
+Le système s’appuie désormais explicitement sur deux références opérationnelles actives :
+- `Registre_Central_De_Suivi_Des_Contacts`, référence active pour la continuité des contacts, les comparaisons opérationnelles, les priorités locales et les prochaines actions ;
+- `Feuille_De_Route_MayiMayo`, référence active pour la phase du projet, la hiérarchie des fronts, la logique de convergence, les dépendances structurantes et la discipline temporelle.
+
+Cette articulation ne modifie pas la hiérarchie canonique du système.  
+Elle clarifie simplement la lecture correcte entre :
+- cadre stable du projet ;
+- mouvement opérationnel ;
+- et pilotage stratégique.
+
+### 4.5 Document financier dédié
+**Décision active**
+
+Les prévisions économiques détaillées ne doivent pas être injectées lourdement dans l’overview, le protocole, le registre central ou le présent état canonique.
+
+Un document dédié est désormais recommandé et reconnu comme nécessaire :
+
+`Plan_Financier_Previsionnel_MayiMayo`
+
+Rôle attendu :
+- porter les hypothèses financières de phase 1 ;
+- distinguer les scénarios bas, central et haut ;
+- cadrer l’investissement réel de lancement ;
+- soutenir la préparation STEP ;
+- soutenir le dialogue avec Crédal ;
+- rester non canonique tant que ses scénarios sont en consolidation.
+
+---
+
+## 5. Orientation stratégique actuellement valide
+
+### 5.1 Nature du projet
+**Confirmé**
+
+MayiMayo est un projet de restauration chaude automatisée pour sites professionnels sous-équipés, avec une priorité actuelle donnée aux environnements industriels et logistiques.
+
+### 5.2 Positionnement réel
+**Confirmé**
+
+MayiMayo n’est pas traité comme un projet de simple vending snack.  
+MayiMayo n’est pas traité comme un projet de restauration internalisée complète dès le départ.
+
+Le projet est actuellement compris comme un système composé de quatre briques opérationnelles principales :
+- accès et qualification d’emplacements ;
+- solution machine ;
+- approvisionnement alimentaire ;
+- exploitation et viabilité économique.
+
+### 5.3 Principe de lancement
+**Confirmé**
+
+Aucune machine ne doit être achetée à l’aveugle.
+
+Le principe actuellement retenu est :
+
+**une première unité de repas chaud ne sera envisagée que sur un site suffisamment qualifié, avec besoin plausible ou confirmé, emplacement identifié, décideur accessible et faisabilité opérationnelle cadrée.**
+
+### 5.4 Lecture stratégique machine actuellement valide
+**Confirmé**
+
+La comparaison machine ne se joue plus seulement entre Europe et Chine.  
+Elle se joue aussi entre :
+- une offre européenne intégrée ;
+- une machine internationale compétitive, appuyée par une couche locale européenne d’installation et de maintenance.
+
+À ce stade, **Vendlife reste la piste machine la plus attractive en intérêt direct**.  
+La référence active n’est plus l’ancienne machine Vendlife à micro-ondes unique.  
+La référence active est désormais une **HYJ-FH120 double microwave ovens**, ce qui supprime l’ancien point faible central lié au micro-ondes unique.
+
+Le prix fournisseur actuellement retenu pour cette référence est :
+
+**7 490 USD FOB**
+
+Ce montant ne doit pas être interprété comme le coût réel de lancement.
+
+La lecture économique doit désormais distinguer :
+- prix FOB ;
+- transport ;
+- import ;
+- dédouanement ;
+- livraison finale ;
+- installation ;
+- mise en service ;
+- terminal de paiement ;
+- connectivité ;
+- provision incident initiale ;
+- trésorerie de départ.
+
+Vendlife reste jugée très forte, mais sa viabilité passe toujours clairement par :
+- une confirmation du coût réel rendu exploitable ;
+- une clarification des frais annexes ;
+- une couche locale européenne d’installation et de maintenance ;
+- une sous-traitance ou orchestration crédible de techniciens locaux.
+
+### 5.5 Couche locale d’installation et de maintenance
+**Hypothèse active structurante**
+
+La recherche machine a fait émerger une architecture alternative importante :
+
+**machine internationale + couche locale européenne de mise en service, installation, maintenance et dépannage.**
+
+Cette couche locale ne remplace pas le fournisseur machine.  
+Elle sert à réduire le risque opérationnel lié à :
+- l’installation physique sur site industriel ;
+- le raccordement ;
+- la mise en service ;
+- le diagnostic initial en cas de panne ;
+- la maintenance ponctuelle ;
+- le support froid / électrique / mécanique lorsque le fournisseur est hors Europe.
+
+Cette lecture rend possible deux architectures machine :
+1. fournisseur européen plus intégré ;
+2. fournisseur international + couche technique locale.
+
+Acteurs locaux actuellement retenus pour qualification :
+- **HB Services** : piste installation / maintenance générale vending, avec risque concurrentiel jugé plus faible que les opérateurs vending complets ;
+- **WFresh** : piste froid commercial / maintenance frigorifique ;
+- **Duo Cool** : piste froid commercial / maintenance frigorifique.
+
+Acteurs volontairement mis en retrait à ce stade :
+- **DAP Solutions**, absence de réponse récente malgré relance ;
+- **Gamaco Services**, risque concurrentiel perçu plus élevé ;
+- **Distri’Break**, risque concurrentiel perçu plus élevé.
+
+Cette couche locale est une hypothèse active structurante, non encore validée.
+
+### 5.6 Lecture stratégique approvisionnement actuellement valide
+**Confirmé**
+
+La logique d’approvisionnement active ne repose plus sur deux rails encore réellement vivants.
+
+À ce stade :
+- le **marché direct** constitue le rail principal d’analyse ;
+- **Maxime Traiteur** constitue l’option directe numéro 1 ;
+- **Alice Traiteur** constitue l’option directe numéro 2 ;
+- **EM Traiteur** reste une piste complémentaire active ;
+- **Distrifood ne fait plus partie du cadre actif du projet**.
+
+Distrifood conserve une valeur historique comme benchmark intégré déjà observé, mais ne constitue plus une hypothèse de travail utile pour l’architecture active du projet.
+
+### 5.7 Architecture d’approvisionnement actuellement visée
+**Hypothèse active structurante**
+
+MayiMayo ne cherche plus seulement à “trouver un bon traiteur”.
+
+Le projet explore désormais une architecture d’approvisionnement :
+- standardisée ;
+- redondante ;
+- substituable ;
+- compatible avec un pilote simple ;
+- et gouvernable sans internaliser la restauration.
+
+L’architecture cible à valider repose sur trois niveaux de partenaires traiteurs :
+1. **partenaire principal** ;
+2. **partenaire relais** activable rapidement ;
+3. **partenaire de secours** qualifié.
+
+Cette architecture ne signifie pas que trois traiteurs doivent être exploités en routine dès le départ.  
+Elle signifie que le système doit disposer de plusieurs options cadrées, compatibles et substituables, afin de réduire :
+- le risque de rupture de service ;
+- la rigidité logistique ;
+- la dépendance à un seul partenaire ;
+- le coût caché d’un changement de traiteur en cours de pilote.
+
+Le coût de substitution doit être réduit par :
+- un cahier des charges produit commun ;
+- une logique de recettes standardisées ;
+- des formats compatibles machine ;
+- une cadence logistique standardisée ;
+- une lecture claire des conditions de remplacement.
+
+### 5.8 Lecture stratégique temporelle actuellement valide
+**Confirmé**
+
+Le projet doit désormais être lu sous contrainte temporelle explicite.
+
+Cette lecture repose sur :
+- une date d’arrêt des allocations de chômage fixée au **01/10/2026** ;
+- une fenêtre STEP utile mais non garantie ;
+- un **Comité de Validation de Diagnostic** identifié comme prochain point de bascule important ;
+- une nécessité d’obtenir une convergence utile avant juillet puis avant septembre-début octobre 2026.
+
+Le levier formation ne constitue plus à ce stade le levier temporel principal.  
+Il constitue désormais une piste secondaire, utile seulement si elle améliore réellement la marge de manœuvre.
+
+### 5.9 Nouvelle lecture stratégique STEP actuellement valide
+**Hypothèse active**
+
+D’après l’information transmise oralement lors du premier entretien individuel chez STEP :
+- si le projet est validé par le comité ;
+- et s’il entre ensuite en accompagnement ;
+
+les allocations de chômage seraient **gelées durant la période d’accompagnement**.
+
+À ce stade, cette information est structurante, mais elle n’est pas encore formalisée par un support écrit intégré au système.
+
+Conséquence stratégique actuelle :
+- **la validation STEP devient l’hypothèse de levier temporel principal du projet** ;
+- le passage devant le comité ne doit donc plus être lu comme une simple formalité de suivi, mais comme un filtre de crédibilité à fort impact potentiel sur la temporalité réelle.
+
+---
+
+## 6. Cible principale actuellement retenue
+
+### 6.1 Segment principal
+**Hypothèse active**
+
+Les sites les plus prometteurs à ce stade sont :
+- les centres logistiques ;
+- les sites industriels ;
+- les plateformes de distribution ;
+- les grands sites professionnels avec présence physique stable et déficit de restauration chaude structurée.
+
+### 6.2 Logique de priorité
+**Confirmé**
+
+Le projet ne vise pas tous les environnements professionnels indistinctement.
+
+La priorité actuelle repose sur l’hypothèse que certains sites industriels et logistiques cumulent :
+- taille significative ;
+- présence physique régulière ;
+- contraintes de pause ;
+- alternatives externes limitées ;
+- besoin plus fort de repas disponibles sur place.
+
+Cette hypothèse reste à confirmer par des cas réels.
+
+### 6.3 Extension pragmatique du front site
+**Confirmé**
+
+Sans changer la cible principale, le front site effectivement travaillé s’est élargi à des pistes entreprise et institutionnelles suffisamment cohérentes pour servir de terrain de vérité opérationnelle.
+
+Cette extension ne signifie pas que ces pistes secondaires ou institutionnelles deviennent automatiquement des cibles pilotes prioritaires.
+
+### 6.4 Sites d’apprentissage
+**Confirmé**
+
+Certains sites peuvent être utiles même s’ils ne constituent pas de bons pilotes primaires.
+
+Cette catégorie concerne notamment les grands sites institutionnels disposant déjà :
+- de cuisines internes ;
+- de points de vente ;
+- de solutions de restauration structurées.
+
+Ces sites sont moins adaptés comme premiers pilotes, mais ils peuvent produire de l’apprentissage sur :
+- les raisons d’échec d’initiatives similaires ;
+- les usages alimentaires ;
+- les limites des solutions existantes ;
+- les conditions qui rendent une offre chaude réellement utilisée.
+
+---
+
+## 7. État actuel du front site pilote
+
+### 7.1 Aucun site pilote validé à ce stade
+**Confirmé**
+
+Aucun site n’est actuellement validé comme site pilote.
+
+### 7.2 Aucun site fort à ce stade
+**Confirmé**
+
+À ce stade, **aucun site fort n’existe**.
+
+Le front site constitue donc, avec le financement, l’un des deux angles morts majeurs du projet.
+
+### 7.3 Priorité opérationnelle actuelle
+**Confirmé**
+
+La prochaine grande étape opérationnelle du projet reste la qualification de sites, au-delà du seul envoi de messages de prospection.
+
+L’objectif n’est plus seulement de faire émerger un site fort.  
+L’objectif est désormais de faire émerger :
+- **un site pilote réellement défendable** ;
+- puis **une à trois alternatives crédibles** ;
+- afin de pouvoir soutenir le passage devant STEP et la lecture de finançabilité du projet sans dépendre d’une seule piste.
+
+### 7.4 Situation actuelle des pistes sites
+**Confirmé**
+
+À ce stade :
+- Ethias est le seul site entreprise ayant répondu à la vague de prospection déjà envoyée, mais le besoin n’existe pas actuellement ;
+- Ethias ne constitue donc pas une cible prioritaire, mais doit être lu comme dossier en veille plutôt que comme clôture dure ;
+- Swissport LGG n’a donné aucune réponse exploitable à ce stade et ne doit plus être lu comme favori implicite ;
+- le canal initial Swissport s’est révélé fragilisé par une adresse inactive, ce qui impose une requalification via un point d’entrée fiable ;
+- Forem / Val Benoît a perdu sa porte d’entrée chaude initiale et ne doit plus être lu comme piste chaude, mais seulement comme piste institutionnelle réactivable par email ou par reconstruction du contact ;
+- Challenge Handling et JOST émergent comme bons candidats structurels dans la lecture active des sites à qualifier ;
+- Citadelle et CHC sont surtout utiles comme sites d’apprentissage institutionnels, non comme pistes pilotes prioritaires à ce stade ;
+- Terre ASBL / Autre Terre ONG émerge comme hypothèse active de site mutualisé ou hub interconnecté à qualifier sur place ;
+- aucune piste site ne peut actuellement être lue comme pilote déjà fort ou même quasi validé.
+
+### 7.5 Hypothèse Terre ASBL / Autre Terre ONG
+**Hypothèse active**
+
+Terre ASBL / Autre Terre ONG constitue désormais une hypothèse site plus sérieuse qu’auparavant.
+
+Faits et estimations actuellement disponibles :
+- absence d’emplacement réellement disponible directement au sein de Terre ASBL ;
+- possibilité d’un emplacement dans le lieu de réunion d’Autre Terre ONG ;
+- logique potentielle de point d’interconnexion entre plusieurs entités du Groupe Terre ;
+- estimation mémoire de 400 à 500 employés sur le périmètre ;
+- pause située autour de 11h30 ;
+- absence de cantine ;
+- absence de véritable solution de repas chaud à proximité, hors supérettes ;
+- possibilité de capter à la fois les collaborateurs de Terre et les flux liés aux réunions.
+
+Lecture actuelle :
+- besoin fortement plausible ;
+- compatibilité élevée avec la thèse MayiMayo ;
+- point fort : absence d’offre chaude structurée ;
+- point faible : absence d’emplacement interne direct dans Terre ;
+- point de bascule : si le lieu de réunion peut être reconnu comme point repas légitime et communiqué comme tel, le site devient un hub mutualisé potentiellement fort.
+
+Cette piste ne doit pas être canonisée comme site validé.  
+Elle reste une hypothèse active à confirmer sur place.
+
+### 7.6 Conséquence stratégique
+**Confirmé**
+
+Le projet ne doit pas être narrativement ou opérationnellement surindexé sur un seul site tant qu’aucune qualification réelle n’a été obtenue.
+
+### 7.7 Évolution de méthode
+**Décision active**
+
+La prospection site ne doit plus dépendre principalement de l’email.  
+Le projet doit désormais tester des canaux plus actifs, notamment l’appel direct, la reconstruction de contacts internes et la qualification terrain.
+
+### 7.8 Nouvelle exigence de validation liée au comité STEP
+**Confirmé**
+
+À ce stade, la lecture transmise par STEP implique que le comité cherchera surtout à vérifier, au-delà de la motivation personnelle et de l’intérêt global de l’idée :
+- s’il existe un **besoin clair** ;
+- si le projet repose sur un **terrain suffisamment crédible** ;
+- et si le projet peut être **financé de manière plausible**.
+
+Conséquence actuelle :
+- la validation d’un front site crédible devient un prérequis plus central encore qu’avant.
+
+---
+
+## 8. Apprentissage partenaire et lecture comparative actuelle
+
+### 8.1 DAP Solutions
+
+#### 8.1.1 Rôle identifié
+**Confirmé**
+
+DAP reste identifié comme partenaire machine potentiel historique et comme point de référence belge.
+
+#### 8.1.2 Ce qui a été clarifié
+**Confirmé**
+
+D’après l’échange téléphonique réalisé :
+- DAP propose les machines, pas l’approvisionnement alimentaire ;
+- une machine repas chaud existe avec une capacité de base de 63 plats ;
+- des frigos additionnels existent, avec 63 plats supplémentaires par frigo ;
+- des micro-ondes additionnels peuvent être intégrés ;
+- l’utilisateur ou l’opérateur doit définir les plats.
+
+#### 8.1.3 Conséquence stratégique
+**Confirmé**
+
+Le projet ne peut pas être modélisé comme :
+- machine + site = activité.
+
+Il doit être modélisé comme :
+- machine + approvisionnement + site + exploitation = activité.
+
+#### 8.1.4 État opérationnel actuel
+**Confirmé**
+
+DAP n’est plus, à ce stade, la piste machine la plus avancée opérationnellement.  
+Le devis n’a pas été reçu dans la fenêtre utile et le dossier est désormais en veille tant qu’aucun retour exploitable nouveau n’apparaît.
+
+---
+
+### 8.2 Distrifood
+
+#### 8.2.1 Rôle identifié
+**Confirmé**
+
+Distrifood est désormais à lire comme **benchmark historique intégré**, non comme piste active du projet.
+
+#### 8.2.2 Ce qui a été clarifié
+**Confirmé**
+
+D’après l’échange téléphonique réalisé :
+- Distrifood opère un modèle plus intégré et plus mature ;
+- Distrifood dispose d’un réseau de traiteurs ;
+- Distrifood gère l’approvisionnement ;
+- Distrifood s’occupe du réapprovisionnement ;
+- Distrifood installe ses propres machines repas chaud ;
+- Distrifood n’est pas fermé à une proposition de collaboration.
+
+#### 8.2.3 Lecture actuelle
+**Confirmé**
+
+Distrifood n’a plus d’utilité opérationnelle directe dans l’architecture active du projet.
+
+#### 8.2.4 Vigilance centrale
+**Confirmé**
+
+Le risque de désintermédiation ou de captation des opportunités par un partenaire approvisionnement plus mature reste reconnu comme risque majeur.
+
+---
+
+### 8.3 IFAPME / levier formation
+
+#### 8.3.1 Rôle identifié
+**Confirmé**
+
+La piste IFAPME a désormais une utilité réelle dans la lecture de la contrainte temporelle personnelle, mais une utilité devenue secondaire par rapport à l’hypothèse STEP.
+
+#### 8.3.2 Ce qui a été clarifié
+**Confirmé**
+
+À ce stade :
+- la formation **Entrepreneur e-commerce** constitue une piste réelle ;
+- un contact utile a été établi avec **Ilona Wieczorek** ;
+- il est possible de commencer un **stage de manière anticipée** ;
+- la formation elle-même commence en début / mi-septembre 2026 ;
+- l’option de base consistant à attendre fin août n’est pas viable au regard de la contrainte temporelle personnelle.
+
+#### 8.3.3 Conséquence stratégique
+**Confirmé**
+
+La piste IFAPME n’est pas à ce stade une solution suffisante en elle-même pour répondre à la contrainte temporelle personnelle.  
+La prochaine clarification utile se situe désormais côté Forem, mais le poids stratégique principal s’est déplacé vers STEP.
+
+---
+
+### 8.4 Lecture comparative actuelle de la brique machine
+**Confirmé**
+
+À ce stade :
+- Vendlife est la piste machine la plus attractive en intérêt direct ;
+- la référence active côté Vendlife est désormais la **HYJ-FH120 double microwave ovens** ;
+- son prix fournisseur actif est **7 490 USD FOB** ;
+- un coût de shipping vers le Port of Antwerp a été communiqué à **350 USD**, mais il ne représente qu’un coût partiel et non le coût total rendu exploitable ;
+- la TVA a été évoquée autour de **21 %** ;
+- le terminal de paiement, la connectivité et certains éléments de setup doivent encore être clarifiés ;
+- sa viabilité dépend clairement d’une couche locale européenne crédible d’installation et de maintenance ;
+- Provending reste un benchmark très fort sur le couple prix / capacité et sur l’hypothèse d’un appui européen partiel ;
+- Bicom reste la référence européenne structurée la plus rassurante ;
+- **Pling! est désormais écarté du noyau machine actif prioritaire**, le dossier s’étant refroidi sur la réactivité et sur l’absence de cadre société suffisamment formalisé côté MayiMayo ;
+- TCN reste utile comme benchmark industriel et prix, mais est rétrogradé du fait d’une lecture froid trop instable et de l’absence de couche européenne ;
+- XY est désormais écarté de la shortlist active ;
+- Magex reste un repère haut de coût plus qu’un favori ;
+- DAP reste un repère historique belge, mais non une piste machine chaude à ce stade.
+
+### 8.5 Lecture comparative actuelle de l’approvisionnement direct
+**Confirmé**
+
+Le marché direct n’est plus seulement une exploration théorique.
+
+À ce stade :
+- Maxime Traiteur constitue la meilleure base comparative directe ;
+- Alice Traiteur constitue une deuxième base très crédible ;
+- EM Traiteur reste une piste complémentaire active ;
+- **Le Lagon Bleu est désormais écarté sur refus net** ;
+- **Traiteur Hansenne est écarté localement sur refus explicite pour surcharge et impossibilité opérationnelle** ;
+- **Distrifood est désormais sorti du cadre actif** ;
+- le marché direct reste suffisamment vivant pour influencer réellement la lecture du modèle, même si sa profondeur comparative demeure encore insuffisante.
+
+### 8.6 Ancrages approvisionnement actuellement acquis
+**Confirmé**
+
+Les premières zones de prix directes existent réellement.
+
+#### Alice Traiteur
+Éléments acquis :
+- expérience déjà existante sur un fonctionnement similaire à plus petite échelle ;
+- nécessité de garder **3 recettes rentables et stables** ;
+- prix annoncés : **9,50 €** et **11,00 €** ;
+- discussion ouverte.
+
+Lecture actuelle :
+- option directe sérieuse ;
+- base utile pour confirmer la nécessité de standardisation des recettes ;
+- position actuelle légèrement derrière Maxime dans la lecture comparative.
+
+#### Maxime Traiteur
+Éléments acquis :
+- deux formats principaux proposés ;
+- bols kraft de **350 à 450 g**, positionnés entre **7,90 € et 9,90 €** ;
+- barquettes micro-ondables et compatibles four de **550 à 650 g**, positionnées entre **12,90 € et 17,90 €** ;
+- légumes bio et locaux ;
+- féculents bio ;
+- remise de **20 %** possible sur volume structuré ;
+- paiement à **7 jours** possible ;
+- livraison possible dans un rayon de **20 km autour de Liège** ;
+- mise à disposition le **mardi** et le **vendredi** à partir de **15h**.
+
+Lecture actuelle :
+- option directe numéro 1 ;
+- base de travail principale pour tester la relation entre format plat, capacité machine, cadence de réassort et prix d’achat.
+
+#### EM Traiteur
+Éléments acquis :
+- demande de précisions complémentaires ;
+- travail principalement en région verviétoise et extérieur de Liège ;
+- pas de livraison en centre-ville ;
+- projet pilote envisagé à Herstal communiqué en réponse.
+
+Lecture actuelle :
+- piste complémentaire active à qualifier ;
+- non refusée ;
+- non encore chiffrée.
+
+### 8.7 STEP / nouvelle lecture du diagnostic
+**Confirmé**
+
+Le premier entretien individuel chez STEP a permis de clarifier les points suivants :
+- le comité ne sera pas seulement un échange de forme ;
+- le projet devra démontrer un besoin crédible, une maturité suffisante et une finançabilité plausible ;
+- la motivation personnelle et l’intérêt de l’idée restent évalués, mais ne constituent pas le principal point de tension à ce stade ;
+- un **CVD** est prévu avec présentation courte, logique BMC, SWOT et plan d’action ;
+- des documents complémentaires, notamment des **prévisions** et un **plan financier**, ont été demandés.
+
+Conséquence stratégique actuelle :
+- le projet doit désormais être capable de produire non seulement une narration claire, mais aussi une première lecture économique présentable.
+
+### 8.8 CVD / jalon désormais explicite
+**Confirmé**
+
+Le prochain **Comité de Validation de Diagnostic** visé est désormais identifié au **15 juillet 2026**.
+
+Conséquence stratégique actuelle :
+- le projet dispose maintenant d’un jalon plus net pour structurer la séquence :
+  - validation d’un site pilote crédible ;
+  - lecture de finançabilité plausible ;
+  - préparation des prévisions et du plan financier ;
+  - puis passage devant le comité.
+
+---
+
+## 9. Compréhension actuelle du modèle économique
+
+### 9.1 Correction de niveau économique
+**Confirmé**
+
+Le bon niveau d’analyse actuellement retenu n’est pas :
+- coût du traiteur versus prix client final direct.
+
+Le bon niveau d’analyse est :
+- prix public final de référence ;
+- prix d’achat négocié auprès du partenaire approvisionnement ;
+- prix de revente dans nos machines ;
+- marge brute unitaire conservée par MayiMayo.
+
+### 9.2 Variable centrale
+**Confirmé**
+
+La variable économique centrale est désormais :
+
+**marge brute unitaire = prix de revente en machine - prix d’achat négocié auprès du partenaire approvisionnement**
+
+### 9.3 Menu de référence observé
+**Confirmé**
+
+Les prix observés historiquement chez Distrifood sur les plats principaux se situent dans une zone d’environ 9,90 € à 13,50 € selon les plats.
+
+### 9.4 Conséquence stratégique
+**Confirmé**
+
+Le projet n’est pas un modèle naturellement à très forte marge unitaire.
+
+Il est sensible :
+- au prix machine ;
+- à la remise négociée ;
+- au prix final acceptable pour les employés ;
+- au volume quotidien réellement atteignable ;
+- au niveau réel de coordination entre machine, approvisionnement et site ;
+- à la structure de financement initiale retenue ;
+- au coût réel de lancement, et pas seulement au prix fournisseur affiché.
+
+### 9.5 Nouvelle exigence documentaire économique
+**Confirmé**
+
+Le projet doit désormais être capable de produire, pour STEP et pour la lecture de finançabilité :
+- des **prévisions** ;
+- un **plan financier** ;
+- et une première démonstration de cohérence entre site, machine, approvisionnement et financement.
+
+Conséquence stratégique actuelle :
+- la lecture économique ne peut plus rester seulement analytique ou exploratoire ;
+- elle doit devenir suffisamment formalisée pour soutenir un comité et un échange avec un financeur.
+
+### 9.6 Base de modélisation financière actuelle
+**Hypothèse active**
+
+La base de travail financière actuelle repose sur un **site type de 600 ETP**.
+
+Les scénarios de présence active testés sont :
+- **75 %** ;
+- **80 %** ;
+- **85 %**.
+
+Les scénarios de conversion retenus pour la modélisation sont :
+- **4 %** ;
+- **6 %** ;
+- **9 %**.
+
+Les seuils stratégiques de lecture actuellement retenus sont :
+- **20 ventes / jour** comme plancher ;
+- **25 ventes / jour** comme niveau soutenable ;
+- **40 ventes / jour** comme objectif pilote haut.
+
+Ces éléments constituent une base de modélisation, pas une vérité terrain.  
+Ils doivent être recalibrés dès qu’un site réel est qualifié.
+
+### 9.7 Lecture corrigée des charges mensuelles du pilote
+**Hypothèse économique active**
+
+La lecture récente du pilote corrige certaines hypothèses antérieures.
+
+Dans l’hypothèse pilote de référence :
+- l’électricité n’est pas traitée comme charge MayiMayo ;
+- la maintenance locale n’est plus modélisée comme un forfait mensuel lourd, mais plutôt comme une provision ponctuelle ou une charge à cadrer selon contrat ;
+- le réassort principal est géré par le traiteur, ce qui réduit fortement la charge de déplacements opérationnels portée directement par MayiMayo ;
+- les charges mensuelles du pilote ont donc été recalibrées à un niveau inférieur à l’ancienne hypothèse.
+
+Cette lecture reste conditionnée au site, au contrat, à la machine et au partenaire approvisionnement.  
+Elle ne doit pas être lue comme vérité générale indépendante du contexte.
+
+### 9.8 Lecture actuelle du financement
+**Hypothèse active**
+
+La modélisation financière récente montre que :
+- **15k** couvre seulement une version basse du lancement ;
+- le scénario central dépasse ce niveau ;
+- la finançabilité ne doit donc plus être pensée comme naturellement couverte par un ticket de 15k ;
+- le dialogue avec Crédal doit intégrer le besoin central réel, et pas seulement un besoin minimal artificiellement compressé.
+
+Une validation de finançabilité crédible par Crédal, même sans argent déjà versé, peut suffire à renforcer fortement la crédibilité du projet devant STEP.
+
+---
+
+## 10. Capacité, réassort et contrainte opérationnelle
+
+### 10.1 Bascule conceptuelle
+**Confirmé**
+
+Le projet ne doit pas seulement atteindre un minimum de ventes.  
+Il doit également éviter une sous-capacité opérationnelle.
+
+### 10.2 Problème reconnu
+**Confirmé**
+
+Une machine qui vend trop vite peut devenir :
+- une machine en rupture ;
+- une machine qui plafonne artificiellement le chiffre d’affaires ;
+- une machine qui dégrade l’expérience utilisateur.
+
+### 10.3 Invariant opérationnel actuel
+**Confirmé**
+
+Le business model devra intégrer deux seuils distincts :
+1. le seuil minimum de rentabilité ;
+2. le seuil maximum de service soutenable.
+
+### 10.4 Lecture actuelle de la capacité
+**Hypothèse active**
+
+À ce stade :
+- une capacité de test autour de 60 à 63 plats reste une base de lecture minimale ;
+- une zone autour de 80 plats ou davantage peut devenir nécessaire sur un site qui convertit bien ;
+- la capacité utile réelle sera inférieure à la capacité théorique si certaines références partent plus vite que d’autres ;
+- la référence Vendlife actuellement active annonce une capacité d’environ **84 à 168 items** et une architecture **double micro-ondes** ;
+- le débit réel de service compte toujours autant que la capacité brute.
+
+### 10.5 Format plat et capacité utile
+**Hypothèse active structurante**
+
+L’optimisation du format plat devient une variable structurante active.
+
+L’hypothèse de travail actuelle sur le format est :
+
+**20 × 15 × 4,5 cm**
+
+Cette hypothèse ouvre une capacité théorique plus haute que la simple lecture initiale à 96 plats.
+
+La capacité utile réelle doit désormais être lue en lien avec :
+- le format de contenant ;
+- la hauteur réelle des plats ;
+- la compatibilité micro-ondes ;
+- la rotation réelle ;
+- la fréquence de réassort ;
+- la répartition des ventes par recette ;
+- et non comme un simple plafond abstrait.
+
+Cette hypothèse reste à confirmer sur machine réelle, avec dimensions définitives et test de contenant.
+
+### 10.6 Standard pilote d’approvisionnement
+**Décision active**
+
+Le standard pilote actuellement retenu repose sur **3 recettes standard**.
+
+La logique de départ retenue est :
+- **2 livraisons par semaine** ;
+- **mardi après-midi** ;
+- **vendredi après-midi** ;
+- **72 plats par livraison** ;
+- **3 recettes** ;
+- **24 plats par recette**.
+
+Logique d’ajustement :
+- passage à 84 ou 96 plats par livraison si rupture rapide ;
+- maintien ou réduction si invendus ;
+- augmentation ciblée d’une recette dominante ;
+- densification plus forte possible si le format réel le permet ;
+- ajustement de la répartition selon les ventes réelles.
+
+Cette décision active ne signifie pas que le volume est validé.  
+Elle constitue le standard de départ pour structurer le pilote, les discussions fournisseurs et les scénarios économiques.
+
+---
+
+## 11. Décisions actives à ce stade
+
+### 11.1 Phase documentaire
+**Décision active**
+
+Le projet avance par phases documentaires.
+
+La phase actuelle n’est pas un business plan complet.  
+La phase actuelle correspond à un dossier de cadrage, d’opportunité, de qualification et de pré-finançabilité pour STEP, prolongé désormais par :
+- une préparation au **Comité de Validation de Diagnostic** ;
+- la production de documents complémentaires de type **prévisions** et **plan financier** ;
+- la création d’un document financier dédié.
+
+### 11.2 Architecture de lancement
+**Décision active**
+
+Le projet n’est pas actuellement orienté vers une internalisation immédiate de la restauration.
+
+La logique active reste une logique de partenariat et d’orchestration :
+- site ;
+- machine ;
+- approvisionnement ;
+- exploitation ;
+- discipline économique ;
+- financement initial maîtrisé.
+
+### 11.3 Séquence de travail actuellement retenue
+**Décision active**
+
+La séquence de travail valide à ce stade est désormais :
+
+1. faire émerger **un site pilote crédible** et **une à trois alternatives sérieuses** ;
+2. maintenir la comparaison machine ouverte, mais resserrée autour du trio réellement vivant ;
+3. finaliser la lecture de coût réel de la piste Vendlife en distinguant prix FOB, transport, import, dédouanement, livraison finale, terminal, connectivité, installation, mise en service et provision incident initiale ;
+4. poursuivre la comparaison approvisionnement principalement sur le marché direct, avec priorité à Maxime, Alice et EM Traiteur ;
+5. structurer une offre standardisée de collaboration traiteur ;
+6. formaliser l’architecture approvisionnement principal / relais / secours ;
+7. structurer la lecture économique à partir de données réelles de machine, approvisionnement et site ;
+8. produire des **prévisions** et un **plan financier** suffisamment défendables pour STEP ;
+9. obtenir une **lecture de finançabilité crédible**, idéalement via un retour positif ou favorablement conditionnel de **Crédal** ;
+10. consolider le passage devant le comité STEP ;
+11. n’envisager ensuite une logique bancaire plus lourde qu’après meilleure stabilisation du système et validation STEP si le projet passe ce filtre.
+
+### 11.4 Discipline de lancement
+**Décision active**
+
+Le projet ne doit pas dépendre d’un seul maillon non substituable sans l’avoir explicitement reconnu comme tel.
+
+### 11.5 Nouvelle hiérarchie de temporalité
+**Décision active**
+
+Le projet ne doit plus traiter la formation comme levier temporel principal.
+
+À ce stade, la hiérarchie temporelle retenue est :
+1. validation d’un site pilote crédible ;
+2. démonstration de finançabilité plausible ;
+3. validation STEP ;
+4. usage éventuel de leviers administratifs complémentaires seulement s’ils améliorent réellement la marge de manœuvre.
+
+### 11.6 Principe de standardisation approvisionnement
+**Décision active**
+
+Le pilote ne doit pas démarrer sur une logique de recettes trop mouvantes ou trop dépendantes d’un seul traiteur.
+
+Le standard pilote doit privilégier :
+- 3 recettes ;
+- cadence stable ;
+- formats compatibles machine ;
+- volume de départ mesurable ;
+- capacité d’ajustement progressive ;
+- substitution possible entre partenaires.
+
+---
+
+## 12. Hypothèses actives majeures
+
+### 12.1 Hypothèse A
+Un site logistique, industriel ou professionnel suffisamment contraint peut soutenir une offre repas chaud si le besoin est réel et si le prix final reste acceptable.
+
+### 12.2 Hypothèse B
+Le recours à une architecture partenariale reste la voie de lancement la plus défendable à ce stade.
+
+### 12.3 Hypothèse C
+Une solution machine internationale compétitive peut devenir viable si elle est appuyée par une couche locale européenne crédible pour l’installation et la maintenance.
+
+### 12.4 Hypothèse D
+Une offre européenne plus intégrée peut rester préférable si elle réduit suffisamment le risque opérationnel global malgré un coût facial plus élevé.
+
+### 12.5 Hypothèse E
+Le marché direct de l’approvisionnement peut produire des options crédibles de pilote sans dépendre d’une architecture intégrée type Distrifood.
+
+### 12.6 Hypothèse F
+Aucun site ne doit structurer à lui seul la narration du projet tant qu’aucun site fort n’a émergé.
+
+### 12.7 Hypothèse G
+Un levier formation ou administratif pourrait encore, sous conditions, améliorer la marge de manœuvre temporelle du projet, mais cette hypothèse n’est pas encore validée.
+
+### 12.8 Hypothèse H
+Si le projet est validé par le comité STEP et entre en accompagnement, le gel des allocations durant la période d’accompagnement peut modifier utilement la fenêtre temporelle réelle du projet.
+
+### 12.9 Hypothèse I
+Une validation de finançabilité crédible, même sans argent déjà versé, peut suffire à renforcer fortement la crédibilité du projet devant STEP.
+
+### 12.10 Hypothèse J
+Une architecture d’approvisionnement principal / relais / secours peut réduire fortement le risque opérationnel du pilote, à condition que le cadre de collaboration soit standardisé.
+
+### 12.11 Hypothèse K
+L’optimisation du format plat peut augmenter la capacité utile de la machine sans multiplier immédiatement les livraisons, à condition de ne pas dégrader la qualité perçue du repas.
+
+### 12.12 Hypothèse L
+Un site mutualisé de type Terre ASBL / Autre Terre ONG peut devenir un terrain pilote ou pré-pilote crédible si la friction d’accès, la communication interne et l’usage du lieu de réunion comme point repas sont validés.
+
+---
+
+## 13. Inconnues critiques encore ouvertes
+
+### 13.1 Machine
+**Confirmé comme inconnu**
+
+- choix final de l’architecture machine la plus viable ;
+- coût réel rendu exploitable de Vendlife ;
+- coût exact transport / import / dédouanement / livraison finale ;
+- possibilité de livraison directe jusqu’à Liège ;
+- gestion ou non du dédouanement dans cette configuration ;
+- coût réel terminal / Nayax ;
+- coût réel connectivité machine ;
+- CBM / RT exact de la machine emballée ;
+- débit réel de chauffe et de service des solutions les plus attractives ;
+- robustesse documentaire réelle des promesses techniques, notamment côté froid, support et conformité ;
+- coût installation ;
+- coût maintenance récurrent ;
+- coût des modules additionnels ;
+- conditions réelles de support local si une solution internationale est retenue ;
+- capacité réelle de HB Services, WFresh ou Duo Cool à intervenir sur machine importée ;
+- options de leasing ou financement ;
+- coûts cachés éventuels.
+
+### 13.2 Approvisionnement
+**Confirmé comme inconnu**
+
+- structure de rémunération réellement la plus soutenable ;
+- cadence de réassort ;
+- profondeur logistique réelle des fournisseurs directs ;
+- compatibilité packaging réelle ;
+- stabilité de gamme ;
+- conditions de paiement réellement exploitables ;
+- protection contractuelle contre le contournement ;
+- comparaison finale entre Maxime, Alice, EM Traiteur et éventuels challengers utiles ;
+- niveau réel de substituabilité entre partenaires ;
+- capacité à construire un cahier des charges commun ;
+- coût de non-flexibilité ;
+- coût réel d’un changement de traiteur en cours de pilote.
+
+### 13.3 Site pilote
+**Confirmé comme inconnu**
+
+- décideur exact ;
+- faisabilité commerciale réelle ;
+- emplacement exact ;
+- exclusivité éventuelle ;
+- volume réaliste ;
+- tolérance au prix ;
+- niveau réel d’intérêt ;
+- capacité à transformer une piste vivante en site fort puis en pilote qualifié ;
+- capacité à constituer un socle de **1 site pilote + 1 à 3 alternatives crédibles** ;
+- validation ou non de l’hypothèse Terre ASBL / Autre Terre ONG ;
+- confirmation ou non du besoin réel sur les sites industriels/logistiques actuellement ciblés.
+
+### 13.4 Financement
+**Confirmé comme inconnu**
+
+- structure de financement la plus pertinente après cadrage machine, approvisionnement et site ;
+- ratio acceptable entre risque, CAPEX et marge ;
+- faisabilité bancaire sur base du pilote ;
+- sensibilité réelle du modèle à la cadence de vente et au réassort ;
+- tension de trésorerie réelle selon les modes de financement retenus ;
+- capacité à obtenir un **retour de finançabilité crédible** de Crédal ;
+- niveau de financement réellement pertinent entre scénario bas et scénario central ;
+- capacité à défendre un scénario central supérieur à 15k sans fragiliser la perception de prudence du projet.
+
+### 13.5 Temporalité / formation / STEP
+**Confirmé comme inconnu**
+
+- utilité résiduelle réelle d’un levier formation au regard du 01/10/2026 ;
+- qualification administrative exacte de la solution éventuelle ;
+- portée réelle d’un stage anticipé ;
+- possibilité ou non d’un effet utile côté Forem ;
+- niveau exact d’exigence du comité STEP sur la combinaison besoin + terrain + finançabilité ;
+- calendrier réel entre diagnostic, comité, validation et entrée en accompagnement ;
+- confirmation écrite ou formalisée de la portée exacte du gel des allocations pendant l’accompagnement ;
+- séquence la plus rationnelle si aucune solution administrative complémentaire utile n’existe.
+
+---
+
+## 14. Risques actuellement reconnus
+
+### 14.1 Dépendance multi-acteurs
+**Confirmé**
+
+Le modèle gagne en crédibilité mais devient plus fragile si chaque brique dépend d’un acteur unique non substituable.
+
+### 14.2 Désintermédiation
+**Confirmé**
+
+Le risque de faire le travail amont puis de se faire contourner par un partenaire plus mature reste reconnu comme majeur.
+
+### 14.3 Marge insuffisante
+**Confirmé**
+
+Le risque de construire un modèle à marge unitaire trop faible reste critique.
+
+### 14.4 Sous-capacité opérationnelle
+**Confirmé**
+
+Le risque de bonne demande mais de mauvaise disponibilité reste structurant.
+
+### 14.5 Front site insuffisamment qualifié
+**Confirmé**
+
+L’absence actuelle de site fort constitue un risque majeur de faux cadrage global du projet.
+
+### 14.6 Financement prématuré ou mal séquencé
+**Confirmé**
+
+Le risque d’ouvrir trop tôt un chantier bancaire ou de financement lourd sans convergence suffisante entre site, machine, approvisionnement et économie est reconnu comme majeur.
+
+### 14.7 Faux levier temporel
+**Confirmé**
+
+Le risque de structurer la suite sur une solution formation ou administrative trop tardive, partielle ou non réellement utile reste reconnu comme risque spécifique.
+
+### 14.8 Mauvais ordre de validation STEP
+**Confirmé**
+
+Le risque de se présenter devant STEP avec une bonne motivation et une idée jugée intéressante, mais sans :
+- besoin terrain suffisamment crédible ;
+- site pilote assez qualifié ;
+- finançabilité suffisamment plausible ;
+
+est désormais reconnu comme risque majeur.
+
+### 14.9 Prévisions ou plan financier décoratifs
+**Confirmé**
+
+Le risque de produire des prévisions et un plan financier trop théoriques, déconnectés du réel du site, de la machine et de l’approvisionnement, est désormais reconnu comme risque spécifique.
+
+### 14.10 Défaillance ou rigidité traiteur
+**Confirmé**
+
+Un échec pilote peut venir :
+- d’un défaut de fiabilité d’un traiteur ;
+- d’un manque de flexibilité logistique ;
+- d’un manque de substituabilité ;
+- d’une gamme trop mouvante ;
+- d’un packaging mal adapté à la machine ;
+- ou d’une cadence de livraison non compatible avec la demande réelle.
+
+### 14.11 Sous-estimation du coût réel Vendlife
+**Confirmé**
+
+Le prix FOB ne suffit pas à établir la viabilité économique.
+
+Le risque consiste à sous-estimer :
+- transport ;
+- import ;
+- dédouanement ;
+- livraison finale ;
+- terminal ;
+- connectivité ;
+- installation ;
+- mise en service ;
+- provision incident initiale ;
+- support local.
+
+### 14.12 Capacité théorique mal interprétée
+**Confirmé**
+
+Le risque consiste à lire la capacité annoncée de la machine comme une capacité repas réelle, sans tenir compte :
+- du format de plat ;
+- de la hauteur du contenant ;
+- de la répartition par recette ;
+- de la rotation ;
+- de la rupture sur références dominantes ;
+- du débit micro-ondes.
+
+---
+
+## 15. Pistes explicitement rejetées à ce stade
+
+### 15.1 Achat spéculatif de machine avant qualification de site
+**Rejeté**
+
+### 15.2 Business plan complet dès la phase initiale
+**Rejeté**
+
+### 15.3 Modélisation économique comme si MayiMayo portait lui-même toute la production alimentaire
+**Rejeté**
+
+### 15.4 Lecture d’Ethias comme piste pilote prioritaire
+**Rejeté**
+
+### 15.5 Maintien de Pling! dans le noyau machine actif prioritaire à ce stade
+**Rejeté**
+
+### 15.6 Maintien du Lagon Bleu comme piste approvisionnement active
+**Rejeté**
+
+### 15.7 Maintien de Distrifood dans le cadre actif d’approvisionnement
+**Rejeté**
+
+### 15.8 Maintien de l’ancienne référence Vendlife à micro-ondes unique comme base de travail active
+**Rejeté**
+
+### 15.9 Lecture de Swissport LGG comme favori implicite malgré l’absence de réponse
+**Rejeté**
+
+### 15.10 Lecture de Forem / Val Benoît comme porte d’entrée chaude actuelle
+**Rejeté**
+
+### 15.11 Lecture de la formation comme levier temporel principal du projet
+**Rejeté**
+
+### 15.12 Passage devant STEP sans validation minimale du besoin terrain et de la finançabilité
+**Rejeté**
+
+### 15.13 Lecture de 15k comme financement naturellement suffisant pour le scénario central
+**Rejeté**
+
+### 15.14 Lecture de l’approvisionnement comme simple choix d’un traiteur unique
+**Rejeté**
+
+### 15.15 Lecture de la capacité machine sans tenir compte du format plat
+**Rejeté**
+
+---
+
+## 16. Contrainte temporelle et lecture de phase
+
+### 16.1 Contrainte de temps
+**Confirmé**
+
+Le projet évolue dans une fenêtre temporelle qui interdit une phase exploratoire indéfinie.
+
+### 16.2 Conséquence
+**Confirmé**
+
+Le projet doit progresser avec discipline, sans inflation documentaire inutile et sans confusion entre chaleur relationnelle, intérêt exploratoire et véritable convergence de pilote.
+
+### 16.3 Point de contrainte personnelle
+**Confirmé**
+
+La date d’arrêt des allocations de chômage au **01/10/2026** constitue désormais un paramètre structurant du pilotage.
+
+### 16.4 Lecture actuelle du levier formation
+**Confirmé**
+
+La piste IFAPME existe, mais dans son état actuellement clarifié :
+- le stage anticipé est possible ;
+- la formation commence en début / mi-septembre ;
+- la piste n’est donc pas encore une solution suffisante en elle-même ;
+- une clarification complémentaire côté Forem devient nécessaire ;
+- et son poids stratégique est désormais secondaire par rapport à l’hypothèse STEP.
+
+### 16.5 Nouvelle lecture du levier STEP
+**Hypothèse active**
+
+À ce stade, STEP doit être lu comme :
+- un levier potentiel de structuration ;
+- un filtre de crédibilité ;
+- et un levier temporel majeur si le comité valide le projet et si l’information transmise oralement sur le gel des allocations se confirme dans sa portée opérationnelle réelle.
+
+Conséquence actuelle :
+- la priorité stratégique n’est plus seulement de “gagner du temps”, mais de **rendre le projet suffisamment crédible pour passer le comité**.
+
+### 16.6 Point de bascule de phase
+**Confirmé**
+
+Le prochain point de bascule structurant n’est plus seulement lié à la clarification Forem ou IFAPME.
+
+Le prochain point de bascule structurant est désormais la capacité du projet à arriver devant STEP avec :
+- un besoin terrain suffisamment lisible ;
+- un site pilote crédible ;
+- une première lecture de finançabilité ;
+- des prévisions et un plan financier suffisamment cohérents.
+
+### 16.7 Jalon comité
+**Confirmé**
+
+Le **15 juillet 2026** constitue désormais le prochain jalon de comité structurant identifié dans le système.
+
+Cette date doit être lue comme :
+- une contrainte de séquencement ;
+- un point de convergence documentaire ;
+- et un repère clair pour arbitrer ce qui doit être rendu crédible avant passage.
+
+---
+
+## 17. Prochaines mises à jour attendues
+
+Le présent document devra être révisé dès qu’au moins un des points suivants change réellement :
+- émergence d’un site fort ;
+- validation d’un site pilote crédible ;
+- constitution d’un socle de 1 à 3 alternatives crédibles ;
+- arbitrage machine plus resserré ;
+- modification réelle de la hiérarchie machine ;
+- clarification forte de l’architecture locale de support Vendlife ou d’une alternative équivalente ;
+- confirmation du coût réel rendu exploitable de Vendlife ;
+- clarification transport / import / dédouanement / livraison finale / terminal / connectivité ;
+- nouvelle bascule structurante côté approvisionnement ;
+- validation ou invalidation du standard pilote 3 recettes / 2 livraisons / 72 plats ;
+- clarification forte du format plat réellement compatible ;
+- clarification forte de la pré-finançabilité ;
+- obtention d’un retour de finançabilité crédible de Crédal ;
+- évolution réelle du dossier STEP ;
+- validation ou rejet du projet par le comité STEP ;
+- confirmation écrite ou infirmation de la portée réelle du gel des allocations pendant l’accompagnement ;
+- clarification utile ou clôture explicite du levier formation / Forem / IFAPME ;
+- création effective du `Plan_Financier_Previsionnel_MayiMayo`.
+
+---
+
+# Document Metadata & Changelog
+
+Changelog:
+  - 1.5.0 (2026-06-05, Chief_Structuration_Agent): Mise à jour canonique structurante intégrant la nouvelle lecture machine, approvisionnement, économie et site. Formalisation du prix fournisseur Vendlife HYJ-FH120 à 7 490 USD FOB et de la nécessité de distinguer le coût FOB du coût réel de lancement. Ajout de la couche locale d’installation et de maintenance avec HB Services, WFresh et Duo Cool comme pistes à qualifier. Intégration de l’hypothèse active de format plat 20 × 15 × 4,5 cm et de son impact sur la capacité utile. Formalisation du standard pilote d’approvisionnement à 3 recettes, 2 livraisons par semaine, mardi et vendredi après-midi, 72 plats par livraison et 24 plats par recette. Ajout de l’architecture traiteur principal / relais / secours comme hypothèse active structurante. Recalibrage des charges mensuelles du pilote comme hypothèse économique active. Ajout de la base financière de travail sur site type 600 ETP, scénarios de présence 75 %, 80 %, 85 %, scénarios de conversion 4 %, 6 %, 9 %, et seuils 20, 25 et 40 ventes par jour. Clarification que 15k ne couvre que l’hypothèse basse et que le scénario central dépasse ce montant. Intégration de Terre ASBL / Autre Terre ONG comme hypothèse active de site mutualisé à qualifier, et clarification du rôle des sites institutionnels comme sources d’apprentissage plutôt que pilotes primaires. Ajout de la dépendance au document dédié Plan_Financier_Previsionnel_MayiMayo.
+  - 1.4.0 (2026-05-21, Chief_Structuration_Agent): Mise à jour canonique ciblée sur la nouvelle lecture de la temporalité, du rôle de STEP et du séquencement stratégique. Intégration de l’information transmise oralement lors du premier entretien individuel STEP concernant un gel potentiel des allocations durant l’accompagnement si le projet est validé par le comité, avec classement en hypothèse active et non en confirmé tant qu’aucune confirmation écrite n’est intégrée au système. Ajout explicite du jalon comité du 15 juillet 2026. Recalibrage du levier formation comme piste secondaire, formalisation du CVD comme point de bascule stratégique, intégration de la demande STEP de prévisions et de plan financier, renforcement de la priorité sur la validation d’un site pilote crédible avec alternatives, et clarification de la nouvelle séquence active : site pilote crédible, finançabilité plausible, puis validation STEP.
+  - 1.3.0 (2026-04-22, Chief_Structuration_Agent): Mise à jour canonique ciblée sur la temporalité réelle, la lecture du front site, la sortie de Distrifood du cadre actif, la nouvelle référence machine Vendlife et l’intégration du levier formation. Retrait de Contact_Manager_Agent du champ Maintainers, intégration explicite de la feuille de route et du registre central comme références opérationnelles actives, formalisation de la date d’arrêt des allocations au 01/10/2026 comme contrainte structurante, intégration d’Ilona Wieczorek et de la lecture IFAPME, requalification de Swissport LGG comme piste sans réponse et de Forem / Val Benoît comme piste refroidie, formalisation explicite de Distrifood comme benchmark historique non actif, remplacement de l’ancienne référence Vendlife par la HYJ-FH120 double microwave ovens, mise à jour de la lecture capacité / débit, et clarification de la séquence de travail active autour du marché direct, du trio machine vivant et de la clarification Forem.
+  - 1.2.0 (2026-04-18, Chief_Structuration_Agent): Mise à jour canonique ciblée sur la hiérarchie machine, le front site et la lecture approvisionnement. Mise à jour des versions de référence du protocole et de l’overview en 1.1.0. Formalisation explicite de Vendlife comme favori conditionnel à une couche locale européenne d’installation et de maintenance. Sortie de Pling! du noyau machine actif prioritaire. Clarification d’Ethias comme seul retour entreprise explicite mais négatif et non prioritaire. Repositionnement de Forem / Val Benoît comme piste institutionnelle intéressante mais non prioritaire. Formalisation de l’absence actuelle de site fort et du front site, avec le financement, comme deux angles morts majeurs. Reclassement du Lagon Bleu en refus net et en piste écartée.
+  - 1.1.0 (2026-04-07, Chief_Structuration_Agent): Révision canonique de l’état du projet avec intégration du registre central comme référence opérationnelle active, clarification de la comparaison machine, formalisation du benchmark approvisionnement direct, mise à jour de la lecture du front site et réalignement de la séquence de travail.
+  - 1.0.0 (2026-03-24, Chief_Structuration_Agent): Initialisation de la version de référence de l’état canonique du projet MayiMayo.
+
+Breaking Changes:
+  - Aucun
+
+---
+Fin du document
+---
