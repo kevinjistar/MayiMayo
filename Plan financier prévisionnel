@@ -1,0 +1,487 @@
+Plan financier prévisionnel
+MayiMayo, pilote site type 600 ETP
+Version de travail, base de financement plafonnée à 15 000 €
+
+1. Objet du document
+
+Ce document présente un plan financier prévisionnel complet pour un premier pilote MayiMayo sur un site type de 600 ETP.
+
+L’objectif n’est pas de produire un business plan bancaire final, mais une base de travail suffisamment structurée pour :
+
+- relier site, machine, approvisionnement, financement et exploitation ;
+- vérifier si un pilote est économiquement défendable ;
+- calibrer le niveau de ventes nécessaire ;
+- identifier les tensions réelles du modèle ;
+- travailler dans une enveloppe de départ volontairement plafonnée à 15 000 €.
+
+2. Pourquoi viser 15 000 € au départ
+
+Le plafond de 15 000 € n’est pas choisi parce qu’il serait idéal sur le plan économique. Il est choisi d’abord pour une raison de finançabilité.
+
+Crédal propose, dans son offre standard de microcrédit professionnel, un financement cumulable jusqu’à 15 000 € maximum, avec une extension à 25 000 € pour certaines entreprises favorisant le développement durable. Tant que MayiMayo n’est pas clairement sécurisé dans cette seconde catégorie, la base prudente consiste à construire le pilote sur l’hypothèse standard de 15 000 €.
+
+Conséquence directe :
+- ce prévisionnel n’est pas construit autour du scénario le plus confortable ;
+- il est construit autour du scénario finançable le plus réaliste à ce stade ;
+- cela oblige à compresser l’investissement initial et à piloter finement les postes les plus sensibles.
+
+Conclusion de cadrage :
+15 000 € doit être compris comme un plafond de départ prudent, pas comme le coût idéal ou confortable du projet.
+
+3. Point important sur la suffisance de 15 000 €
+
+Sous une lecture économique stricte, 15 000 € n’est pas un montant large.
+
+C’est un montant qui :
+- couvre un pilote resserré ;
+- peut suffire pour un lancement discipliné ;
+- mais laisse peu de place aux dérives sur l’import, l’installation, les incidents techniques ou la trésorerie.
+
+Autrement dit :
+- 15 000 € peut suffire pour lancer ;
+- 15 000 € ne correspond pas à un scénario central confortable ;
+- si plusieurs postes dérivent en même temps, le modèle devient vite tendu.
+
+Il faut donc lire ce plan financier comme :
+- un scénario de lancement piloté sous contrainte ;
+- pas comme une version optimale du projet.
+
+4. Hypothèses structurantes retenues
+
+4.1 Site modélisé
+
+Type de site :
+- entreprise industrielle ou logistique
+
+Effectif de référence :
+- 600 ETP
+
+Présence réelle testée :
+- 75 %
+- 80 %
+- 85 %
+
+Nombre de présents correspondant :
+- 75 % = 450 présents
+- 80 % = 480 présents
+- 85 % = 510 présents
+
+4.2 Machine retenue
+
+Hypothèse machine de travail :
+- Vendlife HYJ-FH120
+- double micro-ondes
+- devis fournisseur : 7 490 USD FOB
+
+Conversion de travail en euro :
+- sur base d’un taux indicatif d’environ 0,8613 €/USD
+- prix machine estimé : 6 450 € FOB
+
+Important :
+ce prix correspond à la machine départ fournisseur. Il ne couvre pas :
+- le transport ;
+- l’import ;
+- le dédouanement ;
+- l’installation ;
+- la mise en service ;
+- le terminal ;
+- la connectivité ;
+- les interventions locales éventuelles.
+
+4.3 Approvisionnement retenu
+
+Traiteur de travail :
+- Maxime Traiteur
+
+Données utilisées :
+- bols kraft 350 à 450 g : 7,90 € à 9,90 €
+- barquettes 550 à 650 g : 12,90 € à 17,90 €
+- remise volume envisageable : 20 %
+- livraisons possibles : mardi et vendredi à partir de 15h
+- livraison possible dans un rayon de 20 km autour de Liège
+- délai de paiement possible : 7 jours, sous réserve de validation
+
+4.4 Structure de gamme retenue
+
+Décision de travail :
+- 3 recettes standard
+
+Structure retenue dans le modèle :
+- 2 recettes type bol
+- 1 recette type barquette
+
+Hypothèse de mix économique :
+- 70 % bols
+- 30 % barquettes
+
+Cette hypothèse sert à la modélisation.
+Elle devra être recalibrée après ventes réelles.
+
+4.5 Rotation et réassort retenus
+
+Base de démarrage recommandée :
+- 2 réassorts par semaine
+- mardi après-midi
+- vendredi après-midi
+- 72 plats par livraison
+- 3 recettes
+- 24 plats par recette
+
+Soit :
+- 144 plats par semaine au démarrage
+
+Logique de montée en charge :
+- si la demande est confirmée, montée à 84, puis 96 plats par livraison ;
+- si le format des plats est optimisé, montée possible vers 120 à 150 plats par réassort.
+
+5. Hypothèses économiques unitaires
+
+5.1 Hypothèse bol
+
+Base de calcul :
+- prix moyen avant remise : 8,90 €
+- remise volume de 20 % : 7,12 €
+- pertes, invendus, friction : 10 %
+- coût corrigé des pertes : 7,91 €
+- prix de vente de travail : 11,90 €
+- frais de paiement estimés : 0,18 €
+
+Contribution nette d’un bol :
+11,90 € - 7,91 € - 0,18 € = 3,81 €
+
+5.2 Hypothèse barquette
+
+Base de calcul :
+- prix moyen avant remise : 15,40 €
+- remise volume de 20 % : 12,32 €
+- pertes, invendus, friction : 10 %
+- coût corrigé des pertes : 13,69 €
+- prix de vente de travail : 16,90 €
+- frais de paiement estimés : 0,25 €
+
+Contribution nette d’une barquette :
+16,90 € - 13,69 € - 0,25 € = 2,96 €
+
+5.3 Vente moyenne pondérée
+
+Avec un mix de 70 % bols et 30 % barquettes :
+
+Prix moyen pondéré :
+- 70 % de 11,90 € = 8,33 €
+- 30 % de 16,90 € = 5,07 €
+- prix moyen = 13,40 €
+
+Contribution nette moyenne pondérée :
+- 70 % de 3,81 € = 2,67 €
+- 30 % de 2,96 € = 0,89 €
+- contribution moyenne = 3,56 €
+
+Coût variable moyen implicite :
+13,40 € - 3,56 € = 9,84 €
+
+6. Recalcul du crédit Crédal
+
+Le montant de départ visé est 15 000 €.
+
+Deux lectures existent :
+- soit on raisonne sur un capital strict de 15 000 € ;
+- soit on raisonne sur un capital de 15 000 € auquel s’ajoutent les frais de dossier Crédal financés dans le prêt.
+
+Les frais de dossier Crédal sont de 5 % du montant emprunté, avec un plafond de 550 €.
+Sur 15 000 €, on retient donc 550 €.
+
+Montant financé probable si frais inclus :
+- 15 550 €
+
+Hypothèse de calcul :
+- taux : 8,9 %
+- durée : 48 mois
+
+Mensualité estimée :
+- environ 386 € / mois
+
+Par prudence, le présent prévisionnel retient :
+- mensualité Crédal = 386 € / mois
+
+7. Investissement initial de départ, construit pour tenir dans 15 000 €
+
+L’objectif ici n’est pas d’obtenir le budget le plus confortable.
+L’objectif est d’obtenir un budget cohérent avec la contrainte Crédal.
+
+7.1 Décomposition de l’investissement initial cible
+
+| Poste | Montant retenu |
+|---|---:|
+| Machine FOB | 6 450 € |
+| Transport / import / dédouanement | 1 100 € |
+| Installation / mise en service initiale | 800 € |
+| Terminal / connectivité setup | 400 € |
+| Stock initial de lancement | 1 200 € |
+| Provision incidents initiaux / ajustements | 550 € |
+| Trésorerie tampon de départ | 4 500 € |
+| **Total** | **15 000 €** |
+
+7.2 Lecture du budget initial
+
+Ce budget est cohérent, mais tendu.
+
+Il suppose :
+- une exécution disciplinée ;
+- pas de dérive majeure sur l’import ;
+- pas de surprise lourde sur l’installation ;
+- un support fournisseur réellement opérationnel ;
+- une trésorerie tampon limitée mais encore exploitable.
+
+Ce budget ne laisse pas beaucoup de gras.
+Il faut donc le considérer comme :
+- un budget de lancement sous contrainte ;
+- pas comme un budget de confort.
+
+8. Charges mensuelles du pilote
+
+Les charges mensuelles ont été corrigées selon les dernières précisions :
+
+- pas d’électricité à charge de MayiMayo ;
+- pas de forfait mensuel lourd de maintenance locale ;
+- réassort assuré par le traiteur ;
+- maintien d’une provision technique et d’une petite structure d’exploitation.
+
+8.1 Charges mensuelles retenues
+
+| Poste | Montant mensuel retenu |
+|---|---:|
+| Mensualité Crédal | 386 € |
+| Connectivité / terminal / technique légère | 45 € |
+| Assurance | 50 € |
+| Administratif / divers | 50 € |
+| Déplacements contrôle / caisse / suivi | 40 € |
+| Provision maintenance ponctuelle / incidents | 100 € |
+| Buffer sécurité exploitation | 200 € |
+| **Total charges mensuelles** | **871 €** |
+
+9. Formules de calcul utilisées
+
+Présents :
+- présents = 600 × taux de présence
+
+Ventes par jour :
+- ventes / jour = présents × taux d’achat quotidien
+
+Ventes par mois :
+- ventes / mois = ventes / jour × 22 jours actifs
+
+Chiffre d’affaires mensuel :
+- CA mensuel = ventes / mois × 13,40 €
+
+Contribution mensuelle :
+- contribution mensuelle = ventes / mois × 3,56 €
+
+Résultat mensuel avant rémunération du porteur :
+- résultat mensuel = contribution mensuelle - 871 €
+
+Important :
+ce résultat n’est pas un revenu personnel net.
+Il mesure la performance économique du pilote avant rémunération du porteur.
+
+10. Seuils de lecture retenus
+
+Seuils de travail :
+- plancher : 20 ventes / jour
+- soutenable : 25 ventes / jour
+- objectif pilote : 40 ventes / jour
+
+11. Prévisionnel par scénarios de présence
+
+Les scénarios combinent :
+- présence réelle sur site ;
+- taux d’achat quotidien parmi les présents.
+
+Taux d’achat testés :
+- bas : 4 %
+- moyen : 6 %
+- ambitieux : 9 %
+
+11.1 Scénario 75 % de présence
+
+Base site :
+- 600 ETP
+- 75 % de présence
+- 450 présents
+
+| Hypothèse | Taux d’achat | Ventes / jour | Ventes / semaine | Ventes / mois | CA mensuel | Contribution mensuelle | Résultat mensuel |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Bas | 4 % | 18,0 | 90,0 | 396,0 | 5 306,40 € | 1 409,76 € | +538,76 € |
+| Moyen | 6 % | 27,0 | 135,0 | 594,0 | 7 959,60 € | 2 114,64 € | +1 243,64 € |
+| Ambitieux | 9 % | 40,5 | 202,5 | 891,0 | 11 939,40 € | 3 171,96 € | +2 300,96 € |
+
+Lecture :
+- à 4 %, le plancher de 20 ventes / jour n’est pas atteint ;
+- à 6 %, le niveau soutenable est dépassé ;
+- à 9 %, l’objectif pilote est atteint.
+
+Compatibilité avec la rotation initiale 72 × 2 = 144 plats / semaine :
+- scénario bas : compatible
+- scénario moyen : compatible mais proche de la limite
+- scénario ambitieux : non compatible sans montée en charge logistique
+
+11.2 Scénario 80 % de présence
+
+Base site :
+- 600 ETP
+- 80 % de présence
+- 480 présents
+
+| Hypothèse | Taux d’achat | Ventes / jour | Ventes / semaine | Ventes / mois | CA mensuel | Contribution mensuelle | Résultat mensuel |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Bas | 4 % | 19,2 | 96,0 | 422,4 | 5 660,16 € | 1 503,74 € | +632,74 € |
+| Moyen | 6 % | 28,8 | 144,0 | 633,6 | 8 490,24 € | 2 255,62 € | +1 384,62 € |
+| Ambitieux | 9 % | 43,2 | 216,0 | 950,4 | 12 735,36 € | 3 383,42 € | +2 512,42 € |
+
+Lecture :
+- à 4 %, le plancher est presque atteint ;
+- à 6 %, le soutenable est clairement dépassé ;
+- à 9 %, l’objectif pilote est dépassé.
+
+Compatibilité avec la rotation initiale 72 × 2 = 144 plats / semaine :
+- scénario bas : compatible
+- scénario moyen : au plafond
+- scénario ambitieux : non compatible sans montée en charge
+
+11.3 Scénario 85 % de présence
+
+Base site :
+- 600 ETP
+- 85 % de présence
+- 510 présents
+
+| Hypothèse | Taux d’achat | Ventes / jour | Ventes / semaine | Ventes / mois | CA mensuel | Contribution mensuelle | Résultat mensuel |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Bas | 4 % | 20,4 | 102,0 | 448,8 | 6 013,92 € | 1 597,73 € | +726,73 € |
+| Moyen | 6 % | 30,6 | 153,0 | 673,2 | 9 020,88 € | 2 396,59 € | +1 525,59 € |
+| Ambitieux | 9 % | 45,9 | 229,5 | 1 009,8 | 13 531,32 € | 3 594,89 € | +2 723,89 € |
+
+Lecture :
+- à 4 %, le plancher est atteint ;
+- à 6 %, le soutenable est largement dépassé ;
+- à 9 %, l’objectif pilote est clairement dépassé.
+
+Compatibilité avec la rotation initiale 72 × 2 = 144 plats / semaine :
+- scénario bas : compatible
+- scénario moyen : légèrement au-dessus
+- scénario ambitieux : non compatible sans montée en charge
+
+12. Synthèse comparative
+
+| Présence réelle | Présents | 4 % achat | 6 % achat | 9 % achat |
+|---|---:|---:|---:|---:|
+| 75 % | 450 | 18,0 ventes / jour | 27,0 ventes / jour | 40,5 ventes / jour |
+| 80 % | 480 | 19,2 ventes / jour | 28,8 ventes / jour | 43,2 ventes / jour |
+| 85 % | 510 | 20,4 ventes / jour | 30,6 ventes / jour | 45,9 ventes / jour |
+
+Lecture stratégique :
+- le plancher de 20 ventes / jour devient réaliste à partir d’environ 85 % de présence avec 4 % d’achat ;
+- le soutenable de 25 ventes / jour apparaît clairement dès 6 % d’achat ;
+- l’objectif pilote de 40 ventes / jour suppose une très bonne adoption et une montée en charge logistique.
+
+13. Seuils mensuels par cible directe
+
+Pour garder une lecture simple, indépendamment des scénarios de présence :
+
+| Cible directe | Ventes / jour | Ventes / mois | CA mensuel | Contribution mensuelle | Résultat mensuel |
+|---|---:|---:|---:|---:|---:|
+| Plancher | 20 | 440 | 5 896,00 € | 1 566,40 € | +695,40 € |
+| Soutenable | 25 | 550 | 7 370,00 € | 1 958,00 € | +1 086,80 € |
+| Objectif pilote | 40 | 880 | 11 792,00 € | 3 132,80 € | +2 261,80 € |
+
+Lecture :
+- 20 ventes / jour : pilote positif mais encore prudent
+- 25 ventes / jour : pilote proprement soutenable
+- 40 ventes / jour : pilote fort, mais qui exige une montée en charge réelle du réassort
+
+14. Sensibilité à la rotation et au réassort
+
+Base de départ :
+- 2 réassorts / semaine
+- 72 plats / livraison
+- 144 plats / semaine
+
+Consommation hebdomadaire selon objectifs :
+- 20 ventes / jour = 100 plats / semaine
+- 25 ventes / jour = 125 plats / semaine
+- 40 ventes / jour = 200 plats / semaine
+
+Conséquences :
+- 20 ventes / jour : compatible
+- 25 ventes / jour : compatible
+- 40 ventes / jour : incompatible avec le volume de départ si on reste à 72 plats × 2
+
+Conclusion :
+l’objectif pilote de 40 ventes / jour reste économiquement cohérent, mais il n’est logistiquement cohérent qu’à condition de :
+- monter le volume par livraison ;
+- optimiser le format des plats ;
+- ou augmenter la capacité de réassort.
+
+15. Conclusion générale
+
+15.1 Ce que ce prévisionnel montre
+
+Sous l’hypothèse d’un financement plafonné à 15 000 € :
+
+- le pilote est finançable sur une base resserrée ;
+- le budget de départ reste tendu, pas large ;
+- l’équation économique fonctionne si le site est réellement bon ;
+- 25 ventes / jour constitue aujourd’hui le niveau le plus propre à viser en stabilisation initiale ;
+- 40 ventes / jour reste un objectif cohérent sur le plan économique, mais impose une montée en charge opérationnelle.
+
+15.2 Ce que 15 000 € implique vraiment
+
+Le plafond de 15 000 € permet de lancer.
+Il ne permet pas d’absorber confortablement plusieurs dérapages en même temps.
+
+Donc :
+- oui, 15 000 € peut suffire ;
+- non, 15 000 € ne correspond pas à un scénario central confortable ;
+- oui, la moindre dérive sur l’import, l’installation ou la trésorerie doit être surveillée très tôt.
+
+15.3 Lecture stratégique finale
+
+Le meilleur cadrage à retenir à ce stade est :
+
+- financement de départ plafonné à 15 000 € par prudence Crédal ;
+- machine Vendlife à 6 450 € FOB ;
+- modèle pilote à 3 recettes standard ;
+- démarrage avec 72 plats par livraison, 2 fois par semaine ;
+- objectif de validation : atteindre et stabiliser 25 ventes / jour ;
+- objectif de montée en charge : approcher 40 ventes / jour après optimisation du format, du réassort et du site.
+
+16. Résumé exécutif
+
+Montant de départ visé :
+- 15 000 €
+
+Pourquoi :
+- alignement prudent avec la restriction standard Crédal
+- volonté de construire un pilote finançable sans surhypothèse
+
+Mensualité Crédal retenue :
+- 386 € / mois
+
+Charges mensuelles totales retenues :
+- 871 € / mois
+
+Contribution nette moyenne par vente :
+- 3,56 €
+
+Seuils de lecture :
+- plancher : 20 ventes / jour
+- soutenable : 25 ventes / jour
+- objectif pilote : 40 ventes / jour
+
+Lecture synthétique :
+- 75 % / 4 % : insuffisant pour le plancher
+- 80 % / 6 % : déjà solide
+- 85 % / 6 % : très bon pilote
+- 9 % d’achat : site fort, mais montée en charge logistique nécessaire
+
+Conclusion synthétique :
+Le projet est finançable dans une logique pilote sous contrainte à 15 000 €, mais ce plafond doit être lu comme une enveloppe prudente et resserrée, pas comme un budget confortable.
